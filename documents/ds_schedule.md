@@ -104,50 +104,50 @@
 - Thurs Feb 22, 6 pm – 8:30 pm
 - Sat Feb 24, 9 am - 11:30 am
 
-  **Week 13:**
+**Week 13:**
 
-  - Mon Feb 26, 6 pm - 8:30 pm
+- Mon Feb 26, 6 pm - 8:30 pm
 
-  ### Job Readiness Sessions:
-  - Mon Feb 12, 6 pm - 9 pm: Communicating data analytics to non-technical audiences
-  (*Session date is subject to change*)
+### Job Readiness Sessions:
+- Mon Feb 12, 6 pm - 9 pm: Communicating data analytics to non-technical audiences
+(*Session date is subject to change*)
 
-  ## Sampling
+## Sampling
 
-  **Week 13:**
+**Week 13:**
 
-  - Tues Feb 27, 6 pm - 8:30 pm
-  - Weds Feb 28, 6 pm - 8:30 pm
-  - Thurs Feb 29, 6 pm - 8:30 pm
-  - Sat Mar 2, 9 am - 11:30 am
+- Tues Feb 27, 6 pm - 8:30 pm
+- Weds Feb 28, 6 pm - 8:30 pm
+- Thurs Feb 29, 6 pm - 8:30 pm
+- Sat Mar 2, 9 am - 11:30 am
 
-  **Week 14:**
+**Week 14:**
 
-  - Tues Mar 5, 6 pm - 8:30 pm
-  - Weds Mar 6, 6 pm - 8:30 pm
-  - Thurs Mar 7, 6 pm - 8:30 pm
-  - Sat Mar 9, 9 am - 11:30 am
+- Tues Mar 5, 6 pm - 8:30 pm
+- Weds Mar 6, 6 pm - 8:30 pm
+- Thurs Mar 7, 6 pm - 8:30 pm
+- Sat Mar 9, 9 am - 11:30 am
 
-  ### Job Readiness Sessions:
-  - Mon Mar 4, 6 pm - 9 pm: High Impact Networking & Interview Skills
+### Job Readiness Sessions:
+- Mon Mar 4, 6 pm - 9 pm: High Impact Networking & Interview Skills
 
-  ## Production
+## Production
 
-  **Week 15**
+**Week 15**
 
-  - Mon Mar 11, 6 pm - 8:30 pm
-  - Tues Mar 12, 6 pm - 8:30 pm
-  - Weds Mar 13, 6 pm - 8:30 pm
-  - Thurs Mar 14, 6 pm - 8:30 pm
+- Mon Mar 11, 6 pm - 8:30 pm
+- Tues Mar 12, 6 pm - 8:30 pm
+- Weds Mar 13, 6 pm - 8:30 pm
+- Thurs Mar 14, 6 pm - 8:30 pm
 
-  **Week 16**
+**Week 16**
 
-  - Tues Mar 19, 6 pm - 8:30 pm
-  - Weds Mar 20, 6 pm - 8:30 pm
-  - Thurs Mar 21, 6 pm - 8:30 pm
-  - Sat Mar 23, 9 am - 11:30 am
+- Tues Mar 19, 6 pm - 8:30 pm
+- Weds Mar 20, 6 pm - 8:30 pm
+- Thurs Mar 21, 6 pm - 8:30 pm
+- Sat Mar 23, 9 am - 11:30 am
 
-  ### Job Readiness Sessions:
-  - TBD: Networking session with employers
-  
-  
+### Job Readiness Sessions:
+- TBD: Networking session with employers
+
+
