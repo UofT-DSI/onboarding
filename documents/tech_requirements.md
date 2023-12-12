@@ -34,7 +34,7 @@
 
 * Your instructors will provide you with the specific software requirements at the beginning of each course, and will walk you through the steps on how to install the necessary software for that course 
 
-5. Pre-Course Assignments 
+## Pre-Course Assignments 
 
 * Some of the courses in this program include pre-course work to help you prepare for the upcoming sessions. Your instructor will email you with specific details about the pre-work assignments for each course. 
 
