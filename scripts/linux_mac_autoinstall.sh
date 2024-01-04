@@ -48,7 +48,7 @@ else
     esac
 fi
 
-# Check if Git is already installed
+# Check if Anaconda Distribution is already installed
 if conda --version &> /dev/null
 then
     echo "Anaconda Python Distribution is already installed"
@@ -63,7 +63,7 @@ else
             wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh
             bash ~/miniconda.sh -b -p $HOME/miniconda
             rm ~/miniconda.sh
-            
+
             eval "$($HOME/miniconda/bin/conda shell.bash hook)"
             source ~/.bashrc
             ;;
