@@ -1,4 +1,6 @@
 
+# upgrade winget
+winget upgrade winget
 
 # check for git
 $git = Get-Command git -ErrorAction SilentlyContinue
