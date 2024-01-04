@@ -1,9 +1,4 @@
-# check for admin rights
-$admin = ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")
-if (!$admin) {
-    Write-Warning "Plase run this script as an administrator"
-    exit 1
-}
+
 
 # check for git
 $git = Get-Command git -ErrorAction SilentlyContinue
@@ -11,7 +6,7 @@ if ($git) {
     Write-Host "Git: Installed"
 } else {
     Write-Host "Git: ... installing!"
-    winget install -id Git.Git -e -source winget
+    winget install --id Git.Git --scope machine -e -s winget --accept-source-agreements --accept-package-agreements
 }
 
 # check for vscode
@@ -20,12 +15,13 @@ if ($vscode) {
     Write-Host "VSCode: Installed"
 } else {
     Write-Host "VSCode: ... installing!"
-    winget install -id Microsoft.VisualStudioCode -e -source winget
+    winget install --id Microsoft.VisualStudioCode --scope machine -e -s winget --accept-source-agreements --accept-package-agreements
 }
 
-# install python, jupyter, remote/wsl extensions
-code --install-extension ms-python.python
-code --install-extension ms-toolsai.jupyter
+# update path with vscode location
+$env:Path = [System.Environment]::GetEnvironmentVariable("Path", "Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path", "User") 
+
+# install remote/wsl extension
 code --install-extension ms-vscode-remote.remote-wsl
 
 # check if wsl is available
@@ -41,6 +37,6 @@ if ($ubuntu) {
     Write-Host "Ubuntu: Installed"
 } else {
     Write-Host "Ubuntu: ... installing!"
-    wsl --install -d Ubuntu
+    Start-Process C:\Windows\system32\wsl.exe -Verb RunAs --install
 }
 
