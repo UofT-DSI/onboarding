@@ -136,3 +136,9 @@ then
     code --install-extension ms-python.python
     code --install-extension ms-toolsai.jupyter
 fi
+
+# check if we're running in wsl
+if [[ $(grep Microsoft /proc/version) ]]; then
+    # use git credentials from windows
+    git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git-credential-manager.exe"
+fi

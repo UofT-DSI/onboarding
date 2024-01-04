@@ -1,6 +1,9 @@
 
 # upgrade winget
-winget upgrade winget
+$winget = Get-Command winget -ErrorAction SilentlyContinue
+if (!$winget) {
+    Write-Error "winget is required to install the course software. Please see troubleshooting steps for updating your apps in the Microsoft Store."
+} 
 
 # check for git
 $git = Get-Command git -ErrorAction SilentlyContinue
