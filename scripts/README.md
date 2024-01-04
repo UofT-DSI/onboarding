@@ -3,8 +3,8 @@
 This repository contains two scripts for checking and installing Git on your system: one for Unix-like systems (Bash script) and one for Windows (Batch script). Additionally, there's a tutorial script for learning Git basics.
 
 ## Contents
-- `git_installation.sh`: Bash script for Unix-like systems (Linux, macOS).
-- `git_installation.bat`: Batch script for Windows.
+- `linux_mac_autoinstall.sh`: Bash script for Unix-like systems (Linux, macOS).
+- `windows_autoinstall.bat`: Batch script for Windows.
 - `git_tutorial.sh`: Tutorial script for learning Git.
 
 ## Windows
@@ -84,3 +84,12 @@ Start the tutorial by executing the script.
 ## Note
 - The Bash script identifies your operating system and attempts to install Git if it's not already installed.
 - The Batch script checks if Git is installed on Windows and provides a download link if it's not.
+
+
+## Windows Troubleshooting
+### Error: winget is not available
+#### On Windows 11
+
+#### On Windows 10
+![Install Microsoft Store Updates](image.png)
+![Install Microsoft Store Updates](image-1.png)
