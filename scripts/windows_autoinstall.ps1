@@ -3,12 +3,14 @@
 $winget = Get-Command winget -ErrorAction SilentlyContinue
 if (!$winget) {
     Write-Error "winget is required to install the course software. Please see troubleshooting steps for updating your apps in the Microsoft Store."
+    exit 1
 } 
 
 # make sure winget version > 1.6
 $winget_version = winget --version
 if ($winget_version -lt 1.6) {
     Write-Error "winget version 1.6 or greater is required to install the course software. Please see troubleshooting steps for updating your apps in the Microsoft Store."
+    exit 1
 }
 
 # check for git
