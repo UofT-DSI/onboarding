@@ -27,7 +27,8 @@ This script will check whether course pre-requisites are installed and will inst
 1. Ensure the App Installer is up-to-date in the Microsoft Store (see below)
 1. Open Powershell
     - Click the Start Menu, and type "Powershell"
-2. Copy the following code, and paste it into Powershell.
+2. Copy the following code, and paste it into Powershell
+    - *Note:* The paste function in Powershell is the right-click button on your mouse, or Ctrl+Shift+V in Windows Terminal.
 3. Press Enter to run.
 
 ```powershell
