@@ -2,7 +2,7 @@
 This repository contains instructions and scripts to get your computer setup for the Data Science Institute certificate programs.
 
 ## Computer requirements
-Course-work for the certificate program is not computationally intensive. A desktop or laptop computer running a supported version of Windows, Linux, or macOS will suffice.
+Course-work for the certificate program is not computationally intensive and most desktop or laptop computers running a supported version of Windows, Linux, or macOS will suffice.
   - Windows 10 22H2 or later
   - Windows 11 21H2 or later
   - macOS 12 or later
@@ -64,11 +64,10 @@ Copy and paste the following code into your terminal:
 If you are using an up-to-date and supported version of Windows, but don't have winget, try updating your apps in the Microsoft Store.
 - The App Installer component must be updated through the store to use the automatic installation script.
 
-![Update App Installer](image-4.png)
-
 #### On Windows 11
-![Install Microsoft Store Updates](image-2.png)
+<img src="image-2.png" alt="Update App Installer" width="300"/>
+<img src="image-4.png" alt="Update App Installer" width="700"/>
 
 #### On Windows 10
-![Install Microsoft Store Updates](image.png)
-![Install Microsoft Store Updates](image-1.png)
+<img src="image.png" alt="Update App Installer" width="700"/>
+<img src="image-1.png" alt="Update App Installer" width="700"/>
