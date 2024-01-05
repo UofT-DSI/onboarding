@@ -53,7 +53,8 @@ code --install-extension ms-toolsai.jupyter
 code --install-extension ms-vscode-remote.remote-wsl
 
 # add Git Bash to Windows Terminal using JSON Fragments
-$terminal_settings = @{guid = "{" + [guid]::NewGuid().ToString() + "}"; name = "Git Bash"; commandline = "C:\Program Files\Git\bin\bash.exe -i -l"; icon = "C:\Program Files\Git\mingw64\share\git\git-for-windows.ico"; hidden = $false; startingDirectory = "%USERPROFILE%" }
+$git_dir = Split-Path -parent (Split-Path -parent (Get-Command git.exe).Source)
+$terminal_settings = @{guid = "{" + [guid]::NewGuid().ToString() + "}"; name = "Git Bash"; commandline = $git_dir + "\bin\bash.exe -i -l"; icon = $git_dir + "\mingw64\share\git\git-for-windows.ico"; hidden = $false; startingDirectory = "%USERPROFILE%" }
 $terminal_settings = @{ profiles = @($terminal_settings) }
 $terminal_settings = $terminal_settings | ConvertTo-Json
 # make directory only if it doesn't exist
