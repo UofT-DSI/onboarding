@@ -62,12 +62,14 @@ Copy and paste the following code into your terminal:
 
 ## Updating App Installer on Windows
 If you are using an up-to-date and supported version of Windows, but don't have winget, try updating your apps in the Microsoft Store.
-- The App Installer component must be updated through the store to use the automatic installation script.
+- The App Installer component and Microsoft Store app must be updated to use the automatic installation script.
 
 Open the Microsoft store by:
 1. Opening the Start menu
 2. Typing "store"
 3. Clicking on "App Store" or "Microsoft Store"
+
+After updating, you may need to reboot your computer and try running the automatic installation script again.
 
 #### On Windows 11
 <img src="image-2.png" alt="Update App Installer" width="300"/>
