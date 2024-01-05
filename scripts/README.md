@@ -105,9 +105,10 @@ Start the tutorial by executing the script.
 If you are using an up-to-date and supported version of Windows, but don't have winget, try updating your apps in the Microsoft Store.
 - The App Installer component must be updated through the store to use the automatic installation script.
 
+![Update App Installer](image-4.png)
+
 #### On Windows 11
 ![Install Microsoft Store Updates](image-2.png)
-![Alt text](image-3.png)
 
 #### On Windows 10
 ![Install Microsoft Store Updates](image.png)
