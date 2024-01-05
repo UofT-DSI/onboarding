@@ -2,7 +2,7 @@
 # upgrade winget
 $winget = Get-Command winget -ErrorAction SilentlyContinue
 if (!$winget) {
-    Write-Warning "winget is required to install the course software. Please see troubleshooting steps for updating your apps in the Microsoft Store."
+    Write-Warning "winget version 1.6 or newer is required to install the course software. Please update App Installer in the Microsoft Store and try running this script again."
     exit 1
 } 
 
@@ -10,7 +10,7 @@ if (!$winget) {
 $winget_version = winget --version
 $winget_version = [regex]::Replace($winget_version, "[^\.0-9]", "")
 if ([System.Version]$winget_version -lt [System.Version]"1.6") {
-    Write-Warning "winget version 1.6 or greater is required to install the course software. Please see troubleshooting steps for updating your apps in the Microsoft Store."
+    Write-Warning "winget version 1.6 or newer is required to install the course software. Please update App Installer in the Microsoft Store and try running this script again."
     exit 1
 }
 
@@ -82,3 +82,42 @@ conda activate
 
 # install python packages
 pip install numpy pandas matplotlib seaborn scikit-learn jupyter pyyaml
+
+
+Write-Output @"
+MMMMMMMMMMMWWMWWWK0kodo,ll.;d; .cd,'xOodKXXWMMMMMMMMMMMMMMMM
+MMMMMMMMWWWWWXkl;.....'..'...'.......'..,;,:okXWMMMMMMMMMMMM
+MMMMMMMMWWNOlo:.c;'l;'o;.ll.;dd;.co'.::.'c,.';,oKNWMMMMMMMMM
+MMMMMMMWKo:..''.'.............,...'..''..:,.,;..;:dKWMWWMMMM
+MWMMMWXk:.,'.::.;:.:l.,o,.c:.;do'.c:.'c'.::..,.....;dXWWMMMM
+MMMWWk;'..'..'..',..,..'...'...'...'..'..,,..'.......:ONMMMM
+MMMXd'.,'.;,.,'.:c.,l,.cc.'c'.,cc.'c'.:;.',...........;OWMMM
+MMKc'..,'.'..''..,..;'.',..,'...'..'..................';oXMM
+WK:.'..,'.''.''.':..c;.':..l:. ':..:;.',.',........';';,'dXW
+Nx'.,'.,'.,,.;:.';'.;:..;'.',. .;,',,..............,,';..:xN
+k,..'..'..c0KXNKKXK0XXl,;'.,lllkNXXNXK0x;'..d000Oc.;,':.'c:k
+c,..,'.,'.lNMMMWWWWWWMWKd;.,kNWMMNKXNWMWXl.'OWWMXc':.':..;.c
+'...'.....:XMMW0c:co0WWWWk.lWMWMWx'';lkdl;.'kWWMX:.;..,..,.'
+.,..;'.,'.:XMMMk.':.,0MWWK;;KMMMWXOxllc....,0WWMK;,l.'c.':..
+.'..'..''.:XWMMk..'..xMWWX:.:k0KWWWWMMN0x:.,0WWWK;.,..,..'..
+.,..,..,;.:XWMMO'.;.'OWMWK:.,'.'looxONMWWKocOMWWK;,c.':..,..
+',..,,..,.;KMWMO,.,ckNWWWk,,coxko'...dNWMWk:kMWWK;.'..'..'.'
+;'..''..,.;KMMMWXKNWWMWXx:'lXWMWWKkdxKWMWKl;kMWWK;';..,..,.:
+d;'.';..;':0WWWWWNWNK0O:.'..lOOKNWWMMWWNkl:,kWNW0;';..,.',.o
+0c...'.....,;;;;;;;;..'..'.....';clllc;;.',.,:;;,..,..'..,:K
+W0:..;..,;..;'.',..;..,..'..........;',:.;:.,;.,;.',.',.'l0W
+WWx..'...'......'..................',.',.''..'.....'..'.,0MM
+MMWk,,,..;..,,..;..;..,..........;',;.::.,;.,;.',.,;.',;kWMM
+MMMW0l,..'......'.............'.',.,'.,'....''........l0WMMM
+MMMMMW0;.,'..,..,..,..'......,:',;.;,.;;.''.,,.''.',;OWWMMMM
+MMMMMMWKd:,..,..'..'........',..;,.:;.;,.,,.,,.,'.;dKWMMMMMM
+MMMMMMMMWN0c''..'...........',..''.,'.''.''.''.;dkXMWMMMMMMM
+MMMMMMMMMMMN0d:;,........';':;..c;.l;.:''c,'lod0WMMMMMMMMMMM
+MMMMMMMMMMMMMMWXOoc;.....''.,. .'..'..;,cOk0WMWWMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMWWWXOdl:;oc;xc.,d:,l:lxOXWWWMMMMMMMMMMMMMMMM
+
+
+################# INSTALLATION COMPLETE! ###################
+
+
+"@
