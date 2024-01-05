@@ -2,6 +2,9 @@
 # run windows_autoinstall.ps1
 . .\windows_autoinstall.ps1
 
+# install vscode wsl extension
+code --install-extension ms-vscode-remote.remote-wsl
+
 # check if wsl is available
 $wsl = Get-Command wsl -ErrorAction SilentlyContinue
 if (!$wsl) {
