@@ -50,18 +50,9 @@ $env:Path = [System.Environment]::GetEnvironmentVariable("Path", "Machine") + ";
 # install remote/wsl extension    
 code --install-extension ms-python.python
 code --install-extension ms-toolsai.jupyter
-code --install-extension ms-vscode-remote.remote-wsl
 
 # add Git Bash to Windows Terminal using JSON Fragments
-$git_dir = Split-Path -parent (Split-Path -parent (Get-Command git.exe).Source)
-$terminal_settings = @{guid = "{" + [guid]::NewGuid().ToString() + "}"; name = "Git Bash"; commandline = $git_dir + "\bin\bash.exe -i -l"; icon = $git_dir + "\mingw64\share\git\git-for-windows.ico"; hidden = $false; startingDirectory = "%USERPROFILE%" }
-$terminal_settings = @{ profiles = @($terminal_settings) }
-$terminal_settings = $terminal_settings | ConvertTo-Json
-# make directory only if it doesn't exist
-if (!(Test-Path "C:\Users\$env:UserName\AppData\Local\Microsoft\Windows Terminal\Fragments\Git")) {
-    mkdir "C:\Users\$env:UserName\AppData\Local\Microsoft\Windows Terminal\Fragments\Git"
-}
-$terminal_settings | Out-File -FilePath "C:\Users\$env:UserName\AppData\Local\Microsoft\Windows Terminal\Fragments\Git\gitbash.json" -Encoding Utf8
+. .\misc_gitbash_wt.ps1
 
 # install Anaconda
 $anaconda = Get-Command conda -ErrorAction SilentlyContinue
@@ -81,5 +72,4 @@ conda init bash
 conda activate
 
 # install python packages
-pip install --upgrade pip
 pip install numpy pandas matplotlib seaborn scikit-learn jupyter pyyaml
