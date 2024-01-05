@@ -13,11 +13,22 @@ if ($winget_version -lt 1.6) {
     exit 1
 }
 
+# install windows terminal
+$terminal = Get-Command wt -ErrorAction SilentlyContinue
+if ($terminal) {
+    Write-Host "Windows Terminal: Installed"
+}
+else {
+    Write-Host "Windows Terminal: ... installing!"
+    winget install --id Microsoft.WindowsTerminal -e -s winget --accept-source-agreements --accept-package-agreements
+}
+
 # check for git
 $git = Get-Command git -ErrorAction SilentlyContinue
 if ($git) {
     Write-Host "Git: Installed"
-} else {
+}
+else {
     Write-Host "Git: ... installing!"
     winget install --id Git.Git --scope machine -e -s winget --accept-source-agreements --accept-package-agreements
 }
@@ -26,7 +37,8 @@ if ($git) {
 $vscode = Get-Command code -ErrorAction SilentlyContinue
 if ($vscode) {
     Write-Host "VSCode: Installed"
-} else {
+}
+else {
     Write-Host "VSCode: ... installing!"
     winget install --id Microsoft.VisualStudioCode -e -s winget --accept-source-agreements --accept-package-agreements
 }
@@ -39,34 +51,22 @@ code --install-extension ms-python.python
 code --install-extension ms-toolsai.jupyter
 code --install-extension ms-vscode-remote.remote-wsl
 
-# install windows terminal
-$terminal = Get-Command wt -ErrorAction SilentlyContinue
-if ($terminal) {
-    Write-Host "Windows Terminal: Installed"
-} else {
-    Write-Host "Windows Terminal: ... installing!"
-    winget install --id Microsoft.WindowsTerminal -e -s winget --accept-source-agreements --accept-package-agreements
-}
-
 # add Git Bash to Windows Terminal using JSON Fragments
-$terminal_settings = @"
-{
-    "guid": "{0}",
-    "name": "Git Bash",
-    "commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
-    "hidden": false
+$terminal_settings = @{guid = "{" + [guid]::NewGuid().ToString() + "}"; name = "Git Bash"; commandline = "C:\Program Files\Git\bin\bash.exe -i -l"; icon = "C:\Program Files\Git\mingw64\share\git\git-for-windows.ico"; hidden = $false; startingDirectory = "%USERPROFILE%" }
+$terminal_settings = @{ profiles = @($terminal_settings) }
+$terminal_settings = $terminal_settings | ConvertTo-Json
+# make directory only if it doesn't exist
+if (!(Test-Path "C:\Users\$env:UserName\AppData\Local\Microsoft\Windows Terminal\Fragments\Git")) {
+    mkdir "C:\Users\$env:UserName\AppData\Local\Microsoft\Windows Terminal\Fragments\Git"
 }
-"@
-$guid = [guid]::NewGuid().ToString()
-$terminal_settings = $terminal_settings -f $guid
-$terminal_settings | Out-File -FilePath "C:\Users\$env:UserName\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json" -Append
+$terminal_settings | Out-File -FilePath "C:\Users\$env:UserName\AppData\Local\Microsoft\Windows Terminal\Fragments\Git\gitbash.json" -Encoding Utf8
 
 # install Anaconda
 $anaconda = Get-Command conda -ErrorAction SilentlyContinue
 if ($anaconda) {
     Write-Host "Anaconda: Installed"
-} else {
+}
+else {
     Write-Host "Anaconda: ... installing!"
     winget install --id Anaconda.Miniconda3 -e -s winget --accept-source-agreements --accept-package-agreements
 }

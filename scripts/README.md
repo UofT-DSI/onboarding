@@ -9,17 +9,31 @@ This repository contains two scripts for checking and installing Git on your sys
 
 ## Windows
 
-### Prerequisites
-- Windows operating system.
-- Windows PowerShell
+### Supported operating systems
+- An up-to-date and supported version of Windows
+  - Windows 10 22H2 or later
+  - Windows 11 21H2 or later
 
-### Usage
+### Course pre-requisite software
+- Git for Windows
+- Visual Studio Code
+- The Anaconda Python distribution
+- Optional: Windows Terminal
+
+### Installing course pre-requisites
+This script will install all course pre-requisites automatically.
+
+1. Open Powershell
+    - Click the Start Menu, and type "Powershell"
+2. Copy the following code, and paste it into Powershell.
+3. Press Enter to run.
+
 ```powershell
 wget https://raw.githubusercontent.com/dtxe/DSI-Onboarding/windows_onboarding/scripts/windows_autoinstall.ps1 -out windows_autoinstall.ps1
 .\windows_autoinstall.ps1
 ```
 
-After this script is complete, please reboot your computer, and run the Ubuntu app and complete installation using the Linux and macOS instructions below.
+
 
 
 ## Linux or macOS
@@ -88,7 +102,12 @@ Start the tutorial by executing the script.
 
 ## Windows Troubleshooting
 ### Error: winget is not available
+If you are using an up-to-date and supported version of Windows, but don't have winget, try updating your apps in the Microsoft Store.
+- The App Installer component must be updated through the store to use the automatic installation script.
+
 #### On Windows 11
+![Install Microsoft Store Updates](image-2.png)
+![Alt text](image-3.png)
 
 #### On Windows 10
 ![Install Microsoft Store Updates](image.png)
