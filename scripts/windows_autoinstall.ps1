@@ -75,7 +75,8 @@ else {
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path", "Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path", "User")
 
 # initialize anaconda
-conda init powershell
+conda init bash
+conda activate
 
 # install python packages
 pip install --upgrade pip
