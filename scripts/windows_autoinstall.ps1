@@ -8,7 +8,8 @@ if (!$winget) {
 
 # make sure winget version > 1.6
 $winget_version = winget --version
-if ($winget_version -lt 1.6) {
+$winget_version = [regex]::Replace($winget_version, "[^\.0-9]", "")
+if ([System.Version]$winget_version -lt [System.Version]"1.6") {
     Write-Error "winget version 1.6 or greater is required to install the course software. Please see troubleshooting steps for updating your apps in the Microsoft Store."
     exit 1
 }
