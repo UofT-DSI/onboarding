@@ -1,22 +1,42 @@
 
-# upgrade winget
-$winget = Get-Command winget -ErrorAction SilentlyContinue
-if (!$winget) {
+function Confirm-ExistAndVersion {
+    param (
+        [string]$command,
+        [string]$version
+    )
+    Write-Output "Confirming $command version $version"
+
+    $cmdexist = Get-Command $command -ErrorAction SilentlyContinue
+    if (!$cmdexist) {
+        return $false
+    }
+
+    # if no version specified, then just check if command exists
+    if ((!$version) -or ($version -eq "")) {
+        return $true
+    }
+
+    $command_version = Invoke-Expression "$command --version" | Out-String
+    $command_version = [regex]::Replace($command_version, "[^\.0-9]", "")
+    $command_version = [regex]::Replace($command_version, "\.\.", ".")
+
+    if ([System.Version]$command_version -lt [System.Version]$version) {
+        return $false
+    }
+
+    return $true
+}
+
+# PREREQUISITE: winget
+Write-Output ">>> winget <<<"
+if (!(Confirm-ExistAndVersion winget 1.6)) {
     Write-Warning "winget version 1.6 or newer is required to install the course software. Please update App Installer in the Microsoft Store and try running this script again."
     exit 1
 } 
 
-# make sure winget version > 1.6
-$winget_version = winget --version
-$winget_version = [regex]::Replace($winget_version, "[^\.0-9]", "")
-if ([System.Version]$winget_version -lt [System.Version]"1.6") {
-    Write-Warning "winget version 1.6 or newer is required to install the course software. Please update App Installer in the Microsoft Store and try running this script again."
-    exit 1
-}
-
 # install windows terminal
-$terminal = Get-Command wt -ErrorAction SilentlyContinue
-if ($terminal) {
+Write-Output ">>> Windows Terminal <<<"
+if (Confirm-ExistAndVersion wt) {
     Write-Host "Windows Terminal: Installed"
 }
 else {
@@ -25,8 +45,8 @@ else {
 }
 
 # check for git
-$git = Get-Command git -ErrorAction SilentlyContinue
-if ($git) {
+Write-Output ">>> Git <<<"
+if (Confirm-ExistAndVersion git 2.39) {
     Write-Host "Git: Installed"
 }
 else {
@@ -35,8 +55,8 @@ else {
 }
 
 # check for vscode
-$vscode = Get-Command code -ErrorAction SilentlyContinue
-if ($vscode) {
+Write-Output ">>> VSCode <<<"
+if (Confirm-ExistAndVersion code) {
     Write-Host "VSCode: Installed"
 }
 else {
@@ -62,8 +82,8 @@ if (!(Test-Path "C:\Users\$env:UserName\AppData\Local\Microsoft\Windows Terminal
 $terminal_settings | Out-File -FilePath "C:\Users\$env:UserName\AppData\Local\Microsoft\Windows Terminal\Fragments\Git\gitbash.json" -Encoding Utf8
 
 # install Anaconda
-$anaconda = Get-Command conda -ErrorAction SilentlyContinue
-if ($anaconda) {
+Write-Output ">>> Anaconda <<<"
+if (Confirm-ExistAndVersion conda) {
     Write-Host "Anaconda: Installed"
 }
 else {
@@ -73,12 +93,12 @@ else {
     Remove-Item miniconda.exe
 }
 
-# update path
-$env:Path = [System.Environment]::GetEnvironmentVariable("Path", "Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path", "User")
-
 # initialize anaconda
-conda init bash
+$userprofile = [System.Environment]::GetFolderPath("UserProfile")
+$conda_hook = $userprofile+'\miniconda3\shell\condabin\conda-hook.ps1'
+& $conda_hook
 conda activate
+conda init bash
 
 # install python packages
 pip install numpy pandas matplotlib seaborn scikit-learn jupyter pyyaml
