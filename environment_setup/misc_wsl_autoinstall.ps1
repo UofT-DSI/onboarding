@@ -1,7 +1,4 @@
 
-# run windows_autoinstall.ps1
-. .\windows_autoinstall.ps1
-
 # install vscode wsl extension
 code --install-extension ms-vscode-remote.remote-wsl
 

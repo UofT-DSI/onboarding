@@ -52,7 +52,14 @@ code --install-extension ms-python.python
 code --install-extension ms-toolsai.jupyter
 
 # add Git Bash to Windows Terminal using JSON Fragments
-. .\misc_gitbash_wt.ps1
+$git_dir = Split-Path -parent (Split-Path -parent (Get-Command git.exe).Source)
+$terminal_settings = @{guid = "{" + [guid]::NewGuid().ToString() + "}"; name = "Git Bash"; commandline = $git_dir + "\bin\bash.exe -i -l"; icon = $git_dir + "\mingw64\share\git\git-for-windows.ico"; hidden = $false; startingDirectory = "%USERPROFILE%" }
+$terminal_settings = @{ profiles = @($terminal_settings) }
+$terminal_settings = $terminal_settings | ConvertTo-Json
+if (!(Test-Path "C:\Users\$env:UserName\AppData\Local\Microsoft\Windows Terminal\Fragments\Git")) {
+    mkdir "C:\Users\$env:UserName\AppData\Local\Microsoft\Windows Terminal\Fragments\Git"
+}
+$terminal_settings | Out-File -FilePath "C:\Users\$env:UserName\AppData\Local\Microsoft\Windows Terminal\Fragments\Git\gitbash.json" -Encoding Utf8
 
 # install Anaconda
 $anaconda = Get-Command conda -ErrorAction SilentlyContinue
