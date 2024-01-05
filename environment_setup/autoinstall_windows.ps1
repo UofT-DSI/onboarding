@@ -68,7 +68,9 @@ if ($anaconda) {
 }
 else {
     Write-Host "Anaconda: ... installing!"
-    winget install --id Anaconda.Miniconda3 -e -s winget --accept-source-agreements --accept-package-agreements
+    wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe -out miniconda.exe
+    Start-Process miniconda.exe -Wait /S
+    Remove-Item miniconda.exe
 }
 
 # update path
