@@ -32,7 +32,7 @@ This script will check whether course pre-requisites are installed and will inst
 3. Press Enter to run.
 
 ```powershell
-wget https://raw.githubusercontent.com/dtxe/DSI-Onboarding/windows_onboarding/scripts/autoinstall_windows.ps1 -out autoinstall_windows.ps1
+wget https://raw.githubusercontent.com/dtxe/DSI-Onboarding/windows_onboarding/environment_setup/autoinstall_windows.ps1 -out autoinstall_windows.ps1
 .\autoinstall_windows.ps1
 
 ```
@@ -54,7 +54,7 @@ wget https://raw.githubusercontent.com/dtxe/DSI-Onboarding/windows_onboarding/sc
 
 ### Automated installation
 Copy and paste the following code into your terminal:  
-`$ curl https://raw.githubusercontent.com/dtxe/DSI-Onboarding/windows_onboarding/scripts/autoinstall_unix.sh | bash`
+`$ curl https://raw.githubusercontent.com/dtxe/DSI-Onboarding/windows_onboarding/environment_setup/autoinstall_unix.sh | bash`
 
 ### Manual installation
 *TODO*
