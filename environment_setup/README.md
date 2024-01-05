@@ -28,7 +28,7 @@ This script will check whether course pre-requisites are installed and will inst
 1. Open Powershell
     - Click the Start Menu, and type "Powershell"
 2. Copy the following code, and paste it into Powershell
-    - *Note:* The paste function in Powershell is the right-click button on your mouse, or Ctrl+Shift+V in Windows Terminal.
+    - *Note:* The paste function is the right-click button on your mouse (Powershell), or Ctrl+Shift+V (Windows Terminal).
 3. Press Enter to run.
 
 ```powershell
@@ -53,7 +53,7 @@ wget https://raw.githubusercontent.com/dtxe/DSI-Onboarding/windows_onboarding/sc
 ## Linux or macOS
 
 ### Automated installation
-Copy and paste the following code into your terminal:
+Copy and paste the following code into your terminal:  
 `$ curl https://raw.githubusercontent.com/dtxe/DSI-Onboarding/windows_onboarding/scripts/linux_mac_autoinstall.sh | bash`
 
 ### Manual installation
@@ -63,6 +63,11 @@ Copy and paste the following code into your terminal:
 ## Updating App Installer on Windows
 If you are using an up-to-date and supported version of Windows, but don't have winget, try updating your apps in the Microsoft Store.
 - The App Installer component must be updated through the store to use the automatic installation script.
+
+Open the Microsoft store by:
+1. Opening the Start menu
+2. Typing "store"
+3. Clicking on "App Store" or "Microsoft Store"
 
 #### On Windows 11
 <img src="image-2.png" alt="Update App Installer" width="300"/>
