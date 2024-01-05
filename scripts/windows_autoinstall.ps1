@@ -20,28 +20,55 @@ if ($vscode) {
     Write-Host "VSCode: Installed"
 } else {
     Write-Host "VSCode: ... installing!"
-    winget install --id Microsoft.VisualStudioCode --scope machine -e -s winget --accept-source-agreements --accept-package-agreements
+    winget install --id Microsoft.VisualStudioCode -e -s winget --accept-source-agreements --accept-package-agreements
 }
 
 # update path with vscode location
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path", "Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path", "User") 
 
-# install remote/wsl extension
+# install remote/wsl extension    
+code --install-extension ms-python.python
+code --install-extension ms-toolsai.jupyter
 code --install-extension ms-vscode-remote.remote-wsl
 
-# check if wsl is available
-$wsl = Get-Command wsl -ErrorAction SilentlyContinue
-if (!$wsl) {
-    Write-Warning "Your computer may not be compatible with the course requirements."
-    exit 1
-}
-
-# check for ubuntu and install if not available
-$ubuntu = wsl -l -v | Select-String -Pattern "Ubuntu-20.04"
-if ($ubuntu) {
-    Write-Host "Ubuntu: Installed"
+# install windows terminal
+$terminal = Get-Command wt -ErrorAction SilentlyContinue
+if ($terminal) {
+    Write-Host "Windows Terminal: Installed"
 } else {
-    Write-Host "Ubuntu: ... installing!"
-    Start-Process C:\Windows\system32\wsl.exe -Verb RunAs --install
+    Write-Host "Windows Terminal: ... installing!"
+    winget install --id Microsoft.WindowsTerminal -e -s winget --accept-source-agreements --accept-package-agreements
 }
 
+# add Git Bash to Windows Terminal using JSON Fragments
+$terminal_settings = @"
+{
+    "guid": "{0}",
+    "name": "Git Bash",
+    "commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+    "hidden": false
+}
+"@
+$guid = [guid]::NewGuid().ToString()
+$terminal_settings = $terminal_settings -f $guid
+$terminal_settings | Out-File -FilePath "C:\Users\$env:UserName\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json" -Append
+
+# install Anaconda
+$anaconda = Get-Command conda -ErrorAction SilentlyContinue
+if ($anaconda) {
+    Write-Host "Anaconda: Installed"
+} else {
+    Write-Host "Anaconda: ... installing!"
+    winget install --id Anaconda.Miniconda3 -e -s winget --accept-source-agreements --accept-package-agreements
+}
+
+# update path
+$env:Path = [System.Environment]::GetEnvironmentVariable("Path", "Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path", "User")
+
+# initialize anaconda
+conda init powershell
+
+# install python packages
+pip install --upgrade pip
+pip install numpy pandas matplotlib seaborn scikit-learn jupyter pyyaml
