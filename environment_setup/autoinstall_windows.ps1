@@ -4,7 +4,6 @@ function Confirm-ExistAndVersion {
         [string]$command,
         [string]$version
     )
-    Write-Output "Confirming $command version $version"
 
     $cmdexist = Get-Command $command -ErrorAction SilentlyContinue
     if (!$cmdexist) {
