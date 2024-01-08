@@ -48,6 +48,51 @@ else
     esac
 fi
 
+# Check if Git Credential Manager (git-credential-manager) is installed
+if git-credential-manager --version &> /dev/null
+then
+    echo "Git Credential Manager is already installed"
+else
+    # Identify the operating system
+    OS=$(uname -s)
+
+    # Installation commands for different OS
+    case "$OS" in
+        Linux)
+            # Determine the Linux distribution (Debian/Ubuntu, Fedora, RHEL, CentOS)
+            if [ -f /etc/debian_version ]; then
+                # Debian/Ubuntu
+                wget https://github.com/git-ecosystem/git-credential-manager/releases/download/v2.4.1/gcm-linux_amd64.2.4.1.deb -O ~/gcm.deb
+                sudo apt install ./gcm.deb -y
+                rm ~/gcm.deb
+            elif [ -f /etc/redhat-release ]; then
+                # Fedora, RHEL, CentOS
+                curl -L https://aka.ms/gcm/linux-install-source.sh | sh
+            fi
+
+            git-credential-manager configure
+            git config --global credential.credentialStore secretservice
+            
+            ;;
+        Darwin)
+            # macOS
+            # Check if Homebrew is installed
+            if which brew &> /dev/null; then
+                brew install --cask git-credential-manager
+                git-credential-manager configure
+            else
+                echo "Homebrew is not installed. Please install Homebrew or download Git from https://sourceforge.net/projects/git-osx-installer/"
+            fi
+            ;;
+        *)
+            echo "Unsupported Operating System"
+            exit 1
+            ;;
+    esac
+
+    
+fi
+
 # Check if Anaconda Distribution is already installed
 if conda --version &> /dev/null
 then

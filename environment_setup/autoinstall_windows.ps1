@@ -30,6 +30,7 @@ function Confirm-ExistAndVersion {
 Write-Output ">>> winget <<<"
 if (!(Confirm-ExistAndVersion winget 1.6)) {
     Write-Warning "winget version 1.6 or newer is required to install the course software. Please update App Installer in the Microsoft Store and try running this script again."
+    Read-Host “Press ENTER to quit...”
     exit 1
 } 
 

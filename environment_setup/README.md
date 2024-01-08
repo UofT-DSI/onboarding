@@ -60,6 +60,36 @@ Copy and paste the following code into your terminal:
 *TODO*
 
 
+## Testing your system
+
+### Bash
+1. Open bash in the Terminal
+  * Windows: Open "Terminal" and find "Git Bash" from the New Tab menu
+  * MacOS: Open "Terminal" and type `bash` at the prompt and press Enter
+
+1. Type `pwd`
+  [ ] Check that your current path appears
+     * Windows: /c/Users/yourusername
+     * MacOS: /home/yourusername
+
+### Git
+Follow these steps in your bash terminal:
+
+1. Type `git --version`
+  [ ] Check that your Git version is 2.34.0 or newer
+
+1. Type `git-credential-manager github login`
+  * Follow the prompts to login to GitHub
+
+1. Type `git-credential-manager github list`
+  [ ] You should see your GitHub username displayed
+
+### VS Code & Python
+1. Launch Visual Studio Code
+1. Click File > New
+1. Create a Python Notebook
+
+
 ## Updating App Installer on Windows
 If you are using an up-to-date and supported version of Windows, but don't have winget, try updating your apps in the Microsoft Store.
 - The App Installer component and Microsoft Store app must be updated to use the automatic installation script.
