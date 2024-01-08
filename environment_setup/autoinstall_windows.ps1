@@ -1,5 +1,6 @@
 
 function Confirm-ExistAndVersion {
+    # Helper function to determine if a required package is installed and if it is the correct version
     param (
         [string]$command,
         [string]$version
@@ -30,7 +31,7 @@ function Confirm-ExistAndVersion {
 Write-Output ">>> winget <<<"
 if (!(Confirm-ExistAndVersion winget 1.6)) {
     Write-Warning "winget version 1.6 or newer is required to install the course software. Please update App Installer in the Microsoft Store and try running this script again."
-    Read-Host “Press ENTER to quit...”
+    Read-Host -Prompt “Press ENTER to quit...”
     exit 1
 } 
 
