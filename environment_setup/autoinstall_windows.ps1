@@ -94,8 +94,12 @@ code --install-extension ms-toolsai.jupyter
 
 ###################################################################################
 # install Anaconda
+$userprofile = [System.Environment]::GetFolderPath("UserProfile")
+$minicondabin = $userprofile + '\miniconda3\python.exe'
+$anacondabin = $userprofile + '\anaconda3\python.exe'
+
 Write-Output ">>> Anaconda <<<"
-if (Confirm-ExistAndVersion conda) {
+if (Confirm-ExistAndVersion $minicondabin -or (Confirm-ExistAndVersion $anacondabin)) {
     Write-Host "Anaconda: Installed"
 }
 else {
@@ -113,6 +117,7 @@ conda activate
 conda init bash
 
 # install python packages
+Write-Host "Python packages: Checking and installing required packages"
 pip install numpy pandas matplotlib seaborn scikit-learn jupyter pyyaml
 
 
