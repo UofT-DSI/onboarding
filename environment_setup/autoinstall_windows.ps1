@@ -33,6 +33,8 @@ if (!(Confirm-ExistAndVersion winget 1.6)) {
     exit 1
 } 
 
+
+###################################################################################
 # install windows terminal
 Write-Output ">>> Windows Terminal <<<"
 if (Confirm-ExistAndVersion wt) {
@@ -43,6 +45,7 @@ else {
     winget install --id Microsoft.WindowsTerminal -e -s winget --accept-source-agreements --accept-package-agreements
 }
 
+###################################################################################
 # check for git
 Write-Output ">>> Git <<<"
 if (Confirm-ExistAndVersion git 2.39) {
@@ -53,22 +56,9 @@ else {
     winget install --id Git.Git --scope machine -e -s winget --accept-source-agreements --accept-package-agreements
 }
 
-# check for vscode
-Write-Output ">>> VSCode <<<"
-if (Confirm-ExistAndVersion code) {
-    Write-Host "VSCode: Installed"
-}
-else {
-    Write-Host "VSCode: ... installing!"
-    winget install --id Microsoft.VisualStudioCode -e -s winget --accept-source-agreements --accept-package-agreements
-}
-
-# update path with vscode location
+###################################################################################
+# update path
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path", "Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path", "User") 
-
-# install remote/wsl extension    
-code --install-extension ms-python.python
-code --install-extension ms-toolsai.jupyter
 
 # add Git Bash to Windows Terminal using JSON Fragments
 $git_dir = Split-Path -parent (Split-Path -parent (Get-Command git.exe).Source)
@@ -80,6 +70,27 @@ if (!(Test-Path "C:\Users\$env:UserName\AppData\Local\Microsoft\Windows Terminal
 }
 $terminal_settings | Out-File -FilePath "C:\Users\$env:UserName\AppData\Local\Microsoft\Windows Terminal\Fragments\Git\gitbash.json" -Encoding Utf8
 
+
+###################################################################################
+# check for vscode
+Write-Output ">>> VSCode <<<"
+if (Confirm-ExistAndVersion code) {
+    Write-Host "VSCode: Installed"
+}
+else {
+    Write-Host "VSCode: ... installing!"
+    winget install --id Microsoft.VisualStudioCode -e -s winget --accept-source-agreements --accept-package-agreements
+}
+
+# update path
+$env:Path = [System.Environment]::GetEnvironmentVariable("Path", "Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path", "User") 
+
+# install remote/wsl extension    
+code --install-extension ms-python.python
+code --install-extension ms-toolsai.jupyter
+
+
+###################################################################################
 # install Anaconda
 Write-Output ">>> Anaconda <<<"
 if (Confirm-ExistAndVersion conda) {
@@ -103,6 +114,20 @@ conda init bash
 pip install numpy pandas matplotlib seaborn scikit-learn jupyter pyyaml
 
 
+###################################################################################
+# install db browser for sqlite
+Write-Output ">>> DB Browser for SQLite <<<"
+if (Confirm-ExistAndVersion dbbrowser) {
+    Write-Host "DB Browser for SQLite: Installed"
+}
+else {
+    Write-Host "DB Browser for SQLite: ... installing!"
+    winget install --id DB.Browser.for.SQLite -e -s winget --accept-source-agreements --accept-package-agreements
+}
+
+
+
+###################################################################################
 Write-Output @"
 MMMMMMMMMMMWWMWWWK0kodo,ll.;d; .cd,'xOodKXXWMMMMMMMMMMMMMMMM
 MMMMMMMMWWWWWXkl;.....'..'...'.......'..,;,:okXWMMMMMMMMMMMM
