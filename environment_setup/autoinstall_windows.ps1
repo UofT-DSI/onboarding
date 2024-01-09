@@ -123,14 +123,16 @@ pip install numpy pandas matplotlib seaborn scikit-learn jupyter pyyaml
 
 ###################################################################################
 # install db browser for sqlite
-Write-Output ">>> DB Browser for SQLite <<<"
-if (Confirm-ExistAndVersion dbbrowser) {
-    Write-Host "DB Browser for SQLite: Installed"
-}
-else {
-    Write-Host "DB Browser for SQLite: ... installing!"
-    winget install --id DB.Browser.for.SQLite -e -s winget --accept-source-agreements --accept-package-agreements
-}
+# NOTE: sql may not happen for Cohort #2, so commenting out for now.
+
+# Write-Output ">>> DB Browser for SQLite <<<"
+# if (Confirm-ExistAndVersion dbbrowser) {
+#     Write-Host "DB Browser for SQLite: Installed"
+# }
+# else {
+#     Write-Host "DB Browser for SQLite: ... installing!"
+#     winget install --id DB.Browser.for.SQLite -e -s winget --accept-source-agreements --accept-package-agreements
+# }
 
 
 
