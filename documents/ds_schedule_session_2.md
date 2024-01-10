@@ -1,5 +1,3 @@
-# DSI Certificates – Session 2 
-
 ### Foundational Skills I: 5 weeks
 ---
 **Unix Shell, Git, GitHub (~20 hours)**   
