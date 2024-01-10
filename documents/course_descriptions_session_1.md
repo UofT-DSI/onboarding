@@ -1,5 +1,3 @@
-# Data Science and Machine Learning Certificate Program Courses
-
 ## Introduction to Unix Shell, Git, and GitHub
 
 This course provides a comprehensive introduction to Unix shell language, covering file and directory navigation, command usage, script creation, and basic functions involving pipes, filters, and loops. Participants will get started with version control and GitHub, exploring the ethical implications regarding reproducibility. Topics include Git setup, repository management (recording, viewing, and undoing changes), branch creation, and collaborative workflows. Advanced commands, debugging, and history editing will be introduced. Participants will learn effective problem-solving techniques with Google and Stackflow, emphasizing reproducibility and documentation. The course emphasizes ethics and equity considerations in projects, fostering discussion-based learning with pre-class readings and live coding exercises.
