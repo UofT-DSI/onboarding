@@ -32,7 +32,7 @@ This script will check whether course pre-requisites are installed and will inst
 3. Press Enter to run.
 
 ```powershell
-wget https://raw.githubusercontent.com/dtxe/DSI-Onboarding/windows_onboarding/environment_setup/autoinstall_windows.ps1 -out autoinstall_windows.ps1
+Invoke-WebRequest https://github.com/UofT-DSI/Onboarding/raw/main/environment_setup/autoinstall_windows.ps1 -out autoinstall_windows.ps1
 .\autoinstall_windows.ps1
 
 ```
@@ -44,7 +44,7 @@ wget https://raw.githubusercontent.com/dtxe/DSI-Onboarding/windows_onboarding/en
     1. [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
     1. [Jupyter extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
 1. [The Miniconda Python distribution](https://docs.conda.io/projects/miniconda/en/latest/)
-    1. Then, install the required packages by running `pip install numpy pandas matplotlib seaborn scikit-learn jupyter pyyaml` in your Anaconda environment
+    1. Then, install the required packages by running `pip install numpy pandas matplotlib seaborn scikit-learn jupyter pyyaml plotly` in your Anaconda environment
 1. *(Optional, but highly recommended)* [Windows Terminal](https://apps.microsoft.com/detail/9N0DX20HK701?hl=en-US&gl=US)
     1. Add Git Bash to your Windows Terminal profiles by running this [helper script](misc_gitbash_wt.ps1) in Powershell
 
@@ -54,7 +54,7 @@ wget https://raw.githubusercontent.com/dtxe/DSI-Onboarding/windows_onboarding/en
 
 ### Automated installation
 Copy and paste the following code into your terminal:  
-`$ curl https://raw.githubusercontent.com/dtxe/DSI-Onboarding/windows_onboarding/environment_setup/autoinstall_unix.sh | bash`
+`$ curl -L https://github.com/UofT-DSI/Onboarding/raw/main/environment_setup/autoinstall_unix.sh | bash`
 
 ### Manual installation
 *TODO*
