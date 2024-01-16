@@ -128,8 +128,7 @@ else
     esac
 fi
 
-pip install --upgrade pip
-pip install matplotlib numpy pandas scipy scikit-learn seaborn jupyter
+conda install -y matplotlib numpy pandas scipy scikit-learn seaborn jupyter pyyaml plotly conda-forge::python-kaleido requests
 
 
 ###################################
