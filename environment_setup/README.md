@@ -24,7 +24,7 @@ Setup instructions for each operating system are below.
 ### Automated installation
 This script will check whether course pre-requisites are installed and will install them if not found.
 
-1. Ensure the App Installer is up-to-date in the Microsoft Store (see below)
+1. Ensure the App Installer is up-to-date in the Microsoft Store [(see below)](#updating-app-installer-on-windows)
 1. Open Powershell
     - Click the Start Menu, and type "Powershell"
 2. Copy the following code, and paste it into Powershell
@@ -32,32 +32,24 @@ This script will check whether course pre-requisites are installed and will inst
 3. Press Enter to run.
 
 ```powershell
-wget https://raw.githubusercontent.com/dtxe/DSI-Onboarding/windows_onboarding/environment_setup/autoinstall_windows.ps1 -out autoinstall_windows.ps1
+Invoke-WebRequest https://github.com/UofT-DSI/Onboarding/raw/main/environment_setup/autoinstall_windows.ps1 -out autoinstall_windows.ps1
 .\autoinstall_windows.ps1
 
 ```
 
 ### Manual installation
-1. [Git](https://git-scm.com/download/win)
-    1. *Note:* Git for Windows includes Bash
-1. [Visual Studio Code](https://code.visualstudio.com/download)
-    1. [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-    1. [Jupyter extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
-1. [The Miniconda Python distribution](https://docs.conda.io/projects/miniconda/en/latest/)
-    1. Then, install the required packages by running `pip install numpy pandas matplotlib seaborn scikit-learn jupyter pyyaml` in your Anaconda environment
-1. *(Optional, but highly recommended)* [Windows Terminal](https://apps.microsoft.com/detail/9N0DX20HK701?hl=en-US&gl=US)
-    1. Add Git Bash to your Windows Terminal profiles by running this [helper script](misc_gitbash_wt.ps1) in Powershell
-
+[Manual installation for Windows](./Tech%20Onboarding/Tech%20Onboarding%20-%20Windows.md)
 
 
 ## Linux or macOS
 
 ### Automated installation
 Copy and paste the following code into your terminal:  
-`$ curl https://raw.githubusercontent.com/dtxe/DSI-Onboarding/windows_onboarding/environment_setup/autoinstall_unix.sh | bash`
+`$ curl -L https://github.com/UofT-DSI/Onboarding/raw/main/environment_setup/autoinstall_unix.sh | bash`
 
 ### Manual installation
-*TODO*
+[Manual installation for MacOS](./Tech%20Onboarding/Tech%20Onboarding%20-%20Mac.md)
+[Manual installation for Linux](./Tech%20Onboarding/Tech%20Onboarding%20-%20Linux.md)
 
 
 ## Testing your system

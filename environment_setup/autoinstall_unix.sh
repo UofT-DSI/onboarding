@@ -128,8 +128,7 @@ else
     esac
 fi
 
-pip install --upgrade pip
-pip install matplotlib numpy pandas scipy scikit-learn seaborn jupyter
+conda install -y matplotlib numpy pandas scipy scikit-learn seaborn jupyter pyyaml plotly conda-forge::python-kaleido requests
 
 
 ###################################
@@ -187,3 +186,5 @@ if [[ $(grep Microsoft /proc/version) ]]; then
     # use git credentials from windows
     git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git-credential-manager.exe"
 fi
+
+echo "############### Setup complete! ###############"
