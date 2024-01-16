@@ -186,3 +186,5 @@ if [[ $(grep Microsoft /proc/version) ]]; then
     # use git credentials from windows
     git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/bin/git-credential-manager.exe"
 fi
+
+echo "############### Setup complete! ###############"
