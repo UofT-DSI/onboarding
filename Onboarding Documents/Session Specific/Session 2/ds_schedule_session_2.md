@@ -25,6 +25,7 @@
 
 - Mon Jan 15, 6 pm – 7:30 pm: Onboarding  
 - Mon Jan 29, 6 pm – 9 pm: High Impact Communication Skills 
+- Sat Feb 10, 9 am - 12 pm: High Impact Presentation Skills
 
 ### Foundational Skills II: 5 weeks
 ---
@@ -54,7 +55,7 @@
 
 - Mon Feb 26, 6 pm – 9 pm: Crafting a Data Science & Machine Learning Resume
 
-- Mon March 11, 6 pm – 9 pm: Crafting a Data Science & Machine Learning Resume (Part 2) to March 4 
+- Mon March 11, 6 pm – 9 pm: Crafting a Data Science & Machine Learning Resume (Part 2) and technical assessments
 
 ### Data Science Skills: 5 weeks
 ---
