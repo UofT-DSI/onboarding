@@ -2,7 +2,7 @@
 
 ## Computer 
 
-Learners should have access to a personal computer. For the bare minimum specifications required to run Python scripts and R files throughout an entire session, you might consider the following:
+Learners should have access to a personal computer <u>**with admin privileges**</u>. For the bare minimum specifications required to run Python scripts and R files throughout an entire session, you might consider the following:
   - **RAM:** 4GB is the absolute minimum, but it's important to be aware of performance limitations, especially when dealing with larger data sets or more complex scripts.
   - **Storage:** A minimum of 25GB of storage is necessary. An HDD would suffice, though an SSD would provide better performance, albeit not essential.
   - **CPU:** The bare minimum would be a basic dual-core processor, such as an older generation Intel Pentium, or an AMD A6 or AMD Athlon processor.
