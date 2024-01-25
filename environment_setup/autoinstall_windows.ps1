@@ -104,8 +104,8 @@ if (Confirm-ExistAndVersion $minicondabin -or (Confirm-ExistAndVersion $anaconda
 }
 else {
     Write-Host "Anaconda: ... installing!"
-    wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe -out miniconda.exe
-    Start-Process miniconda.exe -Wait /S
+    Invoke-WebRequest https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe -out miniconda.exe
+    Start-Process miniconda.exe -Wait "/InstallationType=JustMe /S /D=$userprofile\miniconda3"
     Remove-Item miniconda.exe
 }
 
@@ -118,7 +118,7 @@ conda init bash
 
 # install python packages
 Write-Host "Python packages: Checking and installing required packages"
-conda install -y matplotlib numpy pandas scipy scikit-learn seaborn jupyter pyyaml plotly conda-forge::python-kaleido requests
+conda install -y matplotlib numpy pandas scipy scikit-learn seaborn jupyter pyyaml plotly conda-forge::python-kaleido requests openpyxl nbformat
 
 
 ###################################################################################
