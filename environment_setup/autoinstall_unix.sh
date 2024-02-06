@@ -128,7 +128,7 @@ else
     esac
 fi
 
-conda install -y matplotlib numpy pandas scipy scikit-learn seaborn jupyter pyyaml plotly conda-forge::python-kaleido requests
+conda install -y matplotlib numpy pandas scipy scikit-learn seaborn jupyter pyyaml plotly conda-forge::python-kaleido requests openpyxl nbformat
 
 
 ###################################
@@ -179,6 +179,7 @@ if code --version &> /dev/null
 then
     code --install-extension ms-python.python
     code --install-extension ms-toolsai.jupyter
+    code --install-extension mhutchie.git-graph
 fi
 
 # check if we're running in wsl

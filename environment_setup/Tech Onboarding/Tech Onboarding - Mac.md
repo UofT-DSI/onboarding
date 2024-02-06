@@ -22,6 +22,9 @@ Visual Studio Code (VS Code) is a free, open-source code editor that supports a 
 - Extensions:
   - [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python): Enhances Python programming capabilities within VS Code.
   - [Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter): Allows for Jupyter notebook support, enabling data science and machine learning tasks.
+  - [Git Graph Extension](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph): Visualization for Git commit trees
+- Enable command line access:
+  - [Follow the instructions here](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line) to enable launching VSCode from the command line
 
 ### Git and Brew Installation
 Git is a version control system used to track changes in source code during software development. Brew is a package manager for macOS that simplifies the installation of software on Apple's macOS operating system and Linux. We will need it in order to install Git.
@@ -59,7 +62,7 @@ Conda already comes with a lot of good to have python packages but we still need
 
 Open your terminal and run the following command:
 ```
-conda install matplotlib numpy pandas scipy scikit-learn seaborn jupyter pyyaml plotly conda-forge::python-kaleido requests
+conda install matplotlib numpy pandas scipy scikit-learn seaborn jupyter pyyaml plotly conda-forge::python-kaleido requests openpyxl nbformat
 ```
 
 This should install all of the necessary packages needed for your classes.
