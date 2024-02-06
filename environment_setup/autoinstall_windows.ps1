@@ -90,6 +90,7 @@ $env:Path = [System.Environment]::GetEnvironmentVariable("Path", "Machine") + ";
 # install remote/wsl extension    
 code --install-extension ms-python.python
 code --install-extension ms-toolsai.jupyter
+code --install-extension mhutchie.git-graph
 
 
 ###################################################################################

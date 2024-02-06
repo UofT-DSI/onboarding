@@ -24,6 +24,7 @@ Visual Studio Code (VS Code) is a free, open-source code editor that supports a 
 - Extensions:
   - [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python): Enhances Python programming capabilities within VS Code.
   - [Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter): Allows for Jupyter notebook support, enabling data science and machine learning tasks.
+  - [Git Graph Extension](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph): Visualization for Git commit trees
 
 ### Git Installation
 Git is a version control system used to track changes in source code during software development.
