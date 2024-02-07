@@ -15,6 +15,7 @@ Visual Studio Code (VS Code) is a free, open-source code editor that supports a 
 - Extensions:
   - [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python): Enhances Python programming capabilities within VS Code.
   - [Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter): Allows for Jupyter notebook support, enabling data science and machine learning tasks.
+  - [Git Graph Extension](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph): Visualization for Git commit trees
 
 ### Git Installation
 Git is a version control system used to track changes in source code during software development.
@@ -48,7 +49,7 @@ Conda already comes with a lot of good to have python packages but we still need
 
 Open your git bash and run the following command:
 ```
-conda install matplotlib numpy pandas scipy scikit-learn seaborn jupyter pyyaml plotly conda-forge::python-kaleido requests
+conda install matplotlib numpy pandas scipy scikit-learn seaborn jupyter pyyaml plotly conda-forge::python-kaleido requests openpyxl nbformat
 ```
 
 This should install all of the necessary packages needed for your classes.
