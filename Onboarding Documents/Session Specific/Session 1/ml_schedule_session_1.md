@@ -121,6 +121,24 @@
 
 ### Job Readiness Sessions:
 - Mon Mar 4, 6 pm - 9 pm: High Impact Networking & Interview Skills
+
+## Production
+
+**Week 15**
+
+- Mon Mar 11, 6 pm - 8:30 pm
+- Tues Mar 12, 6 pm - 8:30 pm
+- Weds Mar 13, 6 pm - 8:30 pm
+- Thurs Mar 14, 6 pm - 8:30 pm
+
+**Week 16**
+
+- Tues Mar 19, 6 pm - 8:30 pm
+- Weds Mar 20, 6 pm - 8:30 pm
+- Thurs Mar 21, 6 pm - 8:30 pm
+- Sat Mar 23, 9 am - 11:30 am
+
+### Job Readiness Sessions:
 - TBD: Networking session with employers
 
 
