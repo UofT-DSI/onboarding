@@ -94,6 +94,21 @@ This course provides the skills required to design, implement, test, and validat
 
 Two weeks of instructor-led live webinars, each lasting 2.5 hours (totaling 20 hours)
 
+## Production
+
+Building a model differs significantly from creating a model that is usable by others. This course focuses on everything that happens after the model has been put together, specifically addressing machine learning system requirements such as: reliability, scalability, maintainability, and adaptability; feature engineering; model development and deployment; monitoring; and infrastructure and tooling.
+
+**Learning Outcomes:**
+
+- Design machine learning systems that are reliable, scalable, maintainable, and adaptable.
+- Apply feature engineering techniques to optimize machine learning models.
+- Deploy machine learning models in production using various strategies.
+- Implement monitoring and alerting systems to troubleshoot and diagnose issues in production.
+
+**Course Delivery:**
+
+Two weeks of instructor-led live webinars, each lasting 2.5 hours (totaling 20 hours)
+
 ## DATA SCIENCE CERTIFICATE COURSES (following completion of foundational courses)
 
 Participants pursuing the Data Science Certificate must complete the following four electives:
@@ -149,20 +164,6 @@ There is often a need to work out which algorithm or data structure should be us
 
 Two weeks of instructor-led live webinars, each lasting 2.5 hours (totaling 20 hours)
 
-## Production
-
-Building a model differs significantly from creating a model that is usable by others. This course focuses on everything that happens after the model has been put together, specifically addressing machine learning system requirements such as: reliability, scalability, maintainability, and adaptability; feature engineering; model development and deployment; monitoring; and infrastructure and tooling.
-
-**Learning Outcomes:**
-
-- Design machine learning systems that are reliable, scalable, maintainable, and adaptable.
-- Apply feature engineering techniques to optimize machine learning models.
-- Deploy machine learning models in production using various strategies.
-- Implement monitoring and alerting systems to troubleshoot and diagnose issues in production.
-
-**Course Delivery:**
-
-Two weeks of instructor-led live webinars, each lasting 2.5 hours (totaling 20 hours)
 
 ## MACHINE LEARNING SOFTWARE FOUNDATIONS CERTIFICATE COURSES (following completion of foundational courses)
 
@@ -198,18 +199,5 @@ In this course, participants will apply machine learning techniques to software 
 
 Three weeks of instructor-led live webinars, each lasting 2.5 hours (totaling 25 hours)
 
-## Production
 
-Building a model differs significantly from creating a model that is usable by others. This course focuses on everything that happens after the model has been put together, specifically addressing machine learning system requirements such as: reliability, scalability, maintainability, and adaptability; feature engineering; model development and deployment; monitoring; and infrastructure and tooling.
-
-**Learning Outcomes:**
-
-- Design machine learning systems that are reliable, scalable, maintainable, and adaptable.
-- Apply feature engineering techniques to optimize machine learning models.
-- Deploy machine learning models in production using various strategies.
-- Implement monitoring and alerting systems to troubleshoot and diagnose issues in production.
-
-**Course Delivery:**
-
-Two weeks of instructor-led live webinars, each lasting 2.5 hours (totaling 20 hours)
 
