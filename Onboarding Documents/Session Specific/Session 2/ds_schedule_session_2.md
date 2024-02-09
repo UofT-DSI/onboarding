@@ -39,7 +39,7 @@
 - Thurs Feb 22, 6 pm - 8:30 pm - Production
 - Sat Feb 24, 9 am - 11:30 am - Production
 
-#### Week 7 Feb 26 – Mar 3 Mar 4 – 10:
+#### Week 7 Feb 26 – Mar 3:
 - Tues Feb 27, 6 pm – 8:30 pm - SQL
 - Weds Feb 28, 6 pm - 8:30 pm - SQL
 - Thurs Feb 29, 6 pm - 8:30 pm - Case Study
