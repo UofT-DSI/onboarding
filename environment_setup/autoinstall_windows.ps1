@@ -119,7 +119,7 @@ conda init bash
 
 # install python packages
 Write-Host "Python packages: Checking and installing required packages"
-conda install -y matplotlib numpy pandas scipy scikit-learn seaborn jupyter pyyaml plotly conda-forge::python-kaleido requests openpyxl nbformat
+conda install -y matplotlib numpy pandas scipy scikit-learn seaborn jupyter pyyaml plotly conda-forge::python-kaleido requests openpyxl nbformat pytest
 
 
 ###################################################################################
