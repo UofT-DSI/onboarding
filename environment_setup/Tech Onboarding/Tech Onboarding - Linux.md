@@ -53,7 +53,7 @@ Conda already comes with a lot of good to have python packages but we still need
 
 Open your terminal and run the following command:
 ```
-conda install matplotlib numpy pandas scipy scikit-learn seaborn jupyter pyyaml plotly conda-forge::python-kaleido requests openpyxl nbformat
+conda install matplotlib numpy pandas scipy scikit-learn seaborn jupyter pyyaml plotly conda-forge::python-kaleido requests openpyxl nbformat pytest
 ```
 
 This should install all of the necessary packages needed for your classes.
