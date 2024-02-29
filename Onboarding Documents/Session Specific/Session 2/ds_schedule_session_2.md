@@ -94,6 +94,6 @@
 - Saturday 9 am – 11:30 am 
 
 ### Job-readiness sessions
-- Mon Apr 1, 6 pm – 9 pm: Communicating data analytics to non-technical audiences 
-- Mon Apr 15, 6 pm – 9 pm: High Impact Networking & Interview Skills 
+- Mon Apr 1, 6 pm – 9 pm: High Impact Networking & Interview Skills  
+- Mon Apr 15, 6 pm – 9 pm: Communicating data analytics to non-technical audiences
 - Networking Session with Employers - Date TBD in week 16
