@@ -46,4 +46,4 @@ Your technical facilitators will provide you with the specific software requirem
 
 ## Pre-Module Assignments 
 
-Some of the modules in this program include pre-module work to help you prepare for the upcoming sessions. Your technical facilitator will email you with specific details about the pre-work assignments for each module.
+Some of the modules in this certificate include pre-module work to help you prepare for the upcoming sessions. Your technical facilitator will email you with specific details about the pre-work assignments for each module.

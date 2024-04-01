@@ -1,4 +1,4 @@
-# Program Overview 
+# Certificate Overview 
 
 Both Certificates start with foundational modules designed to equip aspiring data science professionals with essential technical skills. During the first half of the Certificate (eight weeks), participants will:  
 

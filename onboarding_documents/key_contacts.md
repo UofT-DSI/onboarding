@@ -8,9 +8,9 @@ Curtis is responsible for overseeing the delivery of the DSI Data Science and Ma
 
 Contact Curtis for: 
 
-* Program inquiries 
+* Certificate inquiries 
 
-* To address concerns or challenges you encounter in completing the program  
+* To address concerns or challenges you encounter in completing the certificate  
 
 ## Learner Recruitment Officer, Professional Upskilling 
 
@@ -20,6 +20,6 @@ Jennie is the primary point of contact for prospective learners seeking our DSI 
 
 Contact Jennie for:  
 
-* Any administrative or logistical questions related to the program. 
+* Any administrative or logistical questions related to the certificate. 
 
 * If you’re unsure about who to contact for a specific issue.
