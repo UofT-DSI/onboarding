@@ -1,4 +1,4 @@
-## Course Support - Building Research Software
+## Learning Support - Building Research Software
 
 **Tong Su**  
 Email: tong.su@mail.utoronto.ca  

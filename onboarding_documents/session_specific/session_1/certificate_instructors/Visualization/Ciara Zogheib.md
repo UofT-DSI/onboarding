@@ -1,4 +1,4 @@
-## Course Instructor - Visualization
+## Module Technical Facilitator - Visualization
 
 **Ciara Zogheib**  
 Email: ciara.zogheib@mail.utoronto.ca  

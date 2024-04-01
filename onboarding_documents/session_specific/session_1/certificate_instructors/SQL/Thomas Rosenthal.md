@@ -1,4 +1,4 @@
-## Course Instructor - SQL
+## Module Technical Facilitator - SQL
 
 **Thomas Rosenthal**  
 Email: thomas.rosenthal@mail.utoronto.ca  

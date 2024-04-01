@@ -1,4 +1,4 @@
-## Course Instructor - Production
+## Module Technical Facilitator - Production
 
 **Jesus Calderon**  
 Email: jesus.calderon@maclear.ca  

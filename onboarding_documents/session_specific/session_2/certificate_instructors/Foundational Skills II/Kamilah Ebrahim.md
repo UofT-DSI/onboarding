@@ -1,4 +1,4 @@
-## Course Instructor - Estimation, Machine Learning, and Testing
+## Module Technical Facilitator - Estimation, Machine Learning, and Testing
 
 **Kamilah Ebrahim**  
 Email: ebrahim.kamilah@bcg.com  

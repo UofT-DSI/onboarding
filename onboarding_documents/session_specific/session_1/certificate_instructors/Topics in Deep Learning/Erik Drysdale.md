@@ -1,4 +1,4 @@
-## Course Instructor - Topics in Deep Learning
+## Module Technical Facilitator - Topics in Deep Learning
 
 **Erik Drysdale**
 Email: [erikinwest@gmail.com](mailto:erikinwest@gmail.com)

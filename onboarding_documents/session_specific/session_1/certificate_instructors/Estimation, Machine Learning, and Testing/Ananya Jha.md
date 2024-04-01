@@ -1,4 +1,4 @@
-## Course Support - Estimation, Machine Learning, and Testing
+## Learning Support - Estimation, Machine Learning, and Testing
 
 **Ananya Jha**  
 Email: ananya.jha@mail.utoronto.ca  

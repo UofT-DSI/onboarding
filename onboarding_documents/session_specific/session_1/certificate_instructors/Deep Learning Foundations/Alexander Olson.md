@@ -1,4 +1,4 @@
-## Course Instructor- Deep Learning Foundations
+## Module Technical Facilitator - Deep Learning Foundations
 
 **Alexander Olson**
 Email: [alex.olson@utoronto.ca](mailto:alex.olson@utoronto.ca)

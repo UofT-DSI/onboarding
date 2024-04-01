@@ -1,4 +1,4 @@
-## Course Support - Introduction to Python
+## Learning Support - Introduction to Python
 
 **Tong Su**  
 Email: tong.su@mail.utoronto.ca  

@@ -6,7 +6,7 @@ We are committed to continuous improvement of our certificate program. Your feed
 
 * Mid-Program Survey: Around the midpoint of the program, you will be asked to complete a mid-program evaluation survey. This provides an opportunity to share your thoughts on the content, delivery, and overall experience thus far. 
 
-* End-of-Program Evaluation: Upon completion of the program, you will receive an end-of-program evaluation form. This comprehensive survey will cover various aspects of the program, including course content, instructor effectiveness, and program logistics, as well as competency questions to determine the program’s impact on your knowledge. 
+* End-of-Program Evaluation: Upon completion of the program, you will receive an end-of-program evaluation form. This comprehensive survey will cover various aspects of the program, including module content, technical facilitator effectiveness, and program logistics, as well as competency questions to determine the program’s impact on your knowledge. 
 
 * Post Program Survey: We value your journey beyond program completion. After finishing the program, we will invite you to participate in the mandatory post-program survey to capture insights into your post program experiences including your current employment status and salary.  
 

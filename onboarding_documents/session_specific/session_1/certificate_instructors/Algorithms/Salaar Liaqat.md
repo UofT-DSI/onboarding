@@ -1,4 +1,4 @@
-## Course Instructor - Algorithms
+## Module Technical Facilitator - Algorithms
 
 **Salaar Liaqat**  
 Email: s.liaqat@utoronto.ca  

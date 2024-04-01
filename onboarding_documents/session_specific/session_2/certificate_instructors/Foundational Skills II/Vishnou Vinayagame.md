@@ -1,4 +1,4 @@
-## Course Support
+## Learning Support
 
 **Vishnou Vinayagame**  
 Email: vishnouvina@cs.toronto.edu

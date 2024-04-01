@@ -1,4 +1,4 @@
-## Course Support - Foundational Skills I
+## Learning Support - Foundational Skills I
 
 **Julia Gallucci**  
 Email: julia.gallucci@mail.utoronto.ca  

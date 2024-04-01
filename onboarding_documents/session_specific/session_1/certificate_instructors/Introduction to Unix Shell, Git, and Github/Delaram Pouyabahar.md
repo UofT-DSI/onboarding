@@ -1,4 +1,4 @@
-## Course Instructor - Introduction to Unix Shell, Git, and Github
+## Module Technical Facilitator - Introduction to Unix Shell, Git, and Github
 
 **Delaram Pouyabahar**  
 Email: d.pouyabahar@mail.utoronto.ca  

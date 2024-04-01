@@ -1,4 +1,4 @@
-## Course Support - Algorithms
+## Learning Support - Algorithms
 
 **Siyu Ji**  
 Email: siyu.ji@yahoo.com  

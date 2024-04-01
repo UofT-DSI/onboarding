@@ -1,4 +1,4 @@
-## Course Support - Introduction to Unix Shell, Git, and Github
+## Learning Support - Introduction to Unix Shell, Git, and Github
 
 **Tong Su**  
 Email: tong.su@mail.utoronto.ca  

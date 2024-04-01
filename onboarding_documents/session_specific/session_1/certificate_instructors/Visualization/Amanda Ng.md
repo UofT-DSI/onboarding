@@ -1,4 +1,4 @@
-## Course Support - Visualization
+## Learning Support - Visualization
 
 **Amanda Ng**  
 Email: waiyuamanda.ng@mail.utoronto.ca  

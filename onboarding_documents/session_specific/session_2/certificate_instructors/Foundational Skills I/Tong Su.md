@@ -1,4 +1,4 @@
-## Course Support - Foundational Skills I
+## Learning Support - Foundational Skills I
 
 **Tong Su**  
 Email: tong.su@mail.utoronto.ca  

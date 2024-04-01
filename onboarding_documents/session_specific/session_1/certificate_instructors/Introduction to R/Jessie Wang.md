@@ -1,4 +1,4 @@
-## Course Support - Introduction to R
+## Learning Support - Introduction to R
 
 **Jessie Wang**  
 Email: jae.wang@mail.utoronto.ca  

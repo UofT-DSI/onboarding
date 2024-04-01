@@ -1,4 +1,4 @@
-## Course Support - SQL
+## Learning Support - SQL
 
 **Ananya Jha**  
 Email: ananya.jha@mail.utoronto.ca  

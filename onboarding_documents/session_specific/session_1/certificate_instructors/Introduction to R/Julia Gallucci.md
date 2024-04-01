@@ -1,4 +1,4 @@
-## Course Instructor - Introduction to R
+## Module Technical Facilitator - Introduction to R
 
 **Julia Gallucci**  
 Email: julia.gallucci@mail.utoronto.ca  

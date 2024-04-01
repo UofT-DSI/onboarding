@@ -4,7 +4,7 @@
 [Key contacts](/onboarding_documents/key_contacts.md)
 
 ## Setup your computing environment
-See hardware and software prerequisites for your course and installation instructions under [Environment Setup](/environment_setup).
+See hardware and software prerequisites for your module and installation instructions under [Environment Setup](/environment_setup).
 
 [Technical requirements](/onboarding_documents/tech_requirements.md)
 

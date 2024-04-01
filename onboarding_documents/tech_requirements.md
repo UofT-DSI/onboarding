@@ -19,7 +19,7 @@ To ensure a smooth learning experience, we recommend a minimum internet connecti
 
 ## GitHub Account 
 
-All course content will be housed on the DSI GitHub: https://github.com/UofT-DSI 
+All module content will be housed on the DSI GitHub: https://github.com/UofT-DSI 
 
 Learners must make a GitHub account at the following page if they don't already have one: https://github.com/ 
   * Sign Up: On the GitHub homepage, you'll find a "Sign up" button. Click on it.
@@ -31,7 +31,7 @@ Learners must make a GitHub account at the following page if they don't already 
 
 ## Google Colab
 
-Courses that involve Python will be utilizing Jupyter Notebooks on Google Colab. This decision is based on its user-friendly nature and its readiness for use right out of the box.
+Modules that involve Python will be utilizing Jupyter Notebooks on Google Colab. This decision is based on its user-friendly nature and its readiness for use right out of the box.
 
 To ensure a smooth learning experience, learners are required to have a Google account. If they don't already have one, they can create it by following these steps:
 
@@ -42,8 +42,8 @@ To ensure a smooth learning experience, learners are required to have a Google a
 
 ## Software Requirements 
 
-Your instructors will provide you with the specific software requirements at the beginning of each course, and will walk you through the steps on how to install the necessary software for that course.
+Your technical facilitators will provide you with the specific software requirements at the beginning of each module, and will walk you through the steps on how to install the necessary software for that module.
 
-## Pre-Course Assignments 
+## Pre-Module Assignments 
 
-Some of the courses in this program include pre-course work to help you prepare for the upcoming sessions. Your instructor will email you with specific details about the pre-work assignments for each course.
+Some of the modules in this program include pre-module work to help you prepare for the upcoming sessions. Your technical facilitator will email you with specific details about the pre-work assignments for each module.
