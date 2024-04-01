@@ -16,3 +16,6 @@ See hardware and software prerequisites for your course and installation instruc
 [Session 1](/onboarding_documents/session_specific/session_1/program_overview_session_1.md)
 
 [Session 2](/onboarding_documents/session_specific/session_2/program_overview_session_2.md)
+
+## AI Policy
+Read more about the DSI's stance on AI tools under [AI Policy](/onboarding_documents/ai_policy.md)
