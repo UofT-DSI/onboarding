@@ -1,18 +1,21 @@
 # Welcome to the DSI
-[Welcome message](/Onboarding%20Documents/welcome_message.md)
+[Welcome message](/onboarding_documents/welcome_message.md)
 
-[Key contacts](/Onboarding%20Documents/key_contacts.md)
+[Key contacts](/onboarding_documents/key_contacts.md)
 
 ## Setup your computing environment
-See hardware and software prerequisites for your course and installation instructions under [environment_setup](/environment_setup).
+See hardware and software prerequisites for your module and installation instructions under [Environment Setup](/environment_setup).
 
-[Technical requirements](/Onboarding%20Documents/tech_requirements.md)
+[Technical requirements](/onboarding_documents/tech_requirements.md)
 
 ## Expectations and evaluation
-[Participant expectations](/Onboarding%20Documents/participant_expectations.md)  
-[Program evaluation](/Onboarding%20Documents/program_evaluation.md)
+[Participant expectations](/onboarding_documents/participant_expectations.md)  
+[Program evaluation](/onboarding_documents/program_evaluation.md)
 
 ## Program overview
-[Session 1](/Onboarding%20Documents/Session%20Specific/Session%201/program_overview_session_1.md)
+[Session 1](/onboarding_documents/session_specific/session_1/program_overview_session_1.md)
 
-[Session 2](/Onboarding%20Documents/Session%20Specific/Session%202/program_overview_session_2.md)
+[Session 2](/onboarding_documents/session_specific/session_2/program_overview_session_2.md)
+
+## AI Policy
+Read more about the DSI's stance on AI tools under [AI Policy](/onboarding_documents/ai_policy.md)
