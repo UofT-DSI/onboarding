@@ -10,9 +10,9 @@ See hardware and software prerequisites for your module and installation instruc
 
 ## Expectations and evaluation
 [Participant expectations](/onboarding_documents/participant_expectations.md)  
-[Program evaluation](/onboarding_documents/program_evaluation.md)
+[Certificates evaluation](/onboarding_documents/program_evaluation.md)
 
-## Program overview
+## Certificates overview
 [Session 1](/onboarding_documents/session_specific/session_1/program_overview_session_1.md)
 
 [Session 2](/onboarding_documents/session_specific/session_2/program_overview_session_2.md)
