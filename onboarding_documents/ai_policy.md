@@ -2,7 +2,7 @@
 
 ### **Purpose**
 
-The rapid advancement of Artificial Intelligence (AI) technologies, including tools like ChatGPT, offers unprecedented opportunities for enhancing learning experiences. However, these technologies also present challenges to academic integrity and the fundamental learning objectives of our institution. This policy aims to provide clear guidelines for the responsible use of AI tools within our educational community.
+Artificial Intelligence (AI) technology, such as ChatGPT, can enhance learning experiences. But these technologies also present challenges to academic integrity and fundamental learning objectives. This policy provides guidelines for the responsible use of AI tools within our educational community.
 
 ### **Scope**
 
@@ -10,10 +10,10 @@ This policy applies to all participants enrolled in modules at the Data Sciences
 
 ### **Policy Statement**
 
-1. **Prohibited Use**: The use of AI tools (e.g., chatbots like ChatGPT, AI writing and research assistants, etc.) for completing assignments, quizzes, homework, examinations, or any other forms of assessment is strictly prohibited. This is to ensure that the work submitted is reflective of a participant’s own knowledge, understanding, and critical thinking skills.
+1. **Prohibited Use**: The use of AI tools (e.g., chatbots like ChatGPT, AI writing and research assistants, etc.) for completing assignments, quizzes, homework, examinations, or any other forms of assessment is strictly prohibited. The use of AI-based code generation tools is also prohibited. This is to ensure that the work submitted is reflective of a participant's own knowledge, understanding, and critical thinking skills. It also ensures that learners actually understand what they are learning.
 
 2. **Permissible Use for Learning**:
-   - **Self-Learning and Practice**: participants are permitted to use AI tools for the purposes of self-learning, practice, and understanding complex concepts. AI can serve as a supplementary resource for exploring module materials more deeply.
+   - **Self-Learning and Practice**: Participants are permitted to use AI tools for the purposes of self-learning, practice, and understanding complex concepts. AI can serve as a supplementary resource for exploring module materials more deeply.
    - **Research and Inquiry**: AI tools may be used for gathering preliminary insights or understanding diverse perspectives on research topics. However, the use of such tools should not replace primary research methodologies or direct engagement with academic texts.
 
 3. **Disclosure Requirement**: If a participant uses an AI tool to assist with any aspect of their module work (excluding prohibited uses), they must disclose this usage clearly. The disclosure should include:
@@ -33,4 +33,4 @@ Failure to adhere to this policy will be considered a violation of academic inte
 
 ### **Review and Modification**
 
-This policy is subject to review and revision to adapt to the evolving landscape of AI technologies and their implications for education. Feedback from the educational community is welcome to ensure the policy remains relevant and effective.
+This policy is subject to review and revision to adapt to changing AI technologies and their implications for education.
