@@ -40,10 +40,10 @@
   - Scaling to Production
 
 - **Jul 8 - Jul 21**
-  - Data Science Certificate: Visualization 
+  - Data Science Certificate: Sampling
 
 - **Jul 22 - Aug 4**
-  - Data Science Certificate: Sampling 
+  - Data Science Certificate: Visualization
 
 - **Aug 5 - Aug 11**
   - Team Project
