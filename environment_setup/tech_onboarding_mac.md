@@ -58,14 +58,46 @@ Git Credential Manager (GCM) is a tool that improves the experience of using Git
   ```
 
 ### Necessary Packages
+
 Conda already comes with a lot of good to have python packages but we still need to make sure that there are some packages that are installed that don't come with Conda.
 
 Open your terminal and run the following command:
 ```
-conda install matplotlib numpy pandas scipy scikit-learn seaborn jupyter pyyaml plotly conda-forge::python-kaleido requests openpyxl nbformat pytest
+conda env create -f environment.yml
+conda activate dsi_participant
 ```
-
 This should install all of the necessary packages needed for your classes.
+
+But in the event that you'd like to not go forward with Conda, Python 3.11 and the following packages are the main packages we will be needing:
+
+* numpy
+* requests
+* ipykernel 
+* pandas 
+* seaborn 
+* scikit-learn 
+* dask==2024.2.0  
+* dask-expr==0.4.1 
+* python-dotenv 
+* sacred 
+* SQLAlchemy=2.0.27 
+* psycopg2=2.9.9 
+* shap=0.44.1 
+* fancyimpute 
+* missingno 
+* tensorflow 
+* matplotlib 
+* plotly 
+* nbformat 
+* scikit-image 
+* opencv 
+* transformers 
+* yfinance 
+* islp 
+* l0bnb 
+* faraway 
+* pygam 
+
 ---
 
 Each tool in this guide is essential for a seamless development experience, from managing dependencies with Miniconda to coding in VS Code, installing Git for version control, and efficiently handling Git credentials with Git Credential Manager.
