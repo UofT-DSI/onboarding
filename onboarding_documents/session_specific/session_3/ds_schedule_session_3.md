@@ -9,7 +9,7 @@
   - Wednesday, April 24, 2024: Course Module (6-8:30 pm)
   - Thursday, April 25, 2024: Course Module (6-8:30 pm)
   - Friday, April 26, 2024: Work Period (1-4:00 pm)
-  - Saturday, April 27, 2024: Work Period (9 -12:00 pm)
+  - Saturday, April 27, 2024: Work Period (9-12:00 pm)
 
 **Python** 
 
@@ -19,13 +19,13 @@
 - Wednesday, May 1, 2024: Course Module (6-8:30 pm)
 - Thursday, May 2, 2024: Course Module (6-8:30 pm)
 - Friday, May 3, 2024: Work Period (1-4:00 pm)
-- Saturday, May 4, 2024: Work Period
+- Saturday, May 4, 2024: Work Period (9-12:00 pm)
 
 *Week 3*
 - Monday, May 6, 2024: Job Readiness - Communicate with Impact (6-8:30 pm) 
 - Tuesday, May 7, 2024: Course Module (6-8:30 pm)
 - Wednesday, May 8, 2024: Course Module (6-8:30 pm)
-- Thursday, May 9, 2024: Case Study
+- Thursday, May 9, 2024: Case Study (6-8:30 pm)
 - Friday, May 10, 2024: Work Period (1-4:00 pm)
 - Saturday, May 11, 2024: Work Period (9 -12:00 pm)
 
@@ -36,7 +36,7 @@
 - Wednesday, May 15, 2024: Course Module (6-8:30 pm)
 - Thursday, May 16, 2024: Course Module (6-8:30 pm)
 - Friday, May 17, 2024: Work Period (1-4:00 pm)
-- Saturday, May 18, 2024: Work Period
+- Saturday, May 18, 2024: Work Period (6-8:30 pm)
 
 *Week 5*
 - Tuesday, May 21, 2024: Course Module (6-8:30 pm)
