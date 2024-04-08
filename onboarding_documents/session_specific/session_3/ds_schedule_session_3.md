@@ -1,49 +1,152 @@
-# Schedule
+# Module Schedule
 
-## Mondays
-- **Event:** Job Readiness Programming
-- **Time:** 6:00 PM - 9:00 PM (Dates TBC)
+## Introduction to Building Software
+**Unix Shell, Git & GitHub**
 
-## Tuesdays, Wednesdays, Thursdays
-- **Event:** Synchronous Technical Learning Modules
-- **Time:** 6:00 PM - 8:30 PM ET
-- *Office hours 30 min before and after.*
+*Week 1*
+  - Monday, April 22, 2024: Onboarding (6-7:30 pm)
+  - Tuesday, April 23, 2024: Course Module (6-8:30 pm)
+  - Wednesday, April 24, 2024: Course Module (6-8:30 pm)
+  - Thursday, April 25, 2024: Course Module (6-8:30 pm)
+  - Friday, April 26, 2024: Work Period (1-4:00 pm)
+  - Saturday, April 27, 2024: Work Period (9 -12:00 pm)
 
-## Fridays
-- **Event:** Facilitated Work Periods (optional)
-- **Time:** 1:00 PM - 4:00 PM
+**Python** 
 
-## Saturdays
-- **Event:** Facilitated Work Periods (optional)
-- **Time:** 9:00 AM - 12:00 PM
+*Week 2*
 
-## Schedule Details
+- Tuesday, April 30, 2024: Course Module (6-8:30 pm)
+- Wednesday, May 1, 2024: Course Module (6-8:30 pm)
+- Thursday, May 2, 2024: Course Module (6-8:30 pm)
+- Friday, May 3, 2024: Work Period (1-4:00 pm)
+- Saturday, May 4, 2024: Work Period
 
-- **April 22 - May 12**
-  - Introduction to Building Software
-    - Unix Shell, Git & GitHub (Week 1)
-    - Python (Week 2 & 3)
+*Week 3*
+- Monday, May 6, 2024: Job Readiness - Communicate with Impact (6-8:30 pm) 
+- Tuesday, May 7, 2024: Course Module (6-8:30 pm)
+- Wednesday, May 8, 2024: Course Module (6-8:30 pm)
+- Thursday, May 9, 2024: Case Study
+- Friday, May 10, 2024: Work Period (1-4:00 pm)
+- Saturday, May 11, 2024: Work Period (9 -12:00 pm)
 
-- **May 13 - May 26**
-  - SQL
+## SQL
+*Week 4*
+- Monday, May 13, 2024: Job Readiness - Crafting a data science and machine learning resume (Part 1) (6-7:30 pm)
+- Tuesday, May 14, 2024: Course Module (6-8:30 pm)
+- Wednesday, May 15, 2024: Course Module (6-8:30 pm)
+- Thursday, May 16, 2024: Course Module (6-8:30 pm)
+- Friday, May 17, 2024: Work Period (1-4:00 pm)
+- Saturday, May 18, 2024: Work Period
 
-- **May 27 - Jun 16**
-  - Applying Statistical Concepts
-    - Regression (Week 1)
-    - Modeling + Resampling and Regularization (Week 2)
-    - Tree-based Methods + Unsupervised Learning (Week 3)
+*Week 5*
+- Tuesday, May 21, 2024: Course Module (6-8:30 pm)
+- Wednesday, May 22, 2024: Course Module (6-8:30 pm)
+- Thursday, May 23, 2024: Case Study (6-8:30 pm)
+- Friday, May 24, 2024: Work Period (1-4:00 pm)
+- Saturday, May 25, 2024: Work Period (9 -12:00 pm)
 
-- **Jun 17 - Jun 23**
-  - Team Project
+## Applying Statistical Concepts
+**Regression**
 
-- **Jun 24 - Jul 7**
-  - Scaling to Production
+*Week 6*
+- Monday, May 27, 2024: Job Readiness - Crafting a data science and machine learning resume (Part 2) and GitHub review (6-8:00 pm) 
+- Tuesday, May 28, 2024: Course Module (6-8:30 pm)
+- Wednesday, May 29, 2024: Course Module (6-8:30 pm)
+- Thursday, May 30, 2024: Course Module (6-8:30 pm)
+- Friday, May 31, 2024: Work Period (1-4:00 pm)
+- Saturday, June 1, 2024: Work Period (9 -12:00 pm)
 
-- **Jul 8 - Jul 21**
-  - Data Science Certificate: Sampling
 
-- **Jul 22 - Aug 4**
-  - Data Science Certificate: Visualization
 
-- **Aug 5 - Aug 11**
-  - Team Project
+**Modelling + Resampling and Regularization**
+
+*Week 7*
+- Monday, June 3, 2024: Job Readiness - LinkedIn session (6 - 9:00 pm) 
+- Tuesday, June 4, 2024: Course Module (6-8:30 pm)
+- Wednesday, June 5, 2024: Course Module (6-8:30 pm)
+- Thursday, June 6, 2024: Course Module (6-8:30 pm)
+- Friday, June 7, 2024: Work Period (1-4:00 pm)
+- Saturday, June 8, 2024: Work Period (9 -12:00 pm)
+
+
+
+**Tree-based methods + unsupervised learning**
+
+*Week 8*
+- Monday, June 10, 2024: Job Readiness - Technical Assessments and Interviews (6-9:00 pm) 
+- Tuesday, June 11, 2024: Course Module (6-8:30 pm)
+- Wednesday, June 12, 2024: Course Module (6-8:30 pm)
+- Thursday, June 13, 2024: Course Module (6-8:30 pm)
+- Friday, June 14, 2024: Work Period (1-4:00 pm)
+- Saturday, June 15, 2024: Work Period (9 -12:00 pm)
+
+## Team Project
+*Week 9*
+- Monday, June 17, 2024: Job Readiness - Communicating data analytics to non-technical audiences (6-9:00 pm) 
+- Tuesday, June 18, 2024: Project Kickoff (6-8:30 pm)
+- Wednesday, June 19, 2024: Work Period (6-8:30 pm)
+- Thursday, June 20, 2024: Case Study (6-8:30 pm)
+- Friday, June 21, 2024: Work Period (1-4:00 pm)
+- Saturday, June 22, 2024: Work Period (9 -12:00 pm)
+
+## Scaling to Production
+*Week 10*
+
+- Monday, June 24, 2024: Job Readiness - Networking and Interviewing Skills (6-8:30 pm) 
+- Tuesday, June 25, 2024: Course Module (6-8:30 pm)
+- Wednesday, June 26, 2024: Course Module (6-8:30 pm)
+- Thursday, June 27, 2024: Job Readiness - Optional Mock Interview (12-1:30 pm) & Course Module (6-8:30 pm)
+- Saturday, June 29, 2024: Work Period (9 -12:00 pm)
+
+*Week 11*
+
+- Tuesday, July 2, 2024: Course Module (6-8:30 pm)
+- Wednesday, July 3, 2024: Course Module (6-8:30 pm)
+- Thursday, July 4, 2024: Job Readiness - Optional Mock Interview (12-1:30 pm)
+- Thursday, July 4, 2024: Course Module (6-8:30 pm)
+- Friday, July 5, 2024: Work Period (1-4:00 pm)
+- Saturday, July 6, 2024: Work Period (9 -12:00 pm)
+
+## Sampling
+
+*Week 12*
+
+- Monday, July 8, 2024: Job Readiness - Optional Mock Interview (6-7:30 pm)
+- Tuesday, July 9, 2024: Course Module (6-8:30 pm)
+- Wednesday, July 10, 2024: Course Module (6-8:30 pm)
+- Thursday, July 11, 2024: Job Readiness - Optional Mock Interview (12-1:30 pm) & Course Module (6-8:30 pm)
+- Friday, July 12, 2024: Work Period (1-4:00 pm)
+- Saturday, July 13, 2024: Work Period (9 -12:00 pm)
+
+*Week 13*
+- Monday, July 15, 2024: Job Readiness - Optional Mock Interview (6-7:30 pm)
+- Tuesday, July 16, 2024: Course Module (6-8:30 pm)
+- Wednesday, July 17, 2024: Course Module (6-8:30 pm)
+- Thursday, July 18, 2024: Case Study
+- Friday, July 19, 2024: Work Period (1-4:00 pm)
+- Saturday, July 20, 2024: Work Period (9 -12:00 pm)
+
+## Visualization
+*Week 14*
+- Monday, July 22, 2024: Job Readiness - Optional Mock Interview (6-7:30 pm)
+- Tuesday, July 23, 2024: Course Module (6-8:30 pm)
+- Wednesday, July 24, 2024: Course Module (6-8:30 pm)
+- Thursday, July 25, 2024: Course Module (6-8:30 pm)
+- Friday, July 26, 2024: Work Period (1-4:00 pm)
+- Saturday, July 27, 2024: Work Period (9 -12:00 pm)
+
+*Week 15*
+- Monday, July 29, 2024: Job Readiness - Optional Mock Interview (6-7:30 pm)
+- Tuesday, July 30, 2024: Course Module (6-8:30 pm)
+- Wednesday, July 31, 2024: Course Module (6-8:30 pm)
+- Thursday, August 1, 2024: Case Study (6-8:30 pm)
+- Friday, August 2, 2024: Work Period (1-4:00 pm)
+- Saturday, August 3, 2024: Work Period (9-12:00 pm)
+
+## Team Project
+*Week 16*
+- Tuesday, August 6, 2024: Project Kickoff (6-8:30 pm)
+- Wednesday, August 7, 2024: Project Work Period (6-8:30 pm)
+- Thursday, August 8, 2024: Job Readiness - Optional Mock Interview (12-1:30 pm) & Case Study (6-8:30 pm)
+- Saturday, August 10, 2024: Project Showcase (Videos) (9-12:00 pm)
+
