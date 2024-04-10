@@ -58,7 +58,7 @@
 
 
 
-**Modelling + Resampling and Regularization**
+**Classification**
 
 *Week 7*
 - Monday, June 3, 2024: Job Readiness - LinkedIn session (6 - 9:00 pm) 
@@ -70,7 +70,7 @@
 
 
 
-**Tree-based methods + unsupervised learning**
+**Resampling**
 
 *Week 8*
 - Monday, June 10, 2024: Job Readiness - Technical Assessments and Interviews (6 - 9:00 pm) 
