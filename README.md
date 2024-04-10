@@ -19,5 +19,3 @@ See hardware and software prerequisites for your module and installation instruc
 
 [Session 3](/onboarding_documents/session_specific/session_2/certificate_overview_session_3.md)
 
-## AI Policy
-Read more about the DSI's stance on AI tools under [AI Policy](/onboarding_documents/ai_policy.md)
