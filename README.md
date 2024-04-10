@@ -17,5 +17,5 @@ See hardware and software prerequisites for your module and installation instruc
 
 [Session 2](/onboarding_documents/session_specific/session_2/certificate_overview_session_2.md)
 
-[Session 3](/onboarding_documents/session_specific/session_2/certificate_overview_session_3.md)
+[Session 3](/onboarding/blob/main/onboarding_documents/session_specific/session_3/certificate_overview_session_3.md)
 
