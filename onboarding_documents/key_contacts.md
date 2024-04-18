@@ -4,22 +4,30 @@
 
 ### [Curtis Norman](mailto:curtis.norman@utoronto.ca)   
 
-Curtis is responsible for overseeing the delivery of the DSI Data Science and Machine Learning Certificates.  
+Curtis oversees the delivery of the DSI Data Science and Machine Learning Software Foundations Certificates.  
 
 Contact Curtis for: 
 
-* Certificate inquiries 
+* Certificate feedback
+  
+* For help navigating extenuating circumstances affecting completion of the learning modules 
 
-* To address concerns or challenges you encounter in completing the certificate  
+* To provide feedback on the curriculum or delivery of the Certificates
+
+* To inquire about joining the instructional team for the Certificates 
 
 ## Learner Recruitment Officer, Professional Upskilling 
 
 ### [Jennie Moe](mailto:jennie.moe@utoronto.ca)   
 
-Jennie is the primary point of contact for prospective learners seeking our DSI Data Science and Machine Learning Certificates.  
+Jennie is the primary point of contact for prospective and current participants looking to be upskilled for careers in data science and machine learning.  
 
 Contact Jennie for:  
 
-* Any administrative or logistical questions related to the certificate. 
+* Any administrative or logistical questions related to the certificate.
+
+* For help navigating completion of the learning modules
+
+* To inquire about your progress in the Certificate 
 
 * If you’re unsure about who to contact for a specific issue.
