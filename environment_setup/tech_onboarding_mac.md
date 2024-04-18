@@ -64,11 +64,14 @@ Conda already comes with a lot of good to have python packages but we still need
 Open your terminal and run the following commands:
 ```
 conda create --name dsi_participant python=3.9
-
+```
+```
 conda activate dsi_participant
-
+```
+```
 conda install -c conda-forge numpy requests ipykernel pandas seaborn scikit-learn python-dotenv dask=2024.2.0 dask-expr=0.4.1 sacred sqlalchemy=2.0.27 psycopg2=2.9.9 shap=0.44.1 fancyimpute missingno tensorflow matplotlib plotly nbformat scikit-image opencv transformers
-
+```
+```
 pip install yfinance l0bnb faraway pygam islp pybind11
 ```
 This should install all of the necessary packages needed for your classes.
