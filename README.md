@@ -8,9 +8,9 @@ See hardware and software prerequisites for your module and installation instruc
 
 [Technical requirements](/onboarding_documents/tech_requirements.md)
 
-## Expectations and evaluation
-[Participant expectations](/onboarding_documents/participant_expectations.md)  
-[Certificates evaluation](/onboarding_documents/program_evaluation.md)
+## Participant Experience 
+[Participant Guidelines](/onboarding_documents/participant_guidelines.md)  
+[Data Collection and Evaluation](/onboarding_documents/program_evaluation.md)
 
 ## Certificates overview
 [Session 1](/onboarding_documents/session_specific/session_1/certificate_overview_session_1.md)
