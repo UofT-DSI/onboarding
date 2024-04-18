@@ -1,4 +1,4 @@
-name: dsi_participant
+name: dsi_participant_new
 channels:
   - conda-forge
   - defaults
