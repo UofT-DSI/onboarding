@@ -1,4 +1,4 @@
-# Certificate Evaluation 
+# Data Collection and Evaluation 
 
 We are committed to continuous improvement of our certificate. Your feedback is crucial in helping us enhance the learning experience. Throughout this 16-week process, we kindly request you to take some time to provide your insights through our certificate evaluation process. Please note: All survey responses will be kept confidential and individual, identifiable data will not be shared publicly.  
 
