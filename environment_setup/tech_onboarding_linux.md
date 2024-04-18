@@ -92,3 +92,14 @@ But in the event that you'd like to not go forward with Conda, Python 3.11 and t
 ---
 
 Each tool in this guide is essential for a seamless development experience, from managing dependencies with Miniconda to coding in VS Code, installing Git for version control, and efficiently handling Git credentials with Git Credential Manager.
+
+```
+conda create --name dsi_participants python=3.9
+
+conda activate dsi_participants
+
+
+conda install -c conda-forge numpy requests ipykernel pandas seaborn scikit-learn python-dotenv dask=2024.2.0 dask-expr=0.4.1 sacred sqlalchemy=2.0.27 psycopg2=2.9.9 shap=0.44.1 fancyimpute missingno tensorflow matplotlib plotly nbformat scikit-image opencv transformers
+
+pip install yfinance l0bnb faraway pygam islp pybind11
+```
