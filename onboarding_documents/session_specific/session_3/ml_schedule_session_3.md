@@ -83,8 +83,8 @@
 ## Team Project
 *Week 9*
 - Monday, June 17, 2024: Job Readiness - Communicating data analytics to non-technical audiences (6 - 9:00 pm) 
-- Tuesday, June 18, 2024: Project Kickoff (6 - 8:30 pm)
-- Wednesday, June 19, 2024: Work Period (6 - 8:30 pm)
+- Tuesday, June 18, 2024: Live Learning Session (6 - 8:30 pm)
+- Wednesday, June 19, 2024: Live Learning Session (6 - 8:30 pm)
 - Thursday, June 20, 2024: Case Study (6 - 8:30 pm)
 - Friday, June 21, 2024: Work Period (1 - 4:00 pm)
 - Saturday, June 22, 2024: Work Period (9 - 12:00 pm)
@@ -95,14 +95,13 @@
 - Monday, June 24, 2024: Job Readiness - Networking and Interviewing Skills (6 - 8:30 pm) 
 - Tuesday, June 25, 2024: Live Learning Session (6 - 8:30 pm)
 - Wednesday, June 26, 2024: Live Learning Session (6 - 8:30 pm)
-- Thursday, June 27, 2024: Job Readiness - Optional Mock Interview (12 - 1:30 pm) & Live Learning Session (6 - 8:30 pm)
+- Thursday, June 27, 2024: Live Learning Session (6 - 8:30 pm)
 - Saturday, June 29, 2024: Work Period (9 - 12:00 pm)
 
 *Week 11*
 
 - Tuesday, July 2, 2024: Live Learning Session (6 - 8:30 pm)
 - Wednesday, July 3, 2024: Live Learning Session (6 - 8:30 pm)
-- Thursday, July 4, 2024: Job Readiness - Optional Mock Interview (12 - 1:30 pm)
 - Thursday, July 4, 2024: Live Learning Session (6 - 8:30 pm)
 - Friday, July 5, 2024: Work Period (1 - 4:00 pm)
 - Saturday, July 6, 2024: Work Period (9 - 12:00 pm)
@@ -111,24 +110,23 @@
 
 *Week 12*
 
-- Monday, July 8, 2024: Job Readiness - Optional Mock Interview (6 - 7:30 pm)
 - Tuesday, July 9, 2024: Live Learning Session (6 - 8:30 pm)
 - Wednesday, July 10, 2024: Live Learning Session (6 - 8:30 pm)
-- Thursday, July 11, 2024: Job Readiness - Optional Mock Interview (12 - 1:30 pm) & Live Learning Session (6 - 8:30 pm)
+- Thursday, July 11, 2024: Live Learning Session (6 - 8:30 pm)
 - Friday, July 12, 2024: Work Period (1 - 4:00 pm)
 - Saturday, July 13, 2024: Work Period (9 - 12:00 pm)
 
 *Week 13*
-- Monday, July 15, 2024: Job Readiness - Optional Mock Interview (6 - 7:30 pm)
+
 - Tuesday, July 16, 2024: Live Learning Session (6 - 8:30 pm)
 - Wednesday, July 17, 2024: Live Learning Session (6 - 8:30 pm)
-- Thursday, July 18, 2024: Case Study (6 - 8:30 pm)
+- Thursday, July 18, 2024: Live Learning Session (6 - 8:30 pm)
 - Friday, July 19, 2024: Work Period (1 - 4:00 pm)
 - Saturday, July 20, 2024: Work Period (9 - 12:00 pm)
 
 ## Deep Learning
 *Week 14*
-- Monday, July 22, 2024: Job Readiness - Optional Mock Interview (6 - 7:30 pm)
+
 - Tuesday, July 23, 2024: Live Learning Session (6 - 8:30 pm)
 - Wednesday, July 24, 2024: Live Learning Session (6 - 8:30 pm)
 - Thursday, July 25, 2024: Live Learning Session (6 - 8:30 pm)
@@ -136,7 +134,7 @@
 - Saturday, July 27, 2024: Work Period (9 - 12:00 pm)
 
 *Week 15*
-- Monday, July 29, 2024: Job Readiness - Optional Mock Interview (6 - 7:30 pm)
+
 - Tuesday, July 30, 2024: Live Learning Session (6 - 8:30 pm)
 - Wednesday, July 31, 2024: Live Learning Session (6 - 8:30 pm)
 - Thursday, August 1, 2024: Case Study (6 - 8:30 pm)
@@ -145,8 +143,8 @@
 
 ## Team Project
 *Week 16*
-- Tuesday, August 6, 2024: Project Kickoff (6 - 8:30 pm)
-- Wednesday, August 7, 2024: Project Work Period (6 - 8:30 pm)
-- Thursday, August 8, 2024: Job Readiness - Optional Mock Interview (12 - 1:30 pm) & Case Study (6 - 8:30 pm)
+- Tuesday, August 6, 2024: Live Learning Session (6 - 8:30 pm)
+- Wednesday, August 7, 2024: Live Learning Session (6 - 8:30 pm)
+- Thursday, August 8, 2024: Case Study (6 - 8:30 pm)
 - Saturday, August 10, 2024: Project Showcase (Videos) (9 - 12:00 pm)
 
