@@ -2,11 +2,11 @@
 
 ## Computer 
 
-Learners should have access to a personal computer <u>**with admin privileges**</u>. For the bare minimum specifications required to run Python scripts and R files throughout an entire session, you might consider the following:
+Learners should have access to a personal computer <u>**with admin privileges**</u>. For the bare minimum specifications required to run Python scripts files throughout an entire session, you might consider the following:
   - **RAM:** 4GB is the absolute minimum, but it's important to be aware of performance limitations, especially when dealing with larger data sets or more complex scripts.
   - **Storage:** A minimum of 25GB of storage is necessary. An HDD would suffice, though an SSD would provide better performance, albeit not essential.
   - **CPU:** The bare minimum would be a basic dual-core processor, such as an older generation Intel Pentium, or an AMD A6 or AMD Athlon processor.
-  - **Operating System:** Any modern operating system that supports Python and R is required. This includes older versions of Windows (like Windows 10), macOS (High Sierra 10.13), or Linux distributions. The operating system should be stable and compatible with the programming software in use. It's advisable to avoid ChromeOS, Android OS, and iPadOS; although they can handle these tasks, they do not support out-of-the-box usage, and the effort required for setup and operation is not justifiable. Additionally, these operating systems are not commonly used in the industry for such tasks. 
+  - **Operating System:** Any modern operating system that supports Python is required. This includes older versions of Windows (like Windows 10), macOS (High Sierra 10.13), or Linux distributions. The operating system should be stable and compatible with the programming software in use. It's advisable to avoid ChromeOS, Android OS, and iPadOS; although they may be able to these tasks, they do not support out-of-the-box usage, and the effort required for setup and operation is not justifiable. Additionally, these operating systems are not commonly used in the industry for such tasks. 
 
 ## Internet Connection 
 
@@ -29,21 +29,6 @@ Learners must make a GitHub account at the following page if they don't already 
     * Password: Create a secure password. 
 * Select the free plan 
 
-## Google Colab
-
-Modules that involve Python will be utilizing Jupyter Notebooks on Google Colab. This decision is based on its user-friendly nature and its readiness for use right out of the box.
-
-To ensure a smooth learning experience, learners are required to have a Google account. If they don't already have one, they can create it by following these steps:
-
-  * Visit https://google.com/
-  * Click on the "Sign in" button on the Google homepage.
-  * Instead of signing in, select the "Create account" option.
-  * Follow the prompts to set up your Google account.
-
 ## Software Requirements 
 
-Your technical facilitators will provide you with the specific software requirements at the beginning of each module, and will walk you through the steps on how to install the necessary software for that module.
-
-## Pre-Module Assignments 
-
-Some of the modules in this certificate include pre-module work to help you prepare for the upcoming sessions. Your technical facilitator will email you with specific details about the pre-work assignments for each module.
+Most of the technical requirements are addressed in the [environment_setup directory](../environment_setup/). Please refer to the document that corresponds to your operating system.

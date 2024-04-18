@@ -52,43 +52,19 @@ Git Credential Manager (GCM) is a tool that improves the experience of using Git
 
 Conda already comes with a lot of good to have python packages but we still need to make sure that there are some packages that are installed that don't come with Conda.
 
-Open your terminal and run the following command:
+Open your terminal and run the following commands:
 ```
-conda env create -f environment.yml
+conda create --name dsi_participant python=3.9
+```
+```
 conda activate dsi_participant
 ```
+```
+conda install -c conda-forge numpy requests ipykernel pandas seaborn scikit-learn python-dotenv dask=2024.2.0 dask-expr=0.4.1 sacred sqlalchemy=2.0.27 psycopg2=2.9.9 shap=0.44.1 fancyimpute missingno tensorflow matplotlib plotly nbformat scikit-image opencv transformers
+```
+```
+pip install yfinance l0bnb faraway pygam islp pybind11
+```
 This should install all of the necessary packages needed for your classes.
-
-But in the event that you'd like to not go forward with Conda, Python 3.11 and the following packages are the main packages we will be needing:
-
-* numpy
-* requests
-* ipykernel 
-* pandas 
-* seaborn 
-* scikit-learn 
-* dask==2024.2.0  
-* dask-expr==0.4.1 
-* python-dotenv 
-* sacred 
-* SQLAlchemy=2.0.27 
-* psycopg2=2.9.9 
-* shap=0.44.1 
-* fancyimpute 
-* missingno 
-* tensorflow 
-* matplotlib 
-* plotly 
-* nbformat 
-* scikit-image 
-* opencv 
-* transformers 
-* yfinance 
-* islp 
-* l0bnb 
-* faraway 
-* pygam 
-
----
 
 Each tool in this guide is essential for a seamless development experience, from managing dependencies with Miniconda to coding in VS Code, installing Git for version control, and efficiently handling Git credentials with Git Credential Manager.
