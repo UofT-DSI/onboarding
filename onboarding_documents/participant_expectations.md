@@ -1,4 +1,4 @@
-# Participant Expectations 
+# Participant Guidelines 
 
 ## Evaluation 
 
