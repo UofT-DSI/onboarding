@@ -8,7 +8,6 @@ Curtis oversees the delivery of the DSI Data Science and Machine Learning Softwa
 
 Contact Curtis for: 
 
-* Certificate feedback
   
 * For help navigating extenuating circumstances affecting completion of the learning modules 
 
