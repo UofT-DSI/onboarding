@@ -9,14 +9,12 @@ See hardware and software prerequisites for your module and installation instruc
 [Technical requirements](/onboarding_documents/tech_requirements.md)
 
 ## Participant Experience 
-[Participant Guidelines](/onboarding_documents/participant_guidelines.md)  
-[Data Collection and Evaluation](/onboarding_documents/data_collection_evaluation.md)
-[Submissions](/onboarding/blob/main/onboarding_documents/submissions.md)
+* [Participant Guidelines](./onboarding_documents/participant_guidelines.md)  
+* [Data Collection and Evaluation](./onboarding_documents/data_collection_evaluation.md)
+* [Submissions](./onboarding_documents/submissions.md)
 
 ## Certificates overview
-[Cohort 1](/onboarding_documents/session_specific/session_1/certificate_overview_session_1.md)
-
-[Cohort 2](/onboarding_documents/session_specific/session_2/certificate_overview_session_2.md)
-
-[Cohort 3](/onboarding_documents/session_specific/session_3/certificate_overview_session_3.md)
+* [Cohort 1](/onboarding_documents/session_specific/session_1/certificate_overview_session_1.md)
+* [Cohort 2](/onboarding_documents/session_specific/session_2/certificate_overview_session_2.md)
+* [Cohort 3](/onboarding_documents/session_specific/session_3/certificate_overview_session_3.md)
 
