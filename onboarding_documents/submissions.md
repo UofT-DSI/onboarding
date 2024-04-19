@@ -1,22 +1,22 @@
-# Submission Guide
+# Assignment Submission Guide
 
 ## Introduction
 
-This guide is designed to standardize the submission and grading process for various technical courses offered at the DSI certificates. Our aim is to streamline the process using GitHub, ensuring consistency across courses such as Python, Git, Shell scripting, Statistics, Sampling, Algorithms, and more. Submissions will primarily be in Python, SQL, or Markdown formats, with rare exceptions based on specific course requirements. 
+This guide is designed to standardize the submission and evaluation process for the learning modules in the DSI certificates. Our aim is to streamline the process using GitHub, ensuring consistency across modules. Submissions will primarily be in Python, SQL, or Markdown formats, with rare exceptions based on specific module requirements. 
 
 ## Setting Up
 
-1. **Forking the Course Repository:** At the beginning of the course, participants will have to fork the official module repository to their GitHub account. This is their personal workspace for the duration of the course.
+1. **Forking the Module Repository:** At the beginning of the module, participants will have to fork the module repository to their GitHub account. This is your personal workspace for the duration of the course.
     - Visit the designated UofT-DSI module repo.
     - Click "fork" on the page:
         ![](./images/fork_repo.png)
     - Please do **NOT** change the repo name presented in the "Create a new fork" page, simply click "Create Fork".
         ![](./images/create_new_fork.png)
-    - After a successful forking, your repo should be created at an address resembling `https://github.com/<YOUR GITHUB ID>/<COURSE MODULE>`
+    - After a successful forking, your repo should be created at an address resembling `https://github.com/<YOUR GITHUB ID>/<LEARNING MODULE>`
 
 ## Submitting Assignments
 
-2. **Creating a Branch for the Assignment:** For each assignment, you must create a new branch named after the assignment, e.g., `assignment-1`. Note that we will be using dashes between words, and all lowercase. This branch should stem from your fork of the main course repository.
+2. **Creating a Branch for the Assignment:** For each assignment, you must create a new branch named after the assignment, e.g., `assignment-1`. Note that we will be using dashes between words, and all lowercase. This branch should stem from your fork of the main module repository.
     ![](./images/branche_page.png)
     ![](./images/create_branch_button.png)
     ![](./images/create_branch.png)
@@ -28,14 +28,14 @@ This guide is designed to standardize the submission and grading process for var
         ![](./images/create_pr.png)
         ![](./images/pr_NOT_DO_creation.png)
         ![](./images/pr_branch_to_main.png)
-    - **PR Description:** Your pull request must include a detailed description of what you aimed to accomplish, the approach taken, and whether it has been tested. Incomplete descriptions may result in deductions. Please read [Guidelines for Pull Request Descriptions](#guidelines-for-pull-request-descriptions).
-    - **Public Repository:** Ensure that your repository is public and accessible to others. If your repository is private, technical facilitators and learning support staff will not be able to access it and therefore will not be able to grade your submissions. To do this, go to your repository and check for the "public" badge next to the repository name.
+    - **PR Description:** Your pull request must include a detailed description of what you aimed to accomplish, the approach taken, and whether it has been tested. Please read [Guidelines for Pull Request Descriptions](#guidelines-for-pull-request-descriptions).
+    - **Public Repository:** Ensure that your repository is public and accessible to others. If your repository is private, technical facilitators and learning support staff will not be able to access it and therefore will not be able to evaluate your submissions. To do this, go to your repository and check for the "public" badge next to the repository name.
         ![](./images/public_repo.png)
     - **PR Link:** Please visit your pull request on another browser or in your browsers private mode to ensure that it is accessible by everyone. [Example Pull Request Submission Link](#example-pr-submission-link).
 
 ## Guidelines for Pull Request Descriptions
 
-Your pull request needs to touch on the following topics:
+Your pull request needs to include the following:
 - Summarize your implemented solution and any challenges faced.
 - Detail the testing methods applied.
 - Highlight any specific areas you'd like feedback on.
@@ -65,7 +65,7 @@ Please use the following template for your pull request descriptions:
 - For the most up to date template, please reference [pull_request_template.md](https://github.com/UofT-DSI/.github/blob/main/pull_request_template.md?plain=1)
 
 ## Example Pull Request Submission Link
-A pull request link is typical compromised of the following structure: https://github.com/<github_username>/<repo_name>/pull/<pr_id>
+A pull request link is typical comprised of the following structure: https://github.com/<github_username>/<repo_name>/pull/<pr_id>
 
 For example:
     ```
