@@ -11,6 +11,7 @@ See hardware and software prerequisites for your module and installation instruc
 ## Participant Experience 
 [Participant Guidelines](/onboarding_documents/participant_guidelines.md)  
 [Data Collection and Evaluation](/onboarding_documents/data_collection_evaluation.md)
+[Submissions](/onboarding/blob/main/onboarding_documents/submissions.md)
 
 ## Certificates overview
 [Cohort 1](/onboarding_documents/session_specific/session_1/certificate_overview_session_1.md)
