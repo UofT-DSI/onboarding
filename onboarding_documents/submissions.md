@@ -1,8 +1,8 @@
-# Student Submission and Grading Guide
+# Submission Guide
 
 ## Introduction
 
-This guide is designed to standardize the submission and grading process for various technical courses offered at the DSI certificates. Our aim is to streamline the process using GitHub, ensuring consistency across courses such as Python, Git, Shell scripting, Statistics, Sampling, Algorithms, and more. Submissions will primarily be in Python, SQL, or Markdown formats, with rare exceptions based on specific course requirements. 
+This guide is designed to standardize the submission and evaluation process for various technical courses offered at the DSI certificates. Our aim is to streamline the process using GitHub, ensuring consistency across courses such as Python, Git, Shell scripting, Statistics, Sampling, Algorithms, and more. Submissions will primarily be in Python, SQL, or Markdown formats, with rare exceptions based on specific course requirements. 
 
 ## Setting Up
 
