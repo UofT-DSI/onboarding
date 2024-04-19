@@ -1,4 +1,4 @@
-# Student Submission and Grading Guide
+# Submission Guide
 
 ## Introduction
 
