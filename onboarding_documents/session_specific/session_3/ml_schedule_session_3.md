@@ -1,7 +1,7 @@
 # Module Schedule
 
 ## Introduction to Building Software
-**Unix Shell, Git & GitHub**
+**Unix Shell & Git**
 
 *Week 1*
   - Monday, April 22, 2024: Onboarding (6 - 7:30 pm)
@@ -106,7 +106,7 @@
 - Friday, July 5, 2024: Work Period (1 - 4:00 pm)
 - Saturday, July 6, 2024: Work Period (9 - 12:00 pm)
 
-## Data Structures and Algorithms
+## Algorithms and Data Structures
 
 *Week 12*
 

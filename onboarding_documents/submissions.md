@@ -31,7 +31,7 @@ This guide is designed to standardize the submission and evaluation process for 
     - **PR Description:** Your pull request must include a detailed description of what you aimed to accomplish, the approach taken, and whether it has been tested. Please read [Guidelines for Pull Request Descriptions](#guidelines-for-pull-request-descriptions).
     - **Public Repository:** Ensure that your repository is public and accessible to others. If your repository is private, technical facilitators and learning support staff will not be able to access it and therefore will not be able to evaluate your submissions. To do this, go to your repository and check for the "public" badge next to the repository name.
         ![](./images/public_repo.png)
-    - **PR Link:** Please visit your pull request on another browser or in your browsers private mode to ensure that it is accessible by everyone. [Example Pull Request Submission Link](#example-pr-submission-link).
+    - **PR Link:** Please visit your pull request on another browser or in your browsers private mode to ensure that it is accessible by everyone. [Example Pull Request Submission Link](#example-pull-request-submission-link).
 
 ## Guidelines for Pull Request Descriptions
 
