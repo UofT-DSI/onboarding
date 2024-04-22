@@ -1,7 +1,7 @@
 # Module Schedule
 
 ## Introduction to Building Software
-**Unix Shell, Git & GitHub**
+**Unix Shell & Git**
 
 *Week 1*
   - Monday, April 22, 2024: Onboarding (6 - 7:30 pm)
