@@ -18,3 +18,11 @@ See hardware and software prerequisites for your module and installation instruc
 * [Cohort 2](/onboarding_documents/session_specific/session_2/certificate_overview_session_2.md)
 * [Cohort 3](/onboarding_documents/session_specific/session_3/certificate_overview_session_3.md)
 
+## Certificates schedule
+*[Cohort 1 Data Science](/onboarding_documents/session_specific/session_2/ds_schedule_session_1.md)
+*[Cohort 1 Machine Learning Software Foundations](/onboarding_documents/session_specific/session_2/ml_schedule_session_1.md)
+*[Cohort 2 Data Science](/onboarding_documents/session_specific/session_2/ds_schedule_session_2.md)
+*[Cohort 2 Machine Learning Software Foundations](/onboarding_documents/session_specific/session_2/ml_schedule_session_2.md)
+*[Cohort 3 Data Science](/onboarding_documents/session_specific/session_2/ds_schedule_session_3.md)
+*[[Cohort 2 Machine Learning Software Foundations](/onboarding_documents/session_specific/session_2/ml_schedule_session_3.md)
+
