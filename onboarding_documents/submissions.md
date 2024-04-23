@@ -65,7 +65,7 @@ Please use the following template for your pull request descriptions:
 - For the most up to date template, please reference [pull_request_template.md](https://github.com/UofT-DSI/.github/blob/main/pull_request_template.md?plain=1)
 
 ## Example Pull Request Submission Link
-A pull request link is typical comprised of the following structure: https://github.com/<github_username>/<repo_name>/pull/<pr_id>
+A pull request link is typical comprised of the following structure: `https://github.com/<github_username>/<repo_name>/pull/<pr_id>`
 
 For example:
     ```
