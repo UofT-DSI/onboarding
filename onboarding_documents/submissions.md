@@ -106,3 +106,4 @@ Sometimes, you might accidentally merge your assignment branch into your fork's 
 ### Need Further Help?
 
 If you encounter difficulties or need clarification on the steps, don't hesitate to reach out to the technical facilitators or learning support staff. They are here to help you navigate any issues you might encounter during your coursework.
+
