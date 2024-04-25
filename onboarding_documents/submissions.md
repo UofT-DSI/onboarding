@@ -14,6 +14,8 @@ This guide is designed to standardize the submission and evaluation process for 
         ![](./images/create_new_fork.png)
     - After a successful forking, your repo should be created at an address resembling `https://github.com/<YOUR GITHUB ID>/<LEARNING MODULE>`
 
+*Note: For a visual guide on how to fork your repo, we've also created a video tutorial, ["How to Fork a Repo"](https://youtu.be/H-8kzcQWJ7U), available for you to watch.*
+
 ## Submitting Assignments
 
 2. **Creating a Branch for the Assignment:** For each assignment, you must create a new branch named after the assignment, e.g., `assignment-1`. Note that we will be using dashes between words, and all lowercase. This branch should stem from your fork of the main module repository.
@@ -75,6 +77,8 @@ For example:
     https://github.com/johnsmith/python/pull/2
     ```
 
+*Note: For a visual guide on how to submit your assignments, we've also created a video tutorial, ["How to Submit an Assignment"](https://youtu.be/gXtxb0ECs2A), available for you to watch.*
+
 ## Handling Accidental Merges
 
 Sometimes, you might accidentally merge your assignment branch into your fork's main branch before it's time to do so. If this happens, it's important to know how to reverse the changes to maintain the integrity of your main branch. Follow these steps to undo an accidental merge:
@@ -107,3 +111,7 @@ Sometimes, you might accidentally merge your assignment branch into your fork's 
 
 If you encounter difficulties or need clarification on the steps, don't hesitate to reach out to the technical facilitators or learning support staff. They are here to help you navigate any issues you might encounter during your coursework.
 
+## Resources
+
+* [How to Fork a Repo](https://youtu.be/H-8kzcQWJ7U)
+* [How to Submit an Assignment](https://youtu.be/gXtxb0ECs2A)
