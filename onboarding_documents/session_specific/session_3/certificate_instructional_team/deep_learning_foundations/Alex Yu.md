@@ -1,5 +1,5 @@
-## Learning Support - SQL
+## Learning Support - Deep Learning Foundations
 
-**Ananya Jha**  
-Email: ananya.jha@mail.utoronto.ca  
+**Alex Yu**  
+Email: alexk.yu@mail.utoronto.ca
 *Waiting on bio*
