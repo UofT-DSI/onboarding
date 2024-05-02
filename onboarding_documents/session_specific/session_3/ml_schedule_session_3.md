@@ -51,7 +51,7 @@
 *Week 6*
 - Monday, May 27, 2024: Job Readiness - Crafting a data science and machine learning resume (Part 2) and GitHub review (6 - 8:00 pm) 
 - Tuesday, May 28, 2024: Live Learning Session (6 - 8:30 pm)
-- Wednesday, May 29, 2024: Live Learning Session (6 - 8:30 pm)
+- Wednesday, May 29, 2024: Job Readiness - Virtual Networking Event (4:30 - 6:00 pm) & Live Learning Session (6 - 8:30 pm)
 - Thursday, May 30, 2024: Live Learning Session (6 - 8:30 pm)
 - Friday, May 31, 2024: Work Period (1 - 4:00 pm)
 - Saturday, June 1, 2024: Work Period (9 - 12:00 pm)
@@ -73,7 +73,7 @@
 **Resampling**
 
 *Week 8*
-- Monday, June 10, 2024: Job Readiness - Technical Assessments and Interviews (6 - 9:00 pm) 
+- Monday, June 10, 2024: Job Readiness - Networking and Interview Skills (6 - 8:30 pm) 
 - Tuesday, June 11, 2024: Live Learning Session (6 - 8:30 pm)
 - Wednesday, June 12, 2024: Live Learning Session (6 - 8:30 pm)
 - Thursday, June 13, 2024: Live Learning Session (6 - 8:30 pm)
@@ -92,7 +92,7 @@
 ## Scaling to Production
 *Week 10*
 
-- Monday, June 24, 2024: Job Readiness - Networking and Interviewing Skills (6 - 8:30 pm) 
+- Monday, June 24, 2024: Job Readiness - Technical Assessments and Interviews (6 - 9:00 pm) 
 - Tuesday, June 25, 2024: Live Learning Session (6 - 8:30 pm)
 - Wednesday, June 26, 2024: Live Learning Session (6 - 8:30 pm)
 - Thursday, June 27, 2024: Live Learning Session (6 - 8:30 pm)
