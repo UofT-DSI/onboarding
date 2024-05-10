@@ -61,7 +61,7 @@
 **Classification**
 
 *Week 7*
-- Monday, June 3, 2024: Job Readiness - LinkedIn session (6 - 9:00 pm) 
+- Monday, June 3, 2024: Job Readiness - Networking and Interview Skills (6 - 8:30 pm)
 - Tuesday, June 4, 2024: Live Learning Session (6 - 8:30 pm)
 - Wednesday, June 5, 2024: Live Learning Session (6 - 8:30 pm)
 - Thursday, June 6, 2024: Live Learning Session (6 - 8:30 pm)
@@ -73,7 +73,7 @@
 **Resampling**
 
 *Week 8*
-- Monday, June 10, 2024: Job Readiness - Networking and Interview Skills (6 - 8:30 pm) 
+- Monday, June 10, 2024: Job Readiness - LinkedIn session (6 - 9:00 pm)   
 - Tuesday, June 11, 2024: Live Learning Session (6 - 8:30 pm)
 - Wednesday, June 12, 2024: Live Learning Session (6 - 8:30 pm)
 - Thursday, June 13, 2024: Live Learning Session (6 - 8:30 pm)
