@@ -4,8 +4,6 @@
 
 The purpose of evaluation in the Certificates is to assess whether you have been upskilled following the completion of each learning module. For you to proceed through the entire Certificate, you are required to demonstrate the learning outcomes of each learning module. Given the Certificates' objectives of upskilling participants, each learning module is designed to assess whether you have sufficiently developed the skills associated with each module. The assignments that measure the achievement of learning outcomes are therefore evaluated using a pass or fail system. When evaluating assignments and/or homework in the learning module, the instructional team assesses whether you have demonstrated enough evidence that you've achieved the learning outcomes and have developed the required technical skills. 
 
-TEST
-
 ## Deadlines and Extensions
 
 All assignment due dates fall within the dates of the course. Any requests for extensions must occur before the assignment due date. No extensions will be granted beyond one week following the end of the course. All submitted assignments will be evaluated within one week of the close of submissions. If exceptional circumstances arise during the Certificate that prevents you from meeting the requirements of the learning modules, it is essential that you communicate to the Technical Facilitator and the DSI team courses.dsi@utoronto.ca as soon as possible. 
