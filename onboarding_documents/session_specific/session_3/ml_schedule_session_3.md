@@ -96,6 +96,7 @@
 - Tuesday, June 25, 2024: Live Learning Session (6 - 8:30 pm)
 - Wednesday, June 26, 2024: Live Learning Session (6 - 8:30 pm)
 - Thursday, June 27, 2024: Live Learning Session (6 - 8:30 pm)
+- Friday, June 28, 2024: Work Period (1 - 4:00 pm)
 - Saturday, June 29, 2024: Work Period (9 - 12:00 pm)
 
 *Week 11*
