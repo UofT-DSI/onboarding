@@ -121,7 +121,7 @@
 
 - Tuesday, July 16, 2024: Live Learning Session (6 - 8:30 pm)
 - Wednesday, July 17, 2024: Live Learning Session (6 - 8:30 pm)
-- Thursday, July 18, 2024: Case Study (6 - 8:30 pm)
+- Thursday, July 18, 2024: Live Learning Session (6 - 8:30 pm)
 - Friday, July 19, 2024: Work Period (1 - 4:00 pm)
 - Saturday, July 20, 2024: Work Period (9 - 12:00 pm)
 
