@@ -11,6 +11,7 @@
 ## Introduction to Building Software
 **Week 2**
 
+- Monday, August 26, 2024: Communicating with Impact (6:00 pm - 8:30 pm)
 - Tuesday, August 27, 2024: Live Learning Session (6:00 pm - 8:30 pm)
 - Wednesday, August 28, 2024: Live Learning Session (6:00 pm - 8:30 pm)
 - Thursday, August 29, 2024: Live Learning Session (6:00 pm - 8:30 pm)
@@ -29,6 +30,7 @@
 ## SQL
 **Week 4**
 
+- Monday, September 9, 2024: Resume Part 1 (intro to LinkedIn) (6 - 7:30 pm)
 - Tuesday, September 10, 2024: Live Learning Session (6:00 pm - 8:30 pm)
 - Wednesday, September 11, 2024: Live Learning Session (6:00 pm - 8:30 pm)
 - Thursday, September 12, 2024: Live Learning Session (6:00 pm - 8:30 pm)
@@ -38,6 +40,7 @@
 ## SQL
 **Week 5**
 
+- Monday, September 16, 2024: Resume Part 2 (GitHub and summary template) (6 - 7:30 pm)
 - Tuesday, September 17, 2024: Live Learning Session (6:00 pm - 8:30 pm)
 - Wednesday, September 18, 2024: Live Learning Session (6:00 pm - 8:30 pm)
 - Thursday, September 19, 2024: Case Study (6:00 pm - 8:30 pm)
@@ -56,6 +59,7 @@
 ## Applying Statistical Concepts
 **Week 7**
 
+- Monday, September 30, 2024: Networking and Interviewing Skills (6:00 pm - 8:30 pm)
 - Tuesday, October 1, 2024: Live Learning Session (6:00 pm - 8:30 pm)
 - Wednesday, October 2, 2024: Live Learning Session (6:00 pm - 8:30 pm)
 - Thursday, October 3, 2024: Live Learning Session (6:00 pm - 8:30 pm)
@@ -65,6 +69,7 @@
 ## Applying Statistical Concepts
 **Week 8**
 
+- Monday, October 7, 2024: LinkedIn session (6:00 pm - 9:00 pm)
 - Tuesday, October 8, 2024: Live Learning Session (6:00 pm - 8:30 pm)
 - Wednesday, October 9, 2024: Live Learning Session (6:00 pm - 8:30 pm)
 - Thursday, October 10, 2024: Live Learning Session (6:00 pm - 8:30 pm)
@@ -83,6 +88,7 @@
 ## Scaling to Production
 **Week 10**
 
+- Monday, October 21, 2024: Technical Assessments and Interviews (6 - 9:00 pm)
 - Tuesday, October 22, 2024: Live Learning Session (6:00 pm - 8:30 pm)
 - Wednesday, October 23, 2024: Live Learning Session (6:00 pm - 8:30 pm)
 - Thursday, October 24, 2024: Live Learning Session (6:00 pm - 8:30 pm)
@@ -110,6 +116,8 @@
 ## Data Structures and Algorithms
 **Week 13**
 
+- Monday, November 11, 2024: Communicating Data Analytics to Non-technical Audiences
+ (6 - 8:30 pm)
 - Tuesday, November 12, 2024: Live Learning Session (6 - 8:30 pm)
 - Wednesday, November 13, 2024: Live Learning Session (6 - 8:30 pm)
 - Thursday, November 14, 2024: Case Study (6 - 8:30 pm)
