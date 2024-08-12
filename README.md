@@ -17,4 +17,5 @@ See hardware and software prerequisites for your module and installation instruc
 * [Cohort 1](/onboarding_documents/session_specific/session_1)
 * [Cohort 2](/onboarding_documents/session_specific/session_2/)
 * [Cohort 3](/onboarding_documents/session_specific/session_3/)
+* [Cohort 4](/onboarding_documents/session_specific/session_4/)
 
