@@ -43,7 +43,7 @@
 - Monday, September 16, 2024: Resume Part 2 (GitHub and summary template) (6 - 7:30 pm)
 - Tuesday, September 17, 2024: Live Learning Session (6:00 pm - 8:30 pm)
 - Wednesday, September 18, 2024: Live Learning Session (6:00 pm - 8:30 pm)
-- Thursday, September 19, 2024: Case Study (6:00 pm - 8:30 pm)
+- Thursday, September 19, 2024: Live Learning Session (6:00 pm - 8:30 pm)
 - Friday, September 20, 2024: Work Period (1:00 pm - 4:00 pm)
 - Saturday, September 21, 2024: Work Period (9:00 am - 12:00 pm)
 
