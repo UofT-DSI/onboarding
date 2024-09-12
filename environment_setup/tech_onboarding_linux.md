@@ -136,3 +136,5 @@ This command will display all the packages currently installed in your `dsi_part
 
 ### Conclusion
 This guide has equipped you with all the essential tools needed for your data science journey—from setting up Miniconda for managing dependencies, to coding in VS Code, and ensuring smooth version control with Git and Git Credential Manager. By installing these tools now, you’re setting yourself up for a hassle-free experience, allowing you to focus fully on your learning modules throughout the cohort without further interruptions for software installations.
+
+updated 
