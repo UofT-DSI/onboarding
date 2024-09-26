@@ -1,4 +1,4 @@
-## Module Technical Facilitator - Scaling to Production
+## Module Technical Facilitator - Production
 
 **Jesus Calderon**  
 Email: jesus.calderon@maclear.ca  

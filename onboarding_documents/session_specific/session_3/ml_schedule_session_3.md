@@ -89,7 +89,7 @@
 - Friday, June 21, 2024: Work Period (1 - 4:00 pm)
 - Saturday, June 22, 2024: Work Period (9 - 12:00 pm)
 
-## Scaling to Production
+## Production
 *Week 10*
 
 - Monday, June 24, 2024: Job Readiness - Technical Assessments and Interviews (6 - 9:00 pm) 

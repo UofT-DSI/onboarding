@@ -84,7 +84,7 @@
 - Friday, October 18, 2024: Work Period (1:00 pm - 4:00 pm)
 - Saturday, October 19, 2024: Work Period (9:00 am - 12:00 pm)
 
-## Scaling to Production
+## Production
 **Week 10**
 
 - Monday, October 21, 2024: Technical Assessments and Interviews (6 - 9:00 pm)
@@ -94,7 +94,7 @@
 - Friday, October 25, 2024: Work Period (1:00 pm - 4:00 pm)
 - Saturday, October 26, 2024: Work Period (9:00 am - 12:00 pm)
 
-## Scaling to Production
+## Production
 **Week 11**
 
 - Tuesday, October 29, 2024: Live Learning Session (6:00 pm - 8:30 pm)
