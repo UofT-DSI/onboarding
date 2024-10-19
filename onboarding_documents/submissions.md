@@ -123,7 +123,7 @@ Please use the following template for your pull request descriptions:
 Here’s an example of how your pull request should look once submitted:
 
 
-    UofT-DSI | Shell - Assignment 2
+    TITLE: UofT-DSI | Shell - Assignment 2
 
     ## What changes are you trying to make?
     I have added shell scripts to automate file processing and created a script to move files based on their extensions. I also added comments to explain the logic behind each script.
