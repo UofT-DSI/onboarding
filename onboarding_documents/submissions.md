@@ -18,24 +18,81 @@ This guide is designed to standardize the submission and evaluation process for 
 
 ## Submitting Assignments
 
-2. **Creating a Branch for the Assignment:** For each assignment, you must create a new branch named after the assignment, e.g., `assignment-1`. Note that we will be using dashes between words, and all lowercase. This branch should stem from your fork of the main module repository.
-    ![](./images/branche_page.png)
-    ![](./images/create_branch_button.png)
-    ![](./images/create_branch.png)
+### Creating a Branch for the Assignment
+For each assignment, you must create a new branch named after the assignment, e.g., `assignment-1`. Note that we will be using dashes between words, and all lowercase. This branch should stem from your fork of the main module repository.
 
-3. **Completing Your Assignment:** Work on your assignment within this branch. Ensure your submission includes all required files, following the formats specified.
+![Create Branch](./images/branche_page.png)
+![Create Branch Button](./images/create_branch_button.png)
+![Create Branch](./images/create_branch.png)
 
-4. **Creating a Pull Request (PR):**
-    - Upon completing your assignment, create a pull request from your assignment branch (`assignment-1`) to **your fork's main branch**. (Please make sure the pull request is **NOT** to the source/upstream repository's main branch)
-        ![](./images/create_pr.png)
-        ![](./images/pr_NOT_DO_creation.png)
-        ![](./images/pr_branch_to_main.png)
-    - **PR Description:** Your pull request must include a detailed description of what you aimed to accomplish, the approach taken, and whether it has been tested. Please read [Guidelines for Pull Request Descriptions](#guidelines-for-pull-request-descriptions).
-    - **Public Repository:** Ensure that your repository is public and accessible to others. If your repository is private, technical facilitators and learning support staff will not be able to access it and therefore will not be able to evaluate your submissions. To do this, go to your repository and check for the "public" badge next to the repository name.
-        ![](./images/public_repo.png)
-    - **PR Link:** Please visit your pull request on another browser or in your browsers private mode to ensure that it is accessible by everyone. [Example Pull Request Submission Link](#example-pull-request-submission-link).
-    - **Do not tag your teaching team in the pull request**: We will be able to find your submissions if you have followed the instructions above!
-    
+### Cloning the Repo and Setting Up in VS Code
+
+#### Cloning the Repository Using GitHub
+After creating your assignment branch, the next step is to clone the repository to your local machine. First, go to your forked repository on GitHub and click on the green "Code" button, then copy the HTTPS URL.
+
+![GitHub Clone Button](./images/clone_button.png)
+
+Open **VS Code** and go to the **Source Control** view by clicking the **Source Control** icon on the left-hand panel. Click the **Clone Repository** button. Paste the HTTPS URL you copied from GitHub into the prompt.
+
+![Source Control Icon](./images/source_control_icon.png)
+
+After you click on the **Clone from URL** button in VS Code, a file picker window will open, allowing you to choose where to save the repository files on your computer. This is where you decide where the project will be stored. 
+
+Think of this like choosing a folder where you'll keep all your project work. It’s best to pick a place where you normally save school or project files, such as a folder named `Projects` or `Assignments`.
+
+If you’re unsure where to put it, choose a folder where you normally store your projects or important documents. If you prefer, you can create a new folder, such as `Projects` or `Assignments`, to keep things organized.
+
+Once you choose the folder, the repository will be copied (or "cloned") into that location so you can start working on it.
+
+> *Note: "Repository" is just a folder that contains all the project files.*
+
+VS Code will then clone the repository and open it in the workspace automatically.
+
+![VSCode After the Steps](./images/cloned_repo_in_vscode.png)
+
+#### Reopening the Repository in VS Code
+If you close VS Code or need to reopen the repository later, the main way to reopen it is by clicking on the **Source Control** button in the left-hand panel and selecting **Open Folder** from the prompt that appears.
+
+Alternatively, you can also reopen the repository by clicking on **File > Open Folder** in the top menu. Navigate to the location where the repository was cloned, select it, and click **Open** to continue working on your project.
+
+![Open Folder](./images/open_cloned_repo.png)
+
+#### Setting Up the Conda Environment
+You will need to use a Conda environment called `dsi_participant`. Ensure that this environment is activated in VS Code. If you have not set it up yet, follow the instructions provided in the [environment setup guide](https://github.com/UofT-DSI/onboarding/tree/main/environment_setup) (Specific to [Windows](https://github.com/UofT-DSI/onboarding/blob/main/environment_setup/tech_onboarding_windows.md#necessary-packages), [MacOS](https://github.com/UofT-DSI/onboarding/blob/main/environment_setup/tech_onboarding_mac.md#necessary-packages), and [Linux](https://github.com/UofT-DSI/onboarding/blob/main/environment_setup/tech_onboarding_linux.md#necessary-packages)) to install and activate the `dsi_participant` environment.
+
+To ensure that you are working within the correct environment in VS Code:
+- Open the terminal by clicking **Terminal > New Terminal**.
+- Run the following command to activate the environment:
+
+```
+conda activate dsi_participant
+```
+
+After activating the environment, you are ready to begin working on your assignment.
+
+### Completing Your Assignment
+Work on your assignment within the newly created branch. Ensure that all changes are **committed and pushed to the branch** and **🚨NOT THE MAIN BRANCH🚨**. Make sure your submission includes all required files, following the formats specified.
+
+### Creating a Pull Request (PR)
+*Upon completing your assignment*, create a pull request from your assignment branch (`assignment-1`) to **your fork's main branch**. (Please make sure the pull request is **NOT** to the source/upstream repository's main branch)
+
+![Create PR](./images/create_pr.png)
+![PR NOT DO](./images/pr_NOT_DO_creation.png)
+![PR Branch to Main](./images/pr_branch_to_main.png)
+
+#### PR Description
+Your pull request must include a detailed description of what you aimed to accomplish, the approach taken, and whether it has been tested. Please read [Guidelines for Pull Request Descriptions](#guidelines-for-pull-request-descriptions).
+
+#### Public Repository
+Ensure that your repository is public and accessible to others. If your repository is private, technical facilitators and learning support staff will not be able to access it and therefore will not be able to evaluate your submissions. To do this, go to your repository and check for the "public" badge next to the repository name.
+
+![Public Repo](./images/public_repo.png)
+
+#### Pull Request Link
+Please visit your pull request on another browser or in your browser’s private mode to ensure that it is accessible by everyone. [Example Pull Request Submission Link](#example-pull-request-submission-link).
+
+#### Do Not Tag Your Teaching Team
+Do not tag your teaching team in the pull request. We will be able to find your submissions if you have followed the instructions above!
 
 ## Guidelines for Pull Request Descriptions
 
@@ -63,7 +120,31 @@ Please use the following template for your pull request descriptions:
     ## Checklist
     - [ ] I can confirm that my changes are working as intended
 
-- For the most up to date template, please reference [pull_request_template.md](https://github.com/UofT-DSI/.github/blob/main/pull_request_template.md?plain=1)
+Here’s an example of how your pull request should look once submitted:
+
+
+    TITLE: UofT-DSI | Shell - Assignment 2
+
+    ## What changes are you trying to make?
+    I have added shell scripts to automate file processing and created a script to move files based on their extensions. I also added comments to explain the logic behind each script.
+
+    ## What did you learn from the changes you have made?
+    I learned how to use loops, conditionals, and arguments in shell scripts to automate tasks and manage files.
+
+    ## Was there another approach you were thinking about making?
+    I considered using Python for file processing but stuck with shell scripting as per the assignment requirements.
+
+    ## Were there any challenges?
+    I faced challenges when handling edge cases like files with no extensions or hidden files. I resolved these issues by adding checks within the script.
+
+    ## How were these changes tested?
+    I tested the scripts on a sample directory with various file types and used different test cases to ensure the scripts handled all edge cases properly.
+
+    ## Checklist
+    - [x] I can confirm that my changes are working as intended
+    - [x] I have tested the script with different file types, and it works as expected
+
+- For the most up-to-date template, please reference [pull_request_template.md](https://github.com/UofT-DSI/.github/blob/main/pull_request_template.md?plain=1)
 
 ## Example Pull Request Submission Link
 A pull request link is typical comprised of the following structure: `https://github.com/<github_username>/<repo_name>/pull/<pr_id>`
