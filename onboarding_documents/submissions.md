@@ -188,6 +188,36 @@ Sometimes, you might accidentally merge your assignment branch into your fork's 
 
 If you encounter difficulties or need clarification on the steps, don't hesitate to reach out to the technical facilitators or learning support staff. They are here to help you navigate any issues you might encounter during your coursework.
 
+## Syncing Your Forked Repository with the Original Repository
+
+Over time, the original repository might receive updates or changes from the course facilitators. To ensure you have the latest features, bug fixes, or updates, you should periodically sync your forked repository with the original. This helps avoid issues like working with outdated materials or missing important changes that could affect your assignments.
+
+### Steps to Sync Your Fork:
+
+**Navigate to Your Forked Repository:**
+- Go to your forked repository on GitHub. You can find it at an address like `https://github.com/<YOUR GITHUB ID>/<LEARNING MODULE>`.
+   
+**Click the "Sync Fork" Button:**
+- At the top of the page, you will see a "Sync fork" button. Click this button to pull in any new changes from the original (upstream) repository.
+
+**Update Your Branch:**
+- After clicking the "Sync fork" button, you will see a green "Update branch" button if there are any new updates from the original repository. Click this button to merge those changes into your fork.
+
+![Update Branch](./images/update_branch.png)
+
+**Confirm Sync:**
+- Once the update is complete, your forked repository will be up to date with the original. If you attempt to click the "Sync fork" button again, it will notify you that "This branch is not behind the upstream," meaning no new changes are available to sync.
+
+![Branch is Not Behind Upstream](./images/not_behind_upstream.png)
+
+> **Note: Handling Conflicts When Syncing**
+>
+> If you've already worked on files (like your homework or assignments) in your fork and the same files have been changed in the upstream repository, GitHub will detect a conflict.
+>
+> GitHub will show a "Resolve conflict" button and may prompt you to create a pull request to handle the conflict. This allows you to decide which changes to keep — your own, the new updates, or a mix of both — without losing your work.
+>
+> Be sure to carefully review the changes so you don’t accidentally overwrite your completed work. After resolving, you can commit the changes and sync your fork with the latest updates.
+
 ## Resources
 
 * [How to Fork a Repo](https://youtu.be/H-8kzcQWJ7U)
