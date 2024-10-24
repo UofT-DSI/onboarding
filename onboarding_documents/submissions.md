@@ -10,7 +10,7 @@ This guide is designed to standardize the submission and evaluation process for 
     - Visit the designated UofT-DSI module repo.
     - Click "fork" on the page:
         ![](./images/fork_repo.png)
-    - # 🚨🚨🚨Please do **NOT** change the repo name 🚨🚨🚨 presented in the "Create a new fork" page, simply click "Create Fork".
+    - Please do **NOT** change the repo name presented in the "Create a new fork" page, simply click "Create Fork".
         ![](./images/create_new_fork.png)
     - After a successful forking, your repo should be created at an address resembling `https://github.com/<YOUR GITHUB ID>/<LEARNING MODULE>`
 
