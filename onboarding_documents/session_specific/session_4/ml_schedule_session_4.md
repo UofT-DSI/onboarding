@@ -119,8 +119,8 @@
 - Monday, November 11, 2024: Communicating Data Analytics to Non-technical Audiences
  (6 - 8:30 pm)
 - Tuesday, November 12, 2024: Live Learning Session (6 - 8:30 pm)
-- Wednesday, November 13, 2024: Live Learning Session (6 - 8:30 pm)
-- Thursday, November 14, 2024: Case Study (6 - 8:30 pm)
+- Wednesday, November 13, 2024: Case Study (6 - 8:30 pm)
+- Thursday, November 14, 2024: Live Learning Session (6 - 8:30 pm)
 - Friday, November 15, 2024: Work Period (1 - 4:00 pm)
 - Friday, November 16, 2024: Work Period (9:00 am - 12:00 pm)
 
