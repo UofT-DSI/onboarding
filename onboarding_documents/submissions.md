@@ -70,11 +70,15 @@ conda activate dsi_participant
 
 After activating the environment, you are ready to begin working on your assignment.
 
-### Completing Your Assignment
+### Completing and Submitting Your Assignment
 Work on your assignment within the newly created branch. Ensure that all changes are **committed and pushed to the branch** and **🚨NOT THE MAIN BRANCH🚨**. Make sure your submission includes all required files, following the formats specified.
 
+Once you've completed your work, it's time to submit your changes by committing and pushing to your assignment branch. Make sure you're following proper Git workflow as outlined in the Git basics slides: [Git Basics](https://github.com/UofT-DSI/git/blob/main/01_materials/slides/03_git_basics.pdf).
+
+When you're ready to submit, open a pull request (PR) from your assignment branch to **your fork's main branch**. For more guidance, see the section [Creating a Pull Request (PR)](#creating-a-pull-request-pr).
+
 ### Creating a Pull Request (PR)
-*Upon completing your assignment*, create a pull request from your assignment branch (`assignment-1`) to **your fork's main branch**. (Please make sure the pull request is **NOT** to the source/upstream repository's main branch)
+*Upon completing your assignment*, create a pull request from your assignment branch to **your fork's main branch**. (Please make sure the pull request is **NOT** to the source/upstream repository's main branch)
 
 ![Create PR](./images/create_pr.png)
 ![PR NOT DO](./images/pr_NOT_DO_creation.png)
