@@ -109,7 +109,7 @@ This command switches your terminal to use the Python version and packages insta
 Next, you'll need to install various packages essential for your modules. The following command installs a comprehensive set of packages all at once:
 
 ```bash
-conda install -c conda-forge numpy requests ipykernel pandas seaborn scikit-learn python-dotenv dask=2024.2.0 dask-expr=0.4.1 sacred sqlalchemy=2.0.27 psycopg2=2.9.9 shap=0.44.1 fancyimpute missingno tensorflow matplotlib plotly nbformat scikit-image opencv transformers
+conda install -c conda-forge numpy requests ipykernel pandas seaborn scikit-learn python-dotenv dask pyarrow">=11.0.0" sacred sqlalchemy psycopg2 shap fancyimpute missingno tensorflow matplotlib plotly nbformat scikit-image opencv transformers yfinance pygam pybind11
 ```
 
 Running this command in your "dsi_participant" environment ensures you have almost all the necessary tools installed for the duration of the certificates.
@@ -119,7 +119,7 @@ Some packages aren’t available through Conda, so we use another tool called **
 Here’s the command to install the remaining packages:
 
 ```bash
-pip install yfinance l0bnb faraway pygam islp pybind11
+pip install l0bnb faraway islp
 ```
 
 This step completes the setup of all the necessary software for your modules in the designated environment.
