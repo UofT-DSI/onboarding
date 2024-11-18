@@ -67,7 +67,10 @@ Steps:
 * Execute the following command: `conda init bash`
     * close the window afterwards
 * Click the Start Button and Search and open "Git Bash"
-* Execute the following command: `echo '. ${HOME}/.bash_profile' >> ~/.bashrc`
+* Execute the following command:
+```
+echo '. ${HOME}/.bash_profile' >> ~/.bashrc
+```
     * close the window
 * restart your computer
 
