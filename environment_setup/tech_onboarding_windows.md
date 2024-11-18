@@ -71,7 +71,7 @@ Steps:
 ```
 echo '. ${HOME}/.bash_profile' >> ~/.bashrc
 ```
-    * close the window
+* close the window
 * restart your computer
 
 After doing so, you should have the ability run conda inside of your git bash, simulating a bash environment that is sufficient for your learning.
