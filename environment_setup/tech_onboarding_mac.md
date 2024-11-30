@@ -85,14 +85,13 @@ Run the following commands in your terminal:
 
 #### Here’s how you can get it installed on your system:
 
-- [Git Credential Manager Documentation](https://github.com/git-ecosystem/git-credential-manager/blob/main/README.md)
-
 - The following commands allow you to install, update and check if GCM has been installed properly:
   ```bash
   brew install --cask git-credential-manager;
   brew upgrade --cask git-credential-manager;
   git-credential-manager --version;
   ```
+  - [Git Credential Manager Documentation](https://github.com/git-ecosystem/git-credential-manager/blob/main/README.md)
   - [Detailed Installation Process](https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/install.md)
 
 ### Necessary Packages
