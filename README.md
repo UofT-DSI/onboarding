@@ -2,7 +2,7 @@
 
 ## Description
 
-Welcome to the DSI Data Science Certificate! This repository is designed to provide all the necessary information to get you started and ensure a smooth onboarding experience. Here, you’ll find:  
+Welcome to the DSI Certificates! This repository is designed to provide all the necessary information to get you started and ensure a smooth onboarding experience. Here, you’ll find:  
 - **Tech Requirements**: A detailed list of tools and software you need to prepare for the certificate.  
 - **Environment Setup**: Step-by-step instructions to set up your programming environment and ensure everything runs smoothly.  
 - **Participant Guidelines**: Best practices, expectations, and tips for succeeding in the certificate.  
