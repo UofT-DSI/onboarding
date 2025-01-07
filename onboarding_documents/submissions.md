@@ -222,6 +222,67 @@ Over time, the original repository might receive updates or changes from the cou
 >
 > Be sure to carefully review the changes so you don’t accidentally overwrite your completed work. After resolving, you can commit the changes and sync your fork with the latest updates.
 
+## Restoring main branch to the original state
+
+Accidental changes to the main branch can occur for several reasons:
+
+1. Mistakenly committing changes directly to main instead of creating a feature or assignment branch.
+2. Accidentally merging incomplete or experimental branches into main without proper review or testing.
+3. Errors during the pull request process, such as targeting the wrong branch or not resolving conflicts properly.
+4. Misunderstanding the purpose of keeping `main` as the stable, deployable branch, leading to direct edits or merges.
+
+In a real project, the `main` branch represents the stable, deployable version of the project. Feature development, bug fixes, and experiments are done in separate branches to ensure `main` remains clean and reliable.
+
+To update your `main` branch so it no longer includes your assignment changes, follow one of the options listed below.
+
+The commands listed below are for restoring main branch of `shell` repository to the original state.
+
+**Option 1** 
+
+(If you want to reset the `main` branch to match the `upstream` version)
+
+1. Add upstream to remote: `git remote add upstream https://github.com/UofT-DSI/shell.git`
+
+2. Check if upstream is set correctly: `git remote -v`
+3. Switch to `main` and reset it to upstream: `git switch -C main upstream/main`
+4. Push your changes to the `main` on Github: `git push --force origin main`
+   
+**Option 2**
+
+(If you want to reset only assignment.sh file)
+
+1. Change to assignments dir and download the file
+   
+```
+curl -Lo assignment.sh https://github.com/UofT-DSI/shell/raw/refs/heads/main/02_activities/assignments/assignment.sh
+```
+
+2. Add, commit and push to your github `main` branch:
+   
+```
+git add assignment.sh
+git commit -m "updating assignment.sh to upstream/main version"
+git push origin main
+```
+
+**Option 3**
+
+ (Another way to reset just the assignment.sh file in `main`)
+
+1. Add upstream remote:
+`git remote add upstream https://github.com/UofT-DSI/shell.git`
+2. Check if upstream is set correctly: `git remote -v`
+2. Fetch updates from upstream: `git fetch upstream`
+3. Switch to local main: `git checkout main`
+4. Change to 'assignments' dir and get the file from upstream branch:
+ `git checkout upstream/main -- assignment.sh`
+5. Add, commit and push to your github main:
+```
+git add assignment.sh
+git commit -m "updating assignment.sh to upstream/main version"
+git push origin main
+```
+
 ## Resources
 
 * [How to Fork a Repo](https://youtu.be/H-8kzcQWJ7U)
