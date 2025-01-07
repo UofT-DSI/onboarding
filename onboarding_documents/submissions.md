@@ -233,13 +233,11 @@ Accidental changes to the main branch can occur for several reasons:
 
 In a real project, the `main` branch represents the stable, deployable version of the project. Feature development, bug fixes, and experiments are done in separate branches to ensure `main` remains clean and reliable.
 
-To update your `main` branch so it no longer includes your assignment changes, follow one of the options listed below.
+To update your `main` branch so it no longer includes your assignment changes, follow one of the options listed below. The commands listed below are for restoring the `main` branch of `shell` repository to its original state.
 
-The commands listed below are for restoring main branch of `shell` repository to the original state.
+### **Option 1** 
 
-**Option 1** 
-
-(If you want to reset the `main` branch to match the `upstream` version)
+If you want to reset the `main` branch to match the `upstream` version:
 
 1. Add upstream to remote: `git remote add upstream https://github.com/UofT-DSI/shell.git`
 
@@ -247,9 +245,9 @@ The commands listed below are for restoring main branch of `shell` repository to
 3. Switch to `main` and reset it to upstream: `git switch -C main upstream/main`
 4. Push your changes to the `main` on Github: `git push --force origin main`
    
-**Option 2**
+### **Option 2**
 
-(If you want to reset only assignment.sh file)
+If you want to reset only assignment.sh file:
 
 1. Change to assignments dir and download the file
    
@@ -257,7 +255,7 @@ The commands listed below are for restoring main branch of `shell` repository to
 curl -Lo assignment.sh https://github.com/UofT-DSI/shell/raw/refs/heads/main/02_activities/assignments/assignment.sh
 ```
 
-2. Add, commit and push to your github `main` branch:
+2. Add, commit and push to your Github `main` branch:
    
 ```
 git add assignment.sh
@@ -265,9 +263,9 @@ git commit -m "updating assignment.sh to upstream/main version"
 git push origin main
 ```
 
-**Option 3**
+### **Option 3**
 
- (Another way to reset just the assignment.sh file in `main`)
+ Another way to reset just the assignment.sh file in `main`:
 
 1. Add upstream remote:
 `git remote add upstream https://github.com/UofT-DSI/shell.git`
