@@ -233,11 +233,11 @@ Accidental changes to the main branch can occur for several reasons:
 
 In a real project, the `main` branch represents the stable, deployable version of the project. Feature development, bug fixes, and experiments are done in separate branches to ensure `main` remains clean and reliable.
 
-To update your `main` branch so it no longer includes your assignment changes, follow one of the options listed below. The commands listed below are for restoring the `main` branch of `shell` repository to its original state.
+To update your `main` branch so that it no longer includes your `assignment` changes, follow one of the options listed below. The commands listed below are for restoring the `main` branch of `shell` repository to its original state.
 
 ### **Option 1** 
 
-If you want to reset the `main` branch to match the `upstream` version:
+If you want to reset the whole `main` branch to match the `upstream` version:
 
 1. Add upstream to remote: `git remote add upstream https://github.com/UofT-DSI/shell.git`
 
@@ -247,7 +247,7 @@ If you want to reset the `main` branch to match the `upstream` version:
    
 ### **Option 2**
 
-If you want to reset only assignment.sh file:
+If you want to reset only `assignment.sh` file in `main`:
 
 1. Change to assignments dir and download the file
    
@@ -265,7 +265,7 @@ git push origin main
 
 ### **Option 3**
 
- Another way to reset just the assignment.sh file in `main`:
+ Another way to reset just the `assignment.sh` file in `main`:
 
 1. Add upstream remote:
 `git remote add upstream https://github.com/UofT-DSI/shell.git`
@@ -274,7 +274,7 @@ git push origin main
 3. Switch to local main: `git checkout main`
 4. Change to 'assignments' dir and get the file from upstream branch:
  `git checkout upstream/main -- assignment.sh`
-5. Add, commit and push to your github main:
+5. Add, commit and push to your Github main:
 ```
 git add assignment.sh
 git commit -m "updating assignment.sh to upstream/main version"
