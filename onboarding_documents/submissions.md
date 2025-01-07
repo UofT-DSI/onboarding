@@ -224,14 +224,12 @@ Over time, the original repository might receive updates or changes from the cou
 
 ## Restoring main branch to the original state
 
-Accidental changes to the main branch can occur for several reasons:
+In a real project, the `main` branch represents the stable, deployable version of the project. Feature development, bug fixes, and experiments are done in separate branches to ensure `main` remains clean and reliable. Accidental changes to the `main` branch can occur for several reasons:
 
 1. Mistakenly committing changes directly to main instead of creating a feature or assignment branch.
 2. Accidentally merging incomplete or experimental branches into main without proper review or testing.
 3. Errors during the pull request process, such as targeting the wrong branch or not resolving conflicts properly.
 4. Misunderstanding the purpose of keeping `main` as the stable, deployable branch, leading to direct edits or merges.
-
-In a real project, the `main` branch represents the stable, deployable version of the project. Feature development, bug fixes, and experiments are done in separate branches to ensure `main` remains clean and reliable.
 
 To update your `main` branch so that it no longer includes your `assignment` changes, follow one of the options listed below. The commands listed below are for restoring the `main` branch of `shell` repository to its original state.
 
