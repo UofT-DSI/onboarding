@@ -222,6 +222,9 @@ Over time, the original repository might receive updates or changes from the cou
 >
 > Be sure to carefully review the changes so you don’t accidentally overwrite your completed work. After resolving, you can commit the changes and sync your fork with the latest updates.
 
+## Conclusion
+Participants may resubmit assignments by making additional Git commits to the same branch from which the pull request originates. The pull request will automatically update with the latest changes, allowing revisions both before and after feedback. This ensures a smooth and efficient process for continuous improvement.
+
 ## Resources
 
 * [How to Fork a Repo](https://youtu.be/H-8kzcQWJ7U)
