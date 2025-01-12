@@ -279,6 +279,9 @@ git commit -m "updating assignment.sh to upstream/main version"
 git push origin main
 ```
 
+## Conclusion
+Participants may resubmit assignments by making additional Git commits to the same branch from which the pull request originates. The pull request will automatically update with the latest changes, allowing revisions both before and after feedback. This ensures a smooth and efficient process for continuous improvement.
+
 ## Resources
 
 * [How to Fork a Repo](https://youtu.be/H-8kzcQWJ7U)
