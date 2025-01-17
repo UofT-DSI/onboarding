@@ -231,7 +231,8 @@ In a real project, the `main` branch represents the stable, deployable version o
 3. Errors during the pull request process, such as targeting the wrong branch or not resolving conflicts properly.
 4. Misunderstanding the purpose of keeping `main` as the stable, deployable branch, leading to direct edits or merges.
 
-To update your `main` branch so that it no longer includes your `assignment` changes, follow one of the options listed below. The commands listed below are for restoring the `main` branch of `shell` repository to its original state.
+For example, if you want to restore the `main` branch of `shell` repository to its original 
+state so that it no longer includes the changes that were made to the `assignment` branch, follow one of the options listed below.
 
 ### **Option 1** 
 
