@@ -48,10 +48,14 @@ This guide is designed to standardize the submission and evaluation process for 
 ## Submitting Assignments
 
 ### Creating a Branch for the Assignment
-For each assignment, you must create a new branch named after the assignment, e.g., `assignment-1`. Note that we will be using dashes between words, and all lowercase. This branch should stem from your fork of the main module repository.
+For each assignment, you must create a new branch named after the assignment (refer to your assignment's "submission information" section). Note that we will be using [snake_case](https://en.wikipedia.org/wiki/Snake_case) for branch names. 
 
-![Create Branch](./images/branche_page.png)
+🚨 This branch should stem from **your** fork of the main module repository. 🚨
+
+![Create Branch](./images/branch_page.png)
 ![Create Branch Button](./images/create_branch_button.png)
+
+Make sure you name the branch appropriately as instructed in **the submission information** section of your assignment.
 ![Create Branch](./images/create_branch.png)
 
 ### Cloning the Repo and Setting Up in VS Code
