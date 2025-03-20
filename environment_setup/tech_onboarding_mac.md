@@ -79,6 +79,7 @@ Run the following commands in your terminal:
   ```
   - For a more detailed explanation of brew and the installation process, please visit the [Brew Installation Page](https://brew.sh).
 
+- [Set VSCode as your default Git editor](https://docs.github.com/en/get-started/git-basics/associating-text-editors-with-git#using-visual-studio-code-as-your-editor): Git's default editor is an advanced terminal-based text editor (vim) that can be confusing to use. VSCode will make using Git a bit easier.
 
 ### Git Credential Manager
 **Git Credential Manager (GCM)** is a tool that makes using [Git](#git-and-brew-installation), the version control system, much more convenient. When you're working with projects using Git, you'd have to enter your username and password every time you interact with them. GCM simplifies this by remembering (or "caching") your login details after you enter them once. This way, you don’t have to keep typing them in every time you interact with your projects, speeding up your workflow and reducing the hassle of managing access to your projects.
@@ -93,6 +94,7 @@ Run the following commands in your terminal:
   ```
   - [Git Credential Manager Documentation](https://github.com/git-ecosystem/git-credential-manager/blob/main/README.md)
   - [Detailed Installation Process](https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/install.md)
+
 
 ### Necessary Packages
 
