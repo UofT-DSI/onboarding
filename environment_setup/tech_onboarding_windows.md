@@ -59,6 +59,7 @@ For Windows users, **Git Bash** is a tool that lets you use Git commands, simila
 
 - [Steps to connect Git Bash with Conda](https://www.youtube.com/watch?v=M33oOq-c60s): A video tutorial on connecting Git Bash with Conda, which is helpful for Windows users.
 - [connecting git bash and conda](https://www.youtube.com/watch?v=UqJHDB9z7f4)
+- [Set VSCode as your default Git editor](https://docs.github.com/en/get-started/git-basics/associating-text-editors-with-git#using-visual-studio-code-as-your-editor): Git's default editor is an advanced terminal-based text editor (vim) that can be confusing to use. VSCode will make using Git a bit easier.
 
 **🚨 NOTE**: Please Make sure you don't have Anaconda as Miniconda and Anaconda don't mix well with each other.
 
