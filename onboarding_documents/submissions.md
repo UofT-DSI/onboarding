@@ -330,4 +330,4 @@ Participants may resubmit assignments by making additional Git commits to the sa
 ## Resources
 
 * [How to Fork a Repo](https://youtu.be/H-8kzcQWJ7U)
-* [How to Submit an Assignment] (https://www.youtube.com/watch?v=03nLtHn11c0)
+* [How to Submit an Assignment](https://www.youtube.com/watch?v=03nLtHn11c0)
