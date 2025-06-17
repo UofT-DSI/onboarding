@@ -1,0 +1,480 @@
+title: Burger Analogy & Tools Self-Test
+problems:
+
+
+- title: Question 1
+  description: |
+    What is the primary function of a terminal in programming?
+  questiontype: multiplechoice
+  options:
+    - "`Run code directly`"
+    - "`Display websites`"
+    - "`Send commands to the shell`"
+    - "`Store data`"
+  correct_options: [2]
+  solution: |
+    - ✅ `Send commands to the shell`: The terminal acts like a window where you type commands that are sent to the shell to be understood and executed.
+    - ❌ `Run code directly`: The terminal itself does not run code; it passes commands to the shell or other programs.
+    - ❌ `Display websites`: Terminals are text-based and do not display websites like a web browser.
+    - ❌ `Store data`: Terminals do not store data; they are interfaces for command input and output.
+
+
+- title: Question 2
+  description: |
+    In the burger analogy, what does the terminal represent?
+  questiontype: multiplechoice
+  options:
+    - "`The chef`"
+    - "`The cashier`"
+    - "`The menu`"
+    - "`The runner`"
+  correct_options: [1]
+  solution: |
+    - ✅ `The cashier`: The terminal is like the cashier who takes your order (commands) and sends it to the kitchen (shell).
+    - ❌ `The chef`: The chef is like the python interpreter that is used to make the custom burgers using the custom recipes (python scripts).
+    - ❌ `The menu`: The menu would be like the list of commands or options available, not the terminal.
+    - ❌ `The runner`: The runner is the shell that takes the order from the cashier (terminal) and runs it to deliver the result.
+
+
+- title: Question 3
+  description: |
+    What is the shell responsible for?
+  questiontype: multiplechoice
+  options:
+    - "`Typing commands`"
+    - "`Interpreting and executing commands`"
+    - "`Managing passwords`"
+    - "`Saving data`"
+  correct_options: [1]
+  solution: |
+    - ✅ `Interpreting and executing commands`: The shell reads the commands you type in the terminal, understands them, and runs them.
+    - ❌ `Typing commands`: You type commands in the terminal, not the shell.
+    - ❌ `Managing passwords`: Password management is handled by other tools, not the shell.
+    - ❌ `Saving data`: The shell executes commands but does not save data itself.
+
+
+- title: Question 4
+  description: |
+    Which of the following is NOT a common shell?
+  questiontype: multiplechoice
+  options:
+    - "`Bash`"
+    - "`PowerShell`"
+    - "`Csh`"
+    - "`Zsh`"
+  correct_options: [2]
+  solution: |
+    - ✅ `Csh`: While csh (C shell) exists, it is less commonly used today compared to Bash, PowerShell, and Zsh.
+    - ❌ `Bash`: Bash is a very popular and common shell.
+    - ❌ `PowerShell`: PowerShell is a common shell, especially on Windows.
+    - ❌ `Zsh`: Zsh is also a common and modern shell.
+
+
+- title: Question 5
+  description: |
+    What makes Bash a popular shell to learn?
+  questiontype: multiplechoice
+  options:
+    - "`It has colorful backgrounds`"
+    - "`It works only on Windows`"
+    - "`It's widely used and versatile`"
+    - "`It's no longer supported`"
+  correct_options: [2]
+  solution: |
+    - ✅ `It's widely used and versatile`: Bash is popular because it works on many systems and supports many features, making it useful for many tasks.
+    - ❌ `It has colorful backgrounds`: While some terminals can have colors, this is not why Bash is popular.
+    - ❌ `It works only on Windows`: Bash primarily runs on Unix-like systems, not only Windows.
+    - ❌ `It's no longer supported`: Bash is actively maintained and widely used.
+
+
+- title: Question 6
+  description: |
+    Which shell is most similar to Bash?
+  questiontype: multiplechoice
+  options:
+    - "`Zsh`"
+    - "`PowerShell`"
+    - "`Command Prompt`"
+    - "`Fish`"
+  correct_options: [0]
+  solution: |
+    - ✅ `Zsh`: Zsh is very similar to Bash and often considered an improved or extended version of it.
+    - ❌ `PowerShell`: PowerShell is quite different and designed mainly for Windows.
+    - ❌ `Command Prompt`: Command Prompt is a basic Windows shell, very different from Bash.
+    - ❌ `Fish`: Fish is a different shell with unique features, less similar to Bash than Zsh.
+
+
+- title: Question 7
+  description: |
+    In the analogy, who is the “Runner”?
+  questiontype: multiplechoice
+  options:
+    - "`Terminal`"
+    - "`Shell`"
+    - "`Git`"
+    - "`Python`"
+  correct_options: [1]
+  solution: |
+    - ✅ `Shell`: The runner is like the shell that takes the order and runs it, delivering the result.
+    - ❌ `Terminal`: The terminal takes the order but doesn't run it.
+    - ❌ `Git`: Git is a tool for version control, not the runner.
+    - ❌ `Python`: Python is a programming language and interpreter, not the runner in this analogy.
+
+
+- title: Question 8
+  description: |
+    What does the shell do when you type a command that it already understands?
+  questiontype: multiplechoice
+  options:
+    - "`Forwards it to Python`"
+    - "`Sends it to Git`"
+    - "`Executes it directly`"
+    - "`It asks another tool to run it`"
+  correct_options: [2]
+  solution: |
+    - ✅ `Executes it directly`: If the shell has a built-in command, it runs it right away without needing help.
+    - ❌ `Forwards it to Python`: The shell only forwards to Python if the command is to execute a Python script via a python interpreter.
+    - ❌ `Sends it to Git`: Git is a separate tool; the shell only sends commands to Git if specified.
+    - ❌ `It asks another tool to run it`: This happens only if the command is not built-in.
+
+
+- title: Question 9
+  description: |
+    What happens when a command isn't built-in to the shell?
+  questiontype: multiplechoice
+  options:
+    - "`It's ignored`"
+    - "`It opens a new browser`"
+    - "`The shell delegates it to another program`"
+    - "`It crashes`"
+  correct_options: [2]
+  solution: |
+    - ✅ `The shell delegates it to another program`: The shell looks for an external program to run the command.
+    - ❌ `It's ignored`: The shell does not ignore unknown commands; it tries to find a program.
+    - ❌ `It opens a new browser`: This is unrelated to command execution.
+    - ❌ `It crashes`: The shell handles unknown commands gracefully.
+
+
+- title: Question 10
+  description: |
+    What does a “just a drink” order represent?
+  questiontype: multiplechoice
+  options:
+    - "`A failed command`"
+    - "`A Python script`"
+    - "`A simple shell command`"
+    - "`A complex terminal workflow`"
+  correct_options: [2]
+  solution: |
+    - ✅ `A simple shell command`: A simple order like a drink is like a basic command the shell can quickly handle.
+    - ❌ `A failed command`: A failed command means it didn't work, not a simple order.
+    - ❌ `A Python script`: Python scripts are more complex than a simple shell command.
+    - ❌ `A complex terminal workflow`: This is more like a big, detailed order.
+
+
+- title: Question 11
+  description: |
+    If someone places a big order of simple items (like fries and drinks),
+    what part of programming does the written note represent?
+  questiontype: multiplechoice
+  options:
+    - "`A Git repository`"
+    - "`A shell script`"
+    - "`A Python function`"
+    - "`An API call`"
+  correct_options: [1]
+  solution: |
+    - ✅ `A shell script`: A shell script is like a written note listing commands to run in order, like a series of small, specific orders in a kitchen. It's typically used to automate simple tasks, stringing together system-level operations like navigating directories, copying files, or launching scripts. It's the go-to tool when the focus is on command-line instructions, not application logic.
+    - ❌ `A Git repository`: This is more like a storage system or filing cabinet where you keep versions of code — not a list of steps to execute.
+    - ❌ `A Python function`: A function is a reusable block of code that performs a specific task — it's more like a sub-recipe inside a program, not the overall list of tasks.
+    - ❌ `An API call`: An API call is a request sent to an external service to get data or trigger an action — more like calling another restaurant to deliver an ingredient, not running your own list of commands.
+
+
+- title: Question 12
+  description: |
+    The recipe of a complex custom burger is like what in computing?
+  questiontype: multiplechoice
+  options:
+    - "`Typing a command`"
+    - "`Writing a program`"
+    - "`Running a web browser`"
+    - "`Making a backup`"
+  correct_options: [1]
+  solution: |
+    - ✅ `Writing a program`: Creating a detailed recipe is like writing a program that tells the computer what to do step-by-step.
+    - ❌ `Typing a command`: Typing a command is usually simpler than writing a whole program.
+    - ❌ `Running a web browser`: This is unrelated to writing recipes/programs.
+    - ❌ `Making a backup`: Backups are about saving data, not creating instructions.
+
+
+- title: Question 13
+  description: |
+    What file extension is typically used for shell scripts?
+  questiontype: multiplechoice
+  options:
+    - "`.html`"
+    - "`.py`"
+    - "`.sh`"
+    - "`.txt`"
+  correct_options: [2]
+  solution: |
+    - ✅ "`.sh`": Shell scripts usually have the `.sh` extension to indicate they are shell commands.
+    - ❌ "`.html`": HTML files are for web pages, not scripts.
+    - ❌ "`.py`": `.py` files are Python scripts.
+    - ❌ "`.txt`": Text files contain plain text, not executable scripts.
+
+
+- title: Question 14
+  description: |
+    When you run a .py file from the terminal, what interprets it?
+  questiontype: multiplechoice
+  options:
+    - "`Bash`"
+    - "`Git`"
+    - "`Python interpreter`"
+    - "`Zsh`"
+  correct_options: [2]
+  solution: |
+    - ✅ `Python interpreter`: The Python interpreter reads and runs `.py` files.
+    - ❌ `Bash`: Bash runs shell commands, not Python code.
+    - ❌ `Git`: Git manages code versions, not running scripts.
+    - ❌ `Zsh`: Like Bash, it handles shell commands, not Python scripts.
+
+
+- title: Question 15
+  description: |
+    What is the role of an interpreter?
+  questiontype: multiplechoice
+  options:
+    - "`Store code`"
+    - "`Explain bugs`"
+    - "`Convert code into actions`"
+    - "`Make websites`"
+  correct_options: [2]
+  solution: |
+    - ✅ `Convert code into actions`: An interpreter reads code and executes it step-by-step.
+    - ❌ `Store code`: Code is stored in files, not by the interpreter.
+    - ❌ `Explain bugs`: Debugging is a separate process.
+    - ❌ `Make websites`: Websites are made using code, but interpreters just run code.
+
+
+- title: Question 16
+  description: |
+    Which of these is a programming language mentioned in the deck?
+  questiontype: multiplechoice
+  options:
+    - "`Java`"
+    - "`Git`"
+    - "`Conda`"
+    - "`Brew`"
+  correct_options: [0]
+  solution: |
+    - ✅ `Java`: Java is a programming language.
+    - ❌ `Git`: Git is a version control tool, not a language.
+    - ❌ `Conda`: Conda is a package/environment manager.
+    - ❌ `Brew`: Brew is a package manager for macOS.
+
+
+- title: Question 17
+  description: |
+    What programming language will be used in the DSI certificate?
+  questiontype: multiplechoice
+  options:
+    - "`JavaScript`"
+    - "`Python`"
+    - "`Ruby`"
+    - "`C++`"
+  correct_options: [1]
+  solution: |
+    - ✅ `Python`: Python is the language used for the DSI certificate.
+    - ❌ `JavaScript`: JavaScript is a different language mainly for web development.
+    - ❌ `Ruby`: Ruby is another language but not used here.
+    - ❌ `C++`: C++ is a different programming language not used in this context.
+
+
+- title: Question 18
+  description: |
+    Why are environments important in programming?
+  questiontype: multiplechoice
+  options:
+    - "`They clean up your desktop`"
+    - "`They speed up Wi-Fi`"
+    - "`They manage tools and dependencies`"
+    - "`They compile code faster`"
+  correct_options: [2]
+  solution: |
+    - ✅ `They manage tools and dependencies`: Environments keep track of which tools and libraries your project uses, avoiding conflicts.
+    - ❌ `They clean up your desktop`: Environments don't affect your desktop organization.
+    - ❌ `They speed up Wi-Fi`: Networking speed is unrelated.
+    - ❌ `They compile code faster`: Environments manage software, not compilation speed.
+
+
+- title: Question 19
+  description: |
+    The scenario where the chef needs unavailable ingredients represents
+    what in programming?
+  questiontype: multiplechoice
+  options:
+    - "`A syntax error`"
+    - "`A security risk`"
+    - "`A dependency/version issue`"
+    - "`A failed loop`"
+  correct_options: [2]
+  solution: |
+    - ✅ `A dependency/version issue`: Missing or incompatible ingredients are like missing or wrong software versions needed to run code.
+    - ❌ `A syntax error`: Syntax errors are mistakes in code structure, not missing dependencies.
+    - ❌ `A security risk`: Security risks relate to vulnerabilities, not missing ingredients.
+    - ❌ `A failed loop`: Loops are code constructs, unrelated to missing ingredients.
+
+
+- title: Question 20
+  description: |
+    What is Conda described as in the analogy?
+  questiontype: multiplechoice
+  options:
+    - "`A command`"
+    - "`A shell`"
+    - "`A full-service kitchen manager`"
+    - "`A notebook`"
+  correct_options: [2]
+  solution: |
+    - ✅ `A full-service kitchen manager`: Conda manages environments, packages, and dependencies, like a kitchen manager overseeing resources.
+    - ❌ `A command`: Conda is more than a single command.
+    - ❌ `A shell`: Conda is not a shell.
+    - ❌ `A notebook`: Not a notebook; it manages software.
+
+
+- title: Question 21
+  description: |
+    What role does pip play when paired with venv?
+  questiontype: multiplechoice
+  options:
+    - "`Interpreter`"
+    - "`Installer`"
+    - "`Terminal window`"
+    - "`Shell`"
+  correct_options: [1]
+  solution: |
+    - ✅ `Installer`: Pip installs Python packages inside the virtual environment created by venv.
+    - ❌ `Interpreter`: The interpreter runs code, pip installs packages.
+    - ❌ `Terminal window`: Pip runs inside the terminal but is not a window.
+    - ❌ `Shell`: Pip is a package manager, not a shell.
+
+
+- title: Question 22
+  description: |
+    Why is environment isolation important?
+  questiontype: multiplechoice
+  options:
+    - "`It boosts screen resolution`"
+    - "`It prevents dependency conflicts`"
+    - "`It installs more RAM`"
+    - "`It speeds up downloads`"
+  correct_options: [1]
+  solution: |
+    - ✅ `It prevents dependency conflicts`: Isolation keeps projects' tools separate, avoiding clashes.
+    - ❌ `It boosts screen resolution`: Environment isolation does not affect display.
+    - ❌ `It installs more RAM`: RAM is hardware, unrelated to environments.
+    - ❌ `It speeds up downloads`: Downloads depend on internet speed, not environments.
+
+
+- title: Question 23
+  description: |
+    What does Conda help manage across projects?
+  questiontype: multiplechoice
+  options:
+    - "`Wi-Fi`"
+    - "`Background apps`"
+    - "`Environments and dependencies`"
+    - "`File storage`"
+  correct_options: [2]
+  solution: |
+    - ✅ `Environments and dependencies`: Conda helps organize and manage software environments and packages for different projects.
+    - ❌ `Wi-Fi`: Conda does not manage networking.
+    - ❌ `Background apps`: Conda is not for managing running applications.
+    - ❌ `File storage`: Conda manages software, not file storage.
+
+
+- title: Question 24
+  description: |
+    What is Git compared to in the burger analogy?
+  questiontype: multiplechoice
+  options:
+    - "`The kitchen manager`"
+    - "`The kiosk`"
+    - "`The Flip Pad`"
+    - "`The chef`"
+  correct_options: [2]
+  solution: |
+    - ✅ `The Flip Pad`: Git is like the flip pad where orders (code changes) are recorded and tracked.
+    - ❌ `The kitchen manager`: This is more like Conda managing resources.
+    - ❌ `The kiosk`: The kiosk is the interface, not the record keeper.
+    - ❌ `The chef`: The chef prepares, Git tracks changes.
+
+
+- title: Question 25
+  description: |
+    What is Git primarily used for?
+  questiontype: multiplechoice
+  options:
+    - "`Running scripts`"
+    - "`Tracking versions of code`"
+    - "`Formatting output`"
+    - "`Launching apps`"
+  correct_options: [1]
+  solution: |
+    - ✅ `Tracking versions of code`: Git helps keep track of changes made to code over time.
+    - ❌ `Running scripts`: Git does not execute code.
+    - ❌ `Formatting output`: Formatting is done by code or tools, not Git.
+    - ❌ `Launching apps`: Git does not launch applications.
+
+
+- title: Question 26
+  description: |
+    What is a benefit of using Git?
+  questiontype: multiplechoice
+  options:
+    - "`Makes shell scripts shorter`"
+    - "`Prevents bugs`"
+    - "`Saves and tracks code changes`"
+    - "`Finds Python errors`"
+  correct_options: [2]
+  solution: |
+    - ✅ `Saves and tracks code changes`: Git records every change, allowing you to revert or review history.
+    - ❌ `Makes shell scripts shorter`: Git does not change script length.
+    - ❌ `Prevents bugs`: Git helps manage code but does not fix bugs directly.
+    - ❌ `Finds Python errors`: Debugging is separate from Git's functions.
+
+
+- title: Question 27
+  description: |
+    'Git is NOT used to:'
+  questiontype: multiplechoice
+  options:
+    - "`Run code`"
+    - "`Track changes`"
+    - "`Restore versions`"
+    - "`Document experiments`"
+  correct_options: [0]
+  solution: |
+    - ✅ `Run code`: Git does not execute code; it manages versions.
+    - ❌ `Track changes`: Tracking changes is Git's main purpose.
+    - ❌ `Restore versions`: Git allows restoring previous versions.
+    - ❌ `Document experiments`: Git helps document changes and experiments in code.
+
+
+- title: Question 28
+  description: |
+    How do Terminal, Shell, Code, and Git work together?
+  questiontype: multiplechoice
+  options:
+    - "`They compete for system resources`"
+    - "`They form a workflow to write, run, and track code`"
+    - "`They launch websites`"
+    - "`They save memory`"
+  correct_options: [1]
+  solution: |
+    - ✅ `They form a workflow to write, run, and track code`: The terminal is where commands are typed, the shell runs them, code is the instructions, and Git tracks changes, all working together.
+    - ❌ `They compete for system resources`: They cooperate rather than compete.
+    - ❌ `They launch websites`: Launching websites is not their combined role.
+    - ❌ `They save memory`: Their main function is not saving memory.
