@@ -35,24 +35,18 @@ _Conda_ is a versatile tool used on Windows, macOS, and Linux for **managing sof
 
 ### Visual Studio Code
 
-Visual Studio Code (VS Code) is a free software similar to Microsoft Word, but instead of handling documents, it helps you write and edit code for creating computer programs. It’s user-friendly and can be customized to fit your specific needs, much like how you can adjust settings in Word. VS Code supports a wide range of programming languages, making it versatile for various coding projects.
+Visual Studio Code (VS Code) is a free and beginner-friendly code editor. Think of it like Microsoft Word, but for writing and editing code. It works with many programming languages and can be customized with extensions to fit your needs. It’s fast, lightweight, and runs well on most computers—great for both beginners and experienced developers.
 
-One of the standout features of VS Code is its extensive library of extensions, which can enhance and expand its capabilities. 
-
-Another key advantage of VS Code is its performance. Despite its rich feature set, it remains lightweight and fast, ensuring that it runs smoothly even on less powerful hardware. This balance of power and efficiency makes it an ideal choice for both beginners and experienced developers.
-
-#### Here’s how you can get it installed on your system:
-
-- [Installation Page](https://code.visualstudio.com)
-- Installation Process:
+- how to install VS Code:
+  - [Installation Page](https://code.visualstudio.com)
   - Download the .deb file.
   - Open a terminal in the folder where the deb file is located (e.g., downloads).
   - Run `sudo dpkg -i <THE .DEB FILE>`.
   - VSCode should be openable after installation.
-- Extensions:
-  - [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python): Enhances Python programming capabilities within VS Code.
-  - [Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter): Allows for Jupyter notebook support, enabling data science and machine learning tasks.
-  - [Git Graph Extension](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph): Visualization for Git commit trees
+- how to install VS Code extensions:
+  - [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+  - [Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+  - [Git Graph Extension](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 
 ### Git
 **Git** is a tool that tracks changes to your code, letting you save versions, undo mistakes, and collaborate with others. When using GitHub, **Git Credential Manager (GCM)** helps by securely remembering your login so you don’t have to enter it every time.
