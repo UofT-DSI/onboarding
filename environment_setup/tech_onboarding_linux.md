@@ -3,43 +3,37 @@
 ### Table of Contents
 
 1. [Miniconda](#miniconda)
-    - [Installing Miniconda](#heres-how-you-can-get-it-installed-on-your-system)
-    - [Useful Resources](#useful-resources)
 2. [Visual Studio Code](#visual-studio-code)
-    - [Installing VS Code](#heres-how-you-can-get-it-installed-on-your-system-1)
 3. [Git](#git)
-4. [Git Credential Manager](#git-credential-manager)
-    - [Installing GCM](#heres-how-you-can-get-it-installed-on-your-system-3)
-5. [Necessary Packages](#necessary-packages)
-6. [Conclusion](#conclusion)
+4. [Necessary Packages](#necessary-packages)
+5. [Conclusion](#conclusion)
 
 ### Miniconda
 
-_Conda_ is a versatile tool used on Windows, macOS, and Linux for **managing software packages** and **work environments**. It supports many programming languages, including Python, R, Ruby, Lua, Scala, Java, JavaScript, C/C++, FORTRAN, and more.
+Miniconda is a lightweight version of [Conda](https://en.wikipedia.org/wiki/Conda_(package_manager)), a tool that helps you manage programming environments and install the right packages (dependencies) for each project. It lets you keep different setups side by side, so your tools don’t conflict across projects.
 
-- **A package management system** works somewhat like the App Store on your phone, but it’s specifically designed for managing complex software packages used in programming and data analysis, ensuring that all necessary software dependencies are managed without conflicts.
+- how to install Miniconda
+  - Visit the [Miniconda Installation Page](https://docs.conda.io/projects/miniconda/en/latest/index.html).
+  - Choose and download the appropriate installer based on your system architecture: [x86_64-based systems](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh) | [ARM-based systems](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-aarch64.sh) | [IBM Z mainframes](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-s390x.sh)
+  - Open a terminal in the folder where the installer was downloaded.
+  - Run the installer:
+    ```bash
+    bash Miniconda3-latest-Linux-<your_architecture>.sh
+    ```
+  - Follow the on-screen instructions. When asked, say “yes” to initializing Conda.
+  - Confirm the installation:
+    ```bash
+    conda --version
+    ```
+  - You should see something like `conda 23.x.x`.
 
-- **A work environment** is a specific setup on your computer for managing and running projects. It includes all the software, libraries, and tools needed. Conda allows you to create multiple isolated work environments, each tailored to specific project requirements. This is crucial in places like the DSI (Data Science Institute), where it ensures that everyone’s computer is set up identically, mimicking how a program would run on any other machine.
-
-**Miniconda** is a software bundle that includes Conda, Python, and a small selection of essential packages. It's designed for those who want to manage their tools and environments with simplicity, allowing users to add additional packages as needed. This makes Miniconda an ideal choice for setting up a lean and efficient development environment.
-
-#### Here’s how you can get it installed on your system:
-
-- Visit the [Miniconda Installation Page](https://docs.conda.io/projects/miniconda/en/latest/index.html).
-- Choose and download the appropriate installer based on your system architecture:
-  - [x86_64-based systems](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh): For most 64-bit Linux systems.
-  - [ARM-based systems](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-aarch64.sh): For ARM-based Linux systems.
-  - [IBM Z mainframes](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-s390x.sh): For IBM Z mainframes.
-
-[Conda Cheat Sheet](https://conda.io/projects/conda/en/latest/user-guide/cheatsheet.html)
-
+- Bookmark the [Conda Cheat Sheet](https://conda.io/projects/conda/en/latest/user-guide/cheatsheet.html), a reference as you begin working with Conda.
 ### Visual Studio Code
 
 Visual Studio Code (VS Code) is a free and beginner-friendly code editor. Think of it like Microsoft Word, but for writing and editing code. It works with many programming languages and can be customized with extensions to fit your needs. It’s fast, lightweight, and runs well on most computers—great for both beginners and experienced developers.
 
 - how to install VS Code:
-  - [Installation Page](https://code.visualstudio.com)
-  - Download the .deb file.
+  - Download the .deb file from [the installation page](https://code.visualstudio.com).
   - Open a terminal in the folder where the deb file is located (e.g., downloads).
   - Run `sudo dpkg -i <THE .DEB FILE>`.
   - VSCode should be openable after installation.
