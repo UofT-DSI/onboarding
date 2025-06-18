@@ -2,21 +2,25 @@
 
 ### Table of Contents
 
+0. [Introduction](#introduction)
 1. [Visual Studio Code](#visual-studio-code)
 2. [Git](#git)
 3. [Miniconda](#miniconda)
     - [Necessary Packages](#necessary-packages)
 4. [Conclusion](#conclusion)
 
+### Introduction
+Welcome to your Linux onboarding guide! This document will walk you through installing the essential tools you’ll use throughout the DSI Certificate. By setting things up now, you’ll avoid headaches later, most modules will run smoothly without needing extra setup. While some advanced topics might require additional tools, this core setup will cover the majority of what you’ll need. Let’s get started!
+
 ### Visual Studio Code
 Visual Studio Code (VS Code) is a free and beginner-friendly code editor. Think of it like Microsoft Word, but for writing and editing code. It works with many programming languages and can be customized with extensions to fit your needs. It’s fast, lightweight, and runs well on most computers—great for both beginners and experienced developers.
 
-- how to install VS Code:
+- How to install VS Code:
   - Download the .deb file from [the installation page](https://code.visualstudio.com).
   - Open a terminal in the folder where the deb file is located (e.g., downloads).
   - Run `sudo dpkg -i <THE .DEB FILE>`.
-  - VSCode should be openable after installation.
-- how to install VS Code extensions:
+  - VS Code should be openable after installation.
+- Install these VS Code extensions by clicking the links and hitting “Install”:
   - [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
   - [Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
   - [Git Graph Extension](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
@@ -24,7 +28,7 @@ Visual Studio Code (VS Code) is a free and beginner-friendly code editor. Think 
 ### Git
 **Git** is a tool that tracks changes to your code, letting you save versions, undo mistakes, and collaborate with others. When using GitHub, **Git Credential Manager (GCM)** helps by securely remembering your login so you don’t have to enter it every time.
 
-- how to install Git:
+- How to install Git:
   - Open your terminal and run:
     ```bash
     sudo apt update
@@ -34,7 +38,7 @@ Visual Studio Code (VS Code) is a free and beginner-friendly code editor. Think 
     ```bash
     git --version
     ```
-- how to install Git Credential Manager (GCM):
+- How to install Git Credential Manager (GCM):
   - [Download the GCM .deb package](https://github.com/git-ecosystem/git-credential-manager/releases/tag/v2.4.1).
   - Navigate to the folder where the `.deb` file is saved.
   - In your terminal, run:
@@ -52,7 +56,7 @@ Useful Resources: [Git Documentation](https://git-scm.com/doc), [Git Credential 
 
 Miniconda is a lightweight version of [Conda](https://en.wikipedia.org/wiki/Conda_(package_manager)), a tool that helps you manage programming environments and install the right packages (dependencies) for each project. It lets you keep different setups side by side, so your tools don’t conflict across projects.
 
-- how to install Miniconda
+- How to install Miniconda
   - Visit the [Miniconda Installation Page](https://docs.conda.io/projects/miniconda/en/latest/index.html).
   - Choose and download the appropriate installer based on your system architecture: [x86_64-based systems](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh) | [ARM-based systems](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-aarch64.sh) | [IBM Z mainframes](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-s390x.sh)
   - Open a terminal in the folder where the installer was downloaded.
@@ -99,6 +103,4 @@ Now that Conda is installed, let’s set up your coding environment with everyth
   ```
 
 ### Conclusion
-You’ve now got all the essential tools set up for your DSI certificate, Miniconda to manage packages, VS Code to write code, and Git to track your work. With everything installed, you’re ready to focus on learning without setup getting in the way.
-
-For any questions or issues, reach out to: courses.dsi@utoronto.ca
+You’ve now got all the essential tools set up for your DSI certificate. For any questions or issues, reach out to: courses.dsi@utoronto.ca
