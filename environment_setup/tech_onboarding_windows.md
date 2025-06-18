@@ -12,37 +12,17 @@
 5. [Necessary Packages](#necessary-packages)
 6. [Conclusion](#conclusion)
 
-### Miniconda
-
-_Conda_ is a versatile tool used on Windows, macOS, and Linux for **managing software packages** and **work environments**. It supports many programming languages, including Python, R, Ruby, Lua, Scala, Java, JavaScript, C/C++, FORTRAN, and more.
-
-- **A package management system** works somewhat like the App Store on your phone, but it’s specifically designed for managing complex software packages used in programming and data analysis, ensuring that all necessary software dependencies are managed without conflicts.
-
-- **A work environment** is a specific setup on your computer for managing and running projects. It includes all the software, libraries, and tools needed. Conda allows you to create multiple isolated work environments, each tailored to specific project requirements. This is crucial in places like the DSI (Data Science Institute), where it ensures that everyone’s computer is set up identically, mimicking how a program would run on any other machine.
-
-**Miniconda** is a software bundle that includes Conda, Python, and a small selection of essential packages. It's designed for those who want to manage their tools and environments with simplicity, allowing users to add additional packages as needed. This makes Miniconda an ideal choice for setting up a lean and efficient development environment.
-
-#### Here’s how you can get it installed on your system:
-- **🚨 NOTE**: Please Make sure you don't have Anaconda as Miniconda and Anaconda don't mix well with each other.
-- Visit the [Miniconda Installation Page](https://docs.conda.io/projects/miniconda/en/latest/index.html).
-
-#### Useful Resources
-- [Conda Cheat Sheet](https://conda.io/projects/conda/en/latest/user-guide/cheatsheet.html): A quick reference guide for Conda, detailing common commands and usage scenarios, aiding in easy management of environments and packages.
+### Introduction
+Welcome to your Linux onboarding guide! This document will walk you through installing the essential tools you’ll use throughout the DSI Certificate. By setting things up now, you’ll avoid headaches later, most modules will run smoothly without needing extra setup. While some advanced topics might require additional tools, this core setup will cover the majority of what you’ll need. Let’s get started!
 
 ### Visual Studio Code
-Visual Studio Code (VS Code) is a free software similar to Microsoft Word, but instead of handling documents, it helps you write and edit code for creating computer programs. It’s user-friendly and can be customized to fit your specific needs, much like how you can adjust settings in Word. VS Code supports a wide range of programming languages, making it versatile for various coding projects.
+Visual Studio Code (VS Code) is a free and beginner-friendly code editor. Think of it like Microsoft Word, but for writing and editing code. It works with many programming languages and can be customized with extensions to fit your needs. It’s fast, lightweight, and runs well on most computers—great for both beginners and experienced developers.
 
-One of the standout features of VS Code is its extensive library of extensions, which can enhance and expand its capabilities. 
-
-Another key advantage of VS Code is its performance. Despite its rich feature set, it remains lightweight and fast, ensuring that it runs smoothly even on less powerful hardware. This balance of power and efficiency makes it an ideal choice for both beginners and experienced developers.
-
-#### Here’s how you can get it installed on your system:
-
-- [Installation Page](https://code.visualstudio.com)
-- Extensions:
-  - [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python): Enhances Python programming capabilities within VS Code.
-  - [Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter): Allows for Jupyter notebook support, enabling data science and machine learning tasks.
-  - [Git Graph Extension](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph): Visualization for Git commit trees
+- [Download and Install VS Code](https://code.visualstudio.com)
+- Install these VS Code extensions by clicking the links and hitting “Install”:
+  - [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+  - [Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+  - [Git Graph Extension](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 
 ### Git
 **Git** is a version control system that developers use to keep track of changes in their code. Think of it as a detailed history book of your project's progress. You can go back and see earlier versions of your work, fix mistakes, or combine updates from multiple people without losing anything.
@@ -84,6 +64,23 @@ After doing so, you should have the ability run conda inside of your git bash, s
 Windows Terminal is a new, free tool you can download that lets you use different command-line programs all in one place. Unlike the basic command prompt that comes with Windows, Windows Terminal has more features and lets you customize it to fit your needs. This makes it easier and more efficient to use multiple programs at the same time.
 
 * Install the [Windows Terminal App](https://apps.microsoft.com/detail/9N0DX20HK701?hl=en-us&gl=US) from the windows app store
+
+### Miniconda
+
+_Conda_ is a versatile tool used on Windows, macOS, and Linux for **managing software packages** and **work environments**. It supports many programming languages, including Python, R, Ruby, Lua, Scala, Java, JavaScript, C/C++, FORTRAN, and more.
+
+- **A package management system** works somewhat like the App Store on your phone, but it’s specifically designed for managing complex software packages used in programming and data analysis, ensuring that all necessary software dependencies are managed without conflicts.
+
+- **A work environment** is a specific setup on your computer for managing and running projects. It includes all the software, libraries, and tools needed. Conda allows you to create multiple isolated work environments, each tailored to specific project requirements. This is crucial in places like the DSI (Data Science Institute), where it ensures that everyone’s computer is set up identically, mimicking how a program would run on any other machine.
+
+**Miniconda** is a software bundle that includes Conda, Python, and a small selection of essential packages. It's designed for those who want to manage their tools and environments with simplicity, allowing users to add additional packages as needed. This makes Miniconda an ideal choice for setting up a lean and efficient development environment.
+
+#### Here’s how you can get it installed on your system:
+- **🚨 NOTE**: Please Make sure you don't have Anaconda as Miniconda and Anaconda don't mix well with each other.
+- Visit the [Miniconda Installation Page](https://docs.conda.io/projects/miniconda/en/latest/index.html).
+
+#### Useful Resources
+- [Conda Cheat Sheet](https://conda.io/projects/conda/en/latest/user-guide/cheatsheet.html): A quick reference guide for Conda, detailing common commands and usage scenarios, aiding in easy management of environments and packages.
 
 ### Necessary Packages
 
