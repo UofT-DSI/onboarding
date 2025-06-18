@@ -8,7 +8,6 @@
 2. [Visual Studio Code](#visual-studio-code)
     - [Installing VS Code](#heres-how-you-can-get-it-installed-on-your-system-1)
 3. [Git](#git)
-    - [Installing Git](#heres-how-you-can-get-it-installed-on-your-system-2)
 4. [Git Credential Manager](#git-credential-manager)
     - [Installing GCM](#heres-how-you-can-get-it-installed-on-your-system-3)
 5. [Necessary Packages](#necessary-packages)
@@ -32,8 +31,7 @@ _Conda_ is a versatile tool used on Windows, macOS, and Linux for **managing sof
   - [ARM-based systems](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-aarch64.sh): For ARM-based Linux systems.
   - [IBM Z mainframes](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-s390x.sh): For IBM Z mainframes.
 
-#### Useful Resources
-- [Conda Cheat Sheet](https://conda.io/projects/conda/en/latest/user-guide/cheatsheet.html): A quick reference guide for Conda, detailing common commands and usage scenarios, aiding in easy management of environments and packages.
+[Conda Cheat Sheet](https://conda.io/projects/conda/en/latest/user-guide/cheatsheet.html)
 
 ### Visual Studio Code
 
@@ -57,37 +55,31 @@ Another key advantage of VS Code is its performance. Despite its rich feature se
   - [Git Graph Extension](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph): Visualization for Git commit trees
 
 ### Git
-**Git** is a version control system that developers use to keep track of changes in their code. Think of it as a detailed history book of your project's progress. You can go back and see earlier versions of your work, fix mistakes, or combine updates from multiple people without losing anything.
+**Git** is a tool that tracks changes to your code, letting you save versions, undo mistakes, and collaborate with others. When using GitHub, **Git Credential Manager (GCM)** helps by securely remembering your login so you don’t have to enter it every time.
 
-#### Here’s how you can get it installed on your system:
+- how to install Git:
+  - Open your terminal and run:
+    ```bash
+    sudo apt update
+    sudo apt install git
+    ```
+  - Confirm the installation:
+    ```bash
+    git --version
+    ```
+- how to install Git Credential Manager (GCM):
+  - [Download the GCM .deb package](https://github.com/git-ecosystem/git-credential-manager/releases/tag/v2.4.1).
+  - Navigate to the folder where the `.deb` file is saved.
+  - In your terminal, run:
+    ```bash
+    sudo dpkg -i <THE .DEB FILE NAME>
+    ```
+  - Confirm the installation:
+    ```bash
+    git-credential-manager --version
+    ```
 
-Run the following commands in your terminal to install Git:
-```bash
-# Check if Git is already installed.
-git --version;
-
-# Update package lists.
-sudo apt update; 
-
-# Install Git.
-sudo apt install git-all;
-```
-
-- [Set VSCode as your default Git editor](https://docs.github.com/en/get-started/git-basics/associating-text-editors-with-git#using-visual-studio-code-as-your-editor): Git's default editor is an advanced terminal-based text editor (vim) that can be confusing to use. VSCode will make using Git a bit easier.
-
-### Git Credential Manager
-**Git Credential Manager (GCM)** is a tool that makes using [Git](#git-and-brew-installation), the version control system, much more convenient. When you're working with projects using Git, you'd have to enter your username and password every time you interact with them. GCM simplifies this by remembering (or "caching") your login details after you enter them once. This way, you don’t have to keep typing them in every time you interact with your projects, speeding up your workflow and reducing the hassle of managing access to your projects.
-
-#### Here’s how you can get it installed on your system:
-
-- [Download the .deb file](https://github.com/git-ecosystem/git-credential-manager/releases/tag/v2.4.1): Download the GCM .deb package.
-- Open a terminal in the folder where the .deb file is located.
-- Run `sudo dpkg -i <THE .DEB FILE>`.
-- Check installation with `git-credential-manager --version`.
-
-#### Useful Resources
-- [Git Credential Manager Documentation](https://github.com/git-ecosystem/git-credential-manager/blob/main/README.md)
-- [Detailed Installation Process](https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/install.md)
+Useful Resources: [Git Documentation](https://git-scm.com/doc), [Git Credential Manager Documentation](https://github.com/git-ecosystem/git-credential-manager/blob/main/README.md)
 
 ### Necessary Packages
 
