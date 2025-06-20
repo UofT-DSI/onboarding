@@ -1,6 +1,6 @@
-## Tech Onboarding - For Linux Users
+# Tech Onboarding - For Linux Users
 
-### Table of Contents
+## Table of Contents
 
 0. [Introduction](#introduction)
 1. [Visual Studio Code](#visual-studio-code)
@@ -9,10 +9,10 @@
     - [Necessary Packages](#necessary-packages)
 4. [Conclusion](#conclusion)
 
-### Introduction
+## Introduction
 Welcome to your Linux onboarding guide! This document will walk you through installing the essential tools you’ll use throughout the DSI Certificate. By setting things up now, you’ll avoid headaches later, most modules will run smoothly without needing extra setup. While some advanced topics might require additional tools, this core setup will cover the majority of what you’ll need. Let’s get started!
 
-### Visual Studio Code
+## Visual Studio Code
 Visual Studio Code (VS Code) is a free and beginner-friendly code editor. Think of it like Microsoft Word, but for writing and editing code. It works with many programming languages and can be customized with extensions to fit your needs. It’s fast, lightweight, and runs well on most computers—great for both beginners and experienced developers.
 
 - How to install VS Code:
@@ -25,7 +25,7 @@ Visual Studio Code (VS Code) is a free and beginner-friendly code editor. Think 
   - [Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
   - [Git Graph Extension](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 
-### Git
+## Git
 **Git** is a tool that tracks changes to your code, letting you save versions, undo mistakes, and collaborate with others. When using GitHub, **Git Credential Manager (GCM)** helps by securely remembering your login so you don’t have to enter it every time.
 
 - How to install Git:
@@ -52,7 +52,7 @@ Visual Studio Code (VS Code) is a free and beginner-friendly code editor. Think 
 
 Useful Resources: [Git Documentation](https://git-scm.com/doc), [Git Credential Manager Documentation](https://github.com/git-ecosystem/git-credential-manager/blob/main/README.md)
 
-### Miniconda
+## Miniconda
 
 Miniconda is a lightweight version of [Conda](https://en.wikipedia.org/wiki/Conda_(package_manager)), a tool that helps you manage programming environments and install the right packages (dependencies) for each project. It lets you keep different setups side by side, so your tools don’t conflict across projects.
 
@@ -73,7 +73,7 @@ Miniconda is a lightweight version of [Conda](https://en.wikipedia.org/wiki/Cond
 
 - Bookmark the [Conda Cheat Sheet](https://conda.io/projects/conda/en/latest/user-guide/cheatsheet.html), a reference as you begin working with Conda.
 
-#### Necessary Packages
+## Necessary Packages
 
 Now that Conda is installed, let’s set up your coding environment with everything you’ll need for the DSI Certificate.
 
@@ -102,5 +102,5 @@ Now that Conda is installed, let’s set up your coding environment with everyth
   conda list
   ```
 
-### Conclusion
+## Conclusion
 You’ve now got all the essential tools set up for your DSI certificate. For any questions or issues, reach out to: courses.dsi@utoronto.ca
