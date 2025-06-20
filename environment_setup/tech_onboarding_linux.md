@@ -5,8 +5,7 @@
 0. [Introduction](#introduction)
 1. [Visual Studio Code](#visual-studio-code)
 2. [Git](#git)
-3. [Miniconda](#miniconda)
-    - [Necessary Packages](#necessary-packages)
+3. [Miniconda](#miniconda) / [Necessary Packages](#necessary-packages)
 4. [Conclusion](#conclusion)
 
 ## Introduction
@@ -75,8 +74,9 @@ Miniconda is a lightweight version of [Conda](https://en.wikipedia.org/wiki/Cond
 
 ## Necessary Packages
 
-Now that Conda is installed, let’s set up your coding environment with everything you’ll need for the DSI Certificate.
+Now that Conda is ready, let’s set up everything you’ll need for the DSI Certificate.
 
+Open **Terminal** and enter the following commands, one at a time:
 - Create your environment:
   ```bash
   conda create --name dsi_participant python=3.9
