@@ -22,7 +22,6 @@ Visual Studio Code (VS Code) is a free and beginner-friendly code editor. Think 
 - Install these VS Code extensions by clicking the links and hitting “Install”:
   - [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
   - [Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
-  - [Git Graph Extension](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 
 ## Git
 **Git** is a tool that tracks changes to your code, letting you save versions, undo mistakes, and collaborate with others. When using GitHub, **Git Credential Manager (GCM)** helps by securely remembering your login so you don’t have to enter it every time.
