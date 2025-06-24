@@ -1,147 +1,109 @@
 ## Tech Onboarding - For Mac Users
 
-### Table of Contents
+## Table of Contents
 
-1. [Miniconda](#miniconda)
-    - [Installing Miniconda](#heres-how-you-can-get-it-installed-on-your-system)
-    - [Useful Resources](#useful-resources)
-2. [Visual Studio Code](#visual-studio-code)
-    - [Installing VS Code](#heres-how-you-can-get-it-installed-on-your-system-1)
-3. [Git and Brew](#git-and-brew-installation)
-    - [Installing Git and Brew](#heres-how-you-can-get-it-installed-on-your-system-2)
-4. [Git Credential Manager](#git-credential-manager)
-    - [Installing GCM](#heres-how-you-can-get-it-installed-on-your-system-3)
-5. [Necessary Packages](#necessary-packages)
-6. [Conclusion](#conclusion)
+0. [Introduction](#introduction)
+1. [Visual Studio Code](#visual-studio-code)
+2. [Git](#git)
+3. [Miniconda](#miniconda) / [Necessary Packages](#necessary-packages)
+4. [Conclusion](#conclusion)
 
-### Miniconda
+## Introduction
+Welcome to your macOS onboarding guide! This document will walk you through installing the essential tools you’ll use throughout the DSI Certificate. By setting things up now, you’ll avoid headaches later, most modules will run smoothly without needing extra setup. While some advanced topics might require additional tools, this core setup will cover the majority of what you’ll need. Let’s get started!
 
-_Conda_ is a versatile tool used on Windows, macOS, and Linux for **managing software packages** and **work environments**. It supports many programming languages, including Python, R, Ruby, Lua, Scala, Java, JavaScript, C/C++, FORTRAN, and more.
+## Visual Studio Code
+Visual Studio Code (VS Code) is a free and beginner-friendly code editor. Think of it like Microsoft Word, but for writing and editing code. It works with many programming languages and can be customized with extensions to fit your needs. It’s fast, lightweight, and runs well on most computers—great for both beginners and experienced developers.
 
-- **A package management system** works somewhat like the App Store on your phone, but it’s specifically designed for managing complex software packages used in programming and data analysis, ensuring that all necessary software dependencies are managed without conflicts.
+- Get VS Code [here](https://code.visualstudio.com) and install it like any app.
+- Install these VS Code extensions by clicking the links and hitting “Install”:
+  - [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+  - [Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+- You should now see VS Code installed. Open it and check that it runs and the extensions appear under the Extensions tab (four-square icon).
 
-- **A work environment** is a specific setup on your computer for managing and running projects. It includes all the software, libraries, and tools needed. Conda allows you to create multiple isolated work environments, each tailored to specific project requirements. This is crucial in places like the DSI (Data Science Institute), where it ensures that everyone’s computer is set up identically, mimicking how a program would run on any other machine.
+## Git
+**Git** is a tool that tracks changes to your code, letting you save versions, undo mistakes, and collaborate with others. When using GitHub, **Git Credential Manager (GCM)** helps by securely remembering your login so you don’t have to enter it every time. 
 
-**Miniconda** is a software bundle that includes Conda, Python, and a small selection of essential packages. It's designed for those who want to manage their tools and environments with simplicity, allowing users to add additional packages as needed. This makes Miniconda an ideal choice for setting up a lean and efficient development environment.
+On macOS, we install Git using Homebrew, a popular tool for managing software installations through the terminal.
 
-#### Here’s how you can get it installed on your system:
-
-- Visit the [Miniconda Installation Page](https://docs.conda.io/projects/miniconda/en/latest/index.html).
-- Choose and download the appropriate installer based on your system architecture:
-  - **x86_64-based systems**:
-    - [Bash version](https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh)
-    - [Pkg version](https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.pkg)
-  - **ARM-based systems (M chips)**:
-    - [Bash version](https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh)
-    - [Pkg version](https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.pkg)
-
-#### Useful Resources
-- [Conda Cheat Sheet](https://conda.io/projects/conda/en/latest/user-guide/cheatsheet.html): A quick reference guide for Conda, detailing common commands and usage scenarios, aiding in easy management of environments and packages.
-
-### Visual Studio Code
-
-Visual Studio Code (VS Code) is a free software similar to Microsoft Word, but instead of handling documents, it helps you write and edit code for creating computer programs. It’s user-friendly and can be customized to fit your specific needs, much like how you can adjust settings in Word. VS Code supports a wide range of programming languages, making it versatile for various coding projects.
-
-One of the standout features of VS Code is its extensive library of extensions, which can enhance and expand its capabilities. 
-
-Another key advantage of VS Code is its performance. Despite its rich feature set, it remains lightweight and fast, ensuring that it runs smoothly even on less powerful hardware. This balance of power and efficiency makes it an ideal choice for both beginners and experienced developers.
-
-#### Here’s how you can get it installed on your system:
-
-- [Installation Page](https://code.visualstudio.com)
-- Extensions:
-  - [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python): Enhances Python programming capabilities within VS Code.
-  - [Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter): Allows for Jupyter notebook support, enabling data science and machine learning tasks.
-  - [Git Graph Extension](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph): Visualization for Git commit trees
-- Enable command line access:
-  - [Follow the instructions here](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line) to enable launching VSCode from the command line
-
-### Git and Brew
-**Git** is a version control system that developers use to keep track of changes in their code. Think of it as a detailed history book of your project's progress. You can go back and see earlier versions of your work, fix mistakes, or combine updates from multiple people without losing anything.
-
-**Brew**, or Homebrew, is a package manager specifically for macOS and Linux systems. It simplifies the process of installing and managing software on your computer. Instead of searching for software online, downloading it, and manually installing, Brew lets you install programs with simple commands in your terminal, streamlining the whole process. It's especially handy for setting up development environments, like installing Git, so you can start coding more efficiently.
-
-#### Here’s how you can get it installed on your system:
-
-Run the following commands in your terminal:
-  ```bash
-  # Test whether if you'r system has brew
-  brew --version;
+- How to install Git:
+  - Open **Terminal** and enter the following commands, one at a time.
+  - Install Homebrew:
+    ```
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)";
+    ```
+  - Tell your shell where to find Homebrew:
+    ```
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile; eval "$(/opt/homebrew/bin/brew shellenv)"
+    ```
+  - Confirm Homebrew installation:
+    ```
+    brew --version
+    ```
+    - You should see a version number printed. If not, try reinstalling Homebrew.
+  - Install Git using Homebrew:
+    ```
+    brew install git
+    ```
+  - Confirm git installation:
+    ```
+    git --version
+    ```
+    - You should see a version number printed. If not, try reinstalling Git using Homebrew.
   
-  # Command to install brew
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)";
-  
-  # Lists the packages that brew has installed on your system
-  brew list;
+- How to install Git Credential Manager (GCM):
+  - Open **Terminal** and enter the following commands, one at a time:
+  - Install the latest version of GCM:
+    ```
+    brew install --cask git-credential-manager; brew upgrade --cask git-credential-manager
+    ```
+  - Confirm the installation:
+    ```
+    git-credential-manager --version
+    ```
+    - You should see a version number if it installed correctly. If not, check the links below.
 
-  # Command to install git through brew
-  brew install git;
-  ```
-  - For a more detailed explanation of brew and the installation process, please visit the [Brew Installation Page](https://brew.sh).
+## Miniconda
 
-- [Set VSCode as your default Git editor](https://docs.github.com/en/get-started/git-basics/associating-text-editors-with-git#using-visual-studio-code-as-your-editor): Git's default editor is an advanced terminal-based text editor (vim) that can be confusing to use. VSCode will make using Git a bit easier.
+Miniconda is a lightweight version of [Conda](https://en.wikipedia.org/wiki/Conda_(package_manager)), a tool that helps you manage programming environments and install the right packages (dependencies) for each project. It lets you keep different setups side by side, so your tools don’t conflict across projects.
 
-### Git Credential Manager
-**Git Credential Manager (GCM)** is a tool that makes using [Git](#git-and-brew-installation), the version control system, much more convenient. When you're working with projects using Git, you'd have to enter your username and password every time you interact with them. GCM simplifies this by remembering (or "caching") your login details after you enter them once. This way, you don’t have to keep typing them in every time you interact with your projects, speeding up your workflow and reducing the hassle of managing access to your projects.
 
-#### Here’s how you can get it installed on your system:
+- How to install Miniconda
+  - Download the Miniconda installer for [Apple Silicon](https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.pkg) or [Intel Chips](https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.pkg), depending on your Mac’s chip, and install it like any other app.
+  - Confirm the installation by typing the following command in your **Terminal**:
+      ```bash
+      conda --version
+      ```
+    - You should see something like `conda 23.x.x`.
+- Bookmark the [Conda Cheat Sheet](https://conda.io/projects/conda/en/latest/user-guide/cheatsheet.html), a reference as you begin working with Conda.
 
-- The following commands allow you to install, update and check if GCM has been installed properly:
+## Necessary Packages
+Now that Conda is ready, let’s set up everything you’ll need for the DSI Certificate.
+
+Open **Terminal** and enter the following commands, one at a time:
+- Create your environment:
   ```bash
-  brew install --cask git-credential-manager;
-  brew upgrade --cask git-credential-manager;
-  git-credential-manager --version;
+  conda create --name dsi_participant python=3.9
   ```
-  - [Git Credential Manager Documentation](https://github.com/git-ecosystem/git-credential-manager/blob/main/README.md)
-  - [Detailed Installation Process](https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/install.md)
 
+- Switch into your new environment
+  ```bash
+  conda activate dsi_participant
+  ```
 
-### Necessary Packages
+- Install the necessary packages:
+  ```bash
+  conda install -c conda-forge numpy requests ipykernel pandas seaborn scikit-learn python-dotenv dask "pyarrow>=11.0.0" sacred sqlalchemy psycopg2 shap fancyimpute missingno tensorflow matplotlib plotly nbformat scikit-image opencv transformers yfinance pygam pybind11
+  ```
 
-Miniconda comes with many useful Python packages, but there are still some that need to be installed separately for your modules. Here’s how to set up a specific work environment for your modules.
+- Install a few extra packages using a different tool:
+  ```bash
+  pip install l0bnb faraway islp
+  ```
 
-Open your terminal, and use the command below to create a new work environment named "dsi_participant". This command will automatically install Python version 3.9 in the environment, so you don't need to install it separately.
+- Verify everything was installed:
+  ```bash
+  conda list
+  ```
 
-```bash
-conda create --name dsi_participant python=3.9
-```
-
-To use the new environment you created, you need to activate it. Use the command below to activate your "dsi_participant" environment:
-
-```bash
-conda activate dsi_participant
-```
-
-This command switches your terminal to use the Python version and packages installed within the "dsi_participant" environment, readying it for your work on the modules.
-
-
-Next, you'll need to install various packages essential for your modules. The following command installs a comprehensive set of packages all at once:
-
-```bash
-conda install -c conda-forge numpy requests ipykernel pandas seaborn scikit-learn python-dotenv dask pyarrow">=11.0.0" sacred sqlalchemy psycopg2 shap fancyimpute missingno tensorflow matplotlib plotly nbformat scikit-image opencv transformers yfinance pygam pybind11
-```
-
-Running this command in your "dsi_participant" environment ensures you have almost all the necessary tools installed for the duration of the certificates.
-
-Some packages aren’t available through Conda, so we use another tool called **Pip**. Pip is similar to Conda but accesses a broader range of software packages. By using Pip, we can install these additional packages directly into the active environment. Since your "dsi_participant" environment is activated, Pip will automatically install the new packages there.
-
-Here’s the command to install the remaining packages:
-
-```bash
-pip install l0bnb faraway islp
-```
-
-This step completes the setup of all the necessary software for your modules in the designated environment.
-
-**And that's it!**
-
-If you're interested in checking whether all of the necessary packages have been installed, you can list them by running the following command in your terminal:
-
-```bash
-conda list
-```
-
-This command will display all the packages currently installed in your `dsi_participant` environment, allowing you to verify that everything is set up correctly.
-
-### Conclusion
-This guide has equipped you with all the essential tools needed for your data science journey—from setting up Miniconda for managing dependencies, to coding in VS Code, and ensuring smooth version control with Git and Git Credential Manager. By installing these tools now, you’re setting yourself up for a hassle-free experience, allowing you to focus fully on your learning modules throughout the cohort without further interruptions for software installations.
+## Conclusion
+You’ve now got all the essential tools set up for your DSI certificate. For any questions or issues, reach out to: courses.dsi@utoronto.ca
