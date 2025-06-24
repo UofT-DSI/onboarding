@@ -18,6 +18,7 @@ Visual Studio Code (VS Code) is a free and beginner, friendly code editor. Think
 - Install these VS Code extensions by clicking the links and hitting “Install”:
   - [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
   - [Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
+- You should now see VS Code installed. Open it and check that it runs and the extensions appear under the Extensions tab (four-square icon).
 
 ## Git
 **Git** is a tool that tracks changes to your code, helping you save versions, undo mistakes, and collaborate with others. On Windows, installing Git also gives you **Git Bash**, a tool that makes your terminal behave more like the ones used on Mac and Linux. This helps make everyone's setup feel the same, no matter what operating system they're on.
@@ -26,6 +27,12 @@ Visual Studio Code (VS Code) is a free and beginner, friendly code editor. Think
   - During setup, make sure to:
     - **Git Credential Manager** is an option in the installation steps, <u>***make sure to install it***</u>.
     - Click on "Use Window's Default Console Window" in the installation steps.
+- Check that it works:
+  - Open **Git Bash** and run:
+    ```bash
+    git --version
+    ```
+  - You should see something like `git x.x.x`. If not, try reinstalling Git and make sure Git Bash is selected during setup.
 
 ## Miniconda
 Miniconda is a lightweight version of [Conda](https://en.wikipedia.org/wiki/Conda_(package_manager)), a tool that helps you manage programming environments and install the right packages for each project. It lets you keep different setups side by side so tools don’t conflict across projects.
