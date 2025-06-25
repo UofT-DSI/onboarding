@@ -51,9 +51,9 @@ Visual Studio Code (VS Code) is a free and beginner-friendly code editor. Think 
 Useful Resources: [Git Documentation](https://git-scm.com/doc), [Git Credential Manager Documentation](https://github.com/git-ecosystem/git-credential-manager/blob/main/README.md)
 
 ## Miniconda
-
 Miniconda is a lightweight version of [Conda](https://en.wikipedia.org/wiki/Conda_(package_manager)), a tool that helps you manage programming environments and install the right packages (dependencies) for each project. It lets you keep different setups side by side, so your tools don’t conflict across projects.
 
+- **🚨 Important**: If you already have Anaconda (a full-featured version of Conda), you can keep using it, no need to install Miniconda.
 - How to install Miniconda
   - Visit the [Miniconda Installation Page](https://docs.conda.io/projects/miniconda/en/latest/index.html).
   - Choose and download the appropriate installer based on your system architecture: [x86_64-based systems](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh) | [ARM-based systems](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-aarch64.sh) | [IBM Z mainframes](https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-s390x.sh)
@@ -70,7 +70,6 @@ Miniconda is a lightweight version of [Conda](https://en.wikipedia.org/wiki/Cond
   - You should see something like `conda 23.x.x`.
 
 ## Necessary Packages
-
 Now that Conda is ready, let’s set up everything you’ll need for the DSI Certificate.
 
 Open **Terminal** and enter the following commands, one at a time:
@@ -89,7 +88,7 @@ Open **Terminal** and enter the following commands, one at a time:
   conda install -c conda-forge numpy requests ipykernel pandas seaborn scikit-learn python-dotenv dask "pyarrow>=11.0.0" sacred sqlalchemy psycopg2 shap fancyimpute missingno tensorflow matplotlib plotly nbformat scikit-image opencv transformers yfinance pygam pybind11
   ```
 
-- Install a few extra packages using a different tool:
+- Install another set of necessary packages using a different tool:
   ```bash
   pip install l0bnb faraway islp
   ```

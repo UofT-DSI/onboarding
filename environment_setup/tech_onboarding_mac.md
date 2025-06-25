@@ -1,4 +1,4 @@
-## Tech Onboarding - For Mac Users
+# Tech Onboarding - For Mac Users
 
 ## Table of Contents
 
@@ -60,13 +60,12 @@ On macOS, we install Git using Homebrew, a popular tool for managing software in
     ```
     git-credential-manager --version
     ```
-    - You should see a version number if it installed correctly. If not, check the links below.
+    - You should see a version number if it installed correctly.
 
 ## Miniconda
-
 Miniconda is a lightweight version of [Conda](https://en.wikipedia.org/wiki/Conda_(package_manager)), a tool that helps you manage programming environments and install the right packages (dependencies) for each project. It lets you keep different setups side by side, so your tools don’t conflict across projects.
 
-
+- **🚨 Important**: If you already have Anaconda (a full-featured version of Conda), you can keep using it, no need to install Miniconda.
 - How to install Miniconda
   - Download the Miniconda installer for [Apple Silicon](https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.pkg) or [Intel Chips](https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.pkg), depending on your Mac’s chip, and install it like any other app.
   - Confirm the installation by typing the following command in your **Terminal**:
@@ -94,7 +93,7 @@ Open **Terminal** and enter the following commands, one at a time:
   conda install -c conda-forge numpy requests ipykernel pandas seaborn scikit-learn python-dotenv dask "pyarrow>=11.0.0" sacred sqlalchemy psycopg2 shap fancyimpute missingno tensorflow matplotlib plotly nbformat scikit-image opencv transformers yfinance pygam pybind11
   ```
 
-- Install a few extra packages using a different tool:
+- Install another set of necessary packages using a different tool:
   ```bash
   pip install l0bnb faraway islp
   ```
@@ -103,6 +102,7 @@ Open **Terminal** and enter the following commands, one at a time:
   ```bash
   conda list
   ```
+
 Bookmark the [Conda Cheat Sheet](https://conda.io/projects/conda/en/latest/user-guide/cheatsheet.html), a reference as you begin working with Conda.
 
 ## Conclusion

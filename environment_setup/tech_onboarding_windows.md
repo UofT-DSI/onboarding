@@ -12,7 +12,7 @@
 Welcome to your Windows onboarding guide! This document will walk you through installing the essential tools you’ll use throughout the DSI Certificate. For the best results, we recommend using Windows 10 or 11. By setting things up now, you’ll avoid headaches later, most modules will run smoothly without needing extra setup. While some advanced topics might require additional tools, this core setup will cover the majority of what you’ll need. Let’s get started!
 
 ## Visual Studio Code
-Visual Studio Code (VS Code) is a free and beginner, friendly code editor. Think of it like Microsoft Word, but for writing and editing code. It works with many programming languages and can be customized with extensions to fit your needs. It’s fast, lightweight, and runs well on most computers, great for both beginners and experienced developers.
+Visual Studio Code (VS Code) is a free and beginner-friendly code editor. Think of it like Microsoft Word, but for writing and editing code. It works with many programming languages and can be customized with extensions to fit your needs. It’s fast, lightweight, and runs well on most computers, great for both beginners and experienced developers.
 
 - Get VS Code [here](https://code.visualstudio.com) and install it like any app.
 - Install these VS Code extensions by clicking the links and hitting “Install”:
@@ -35,7 +35,7 @@ Visual Studio Code (VS Code) is a free and beginner, friendly code editor. Think
   - You should see something like `git x.x.x`. If not, try reinstalling Git and make sure Git Bash is selected during setup.
 
 ## Miniconda
-Miniconda is a lightweight version of [Conda](https://en.wikipedia.org/wiki/Conda_(package_manager)), a tool that helps you manage programming environments and install the right packages for each project. It lets you keep different setups side by side so tools don’t conflict across projects.
+Miniconda is a lightweight version of [Conda](https://en.wikipedia.org/wiki/Conda_(package_manager)), a tool that helps you manage programming environments and install the right packages (dependencies) for each project. It lets you keep different setups side by side, so your tools don’t conflict across projects.
 
 - **🚨 Important**: If you already have Anaconda (a full-featured version of Conda), you can keep using it, no need to install Miniconda.
 - Get Miniconda [here](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe) and install it like any app.
