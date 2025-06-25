@@ -74,7 +74,6 @@ Miniconda is a lightweight version of [Conda](https://en.wikipedia.org/wiki/Cond
       conda --version
       ```
     - You should see something like `conda 23.x.x`.
-- Bookmark the [Conda Cheat Sheet](https://conda.io/projects/conda/en/latest/user-guide/cheatsheet.html), a reference as you begin working with Conda.
 
 ## Necessary Packages
 Now that Conda is ready, let’s set up everything you’ll need for the DSI Certificate.
@@ -104,6 +103,7 @@ Open **Terminal** and enter the following commands, one at a time:
   ```bash
   conda list
   ```
+Bookmark the [Conda Cheat Sheet](https://conda.io/projects/conda/en/latest/user-guide/cheatsheet.html), a reference as you begin working with Conda.
 
 ## Conclusion
 You’ve now got all the essential tools set up for your DSI certificate. For any questions or issues, reach out to: courses.dsi@utoronto.ca

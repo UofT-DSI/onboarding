@@ -37,18 +37,37 @@ Visual Studio Code (VS Code) is a free and beginner, friendly code editor. Think
 ## Miniconda
 Miniconda is a lightweight version of [Conda](https://en.wikipedia.org/wiki/Conda_(package_manager)), a tool that helps you manage programming environments and install the right packages for each project. It lets you keep different setups side by side so tools don’t conflict across projects.
 
-- **🚨 Important**: Anaconda and Miniconda don’t work well together, use one or the other.
+- **🚨 Important**: If you already have Anaconda (a full-featured version of Conda), you can keep using it, no need to install Miniconda.
 - Get Miniconda [here](https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe) and install it like any app.
   - During setup, make sure to:
-    - Check **“Add Miniconda to my PATH environment variable”** (even though it says not recommended, we need this for Git Bash to work).
-    - Check **“Register Miniconda as the system’s default Python”**.
+    - Check “Add Miniconda to my PATH environment variable” (even though it says not recommended, we need this for Git Bash to work).
+    - Check “Register Miniconda as the system’s default Python”.
+
+      ![](./images/miniconda_setup.png)
+- After installation:
+  - Close any open Git Bash windows, then open a new one to ensure recent changes take effect.
+  - Run this command in Git Bash to initialize Conda:
+    ```bash
+    conda init
+    ```
+  - Close Git Bash and open it again to apply the changes.
+  - Run this command in Git Bash to make Conda load automatically in the future:
+    ```bash
+    echo ". \"$HOME/miniconda3/etc/profile.d/conda.sh\"" >> ~/.bashrc; source ~/.bashrc;
+    ```
+
 - Check that it works:
-  - Open **Git Bash** and run:
+  - Open Git Bash and run:
     ```bash
     conda --version
     ```
-  - You should see something like `conda 23.x.x`. If you don’t, **restart your computer** and try again.
-- 💡 Tip: You can keep the [Conda Cheat Sheet](https://conda.io/projects/conda/en/latest/user-guide/cheatsheet.html) bookmarked as a quick reference while working.
+    You should see something like `conda 23.x.x`.
+  
+  - Then run:
+    ```bash
+    conda activate
+    ```
+    This should change your prompt to show something like `(base)`, that means Conda is working! If not, **restart your computer** and try again.
 
 ## Necessary Packages
 Now that Conda is ready, let’s set up everything you’ll need for the DSI Certificate.
@@ -69,7 +88,7 @@ Open **Git Bash** and enter the following commands, one at a time:
   conda install -c conda-forge numpy requests ipykernel pandas seaborn scikit-learn python-dotenv dask "pyarrow>=11.0.0" sacred sqlalchemy psycopg2 shap fancyimpute missingno tensorflow matplotlib plotly nbformat scikit-image opencv transformers yfinance pygam pybind11
   ```
 
-- Install a few extra packages using a different tool:
+- Install another set of necessary packages using a different tool:
   ```bash
   pip install l0bnb faraway islp
   ```
@@ -78,6 +97,8 @@ Open **Git Bash** and enter the following commands, one at a time:
   ```bash
   conda list
   ```
+
+Bookmark the [Conda Cheat Sheet](https://conda.io/projects/conda/en/latest/user-guide/cheatsheet.html), a reference as you begin working with Conda.
 
 ## Conclusion
 You’ve now got all the essential tools set up for your DSI certificate. For any questions or issues, reach out to: courses.dsi@utoronto.ca
