@@ -85,7 +85,7 @@ Open **Git Bash** and enter the following commands, one at a time:
 
 - Install the necessary packages:
   ```bash
-  conda install -c conda-forge numpy requests ipykernel pandas seaborn scikit-learn python-dotenv dask "pyarrow>=11.0.0" sacred sqlalchemy psycopg2 shap fancyimpute missingno tensorflow matplotlib plotly nbformat scikit-image opencv transformers yfinance pygam pybind11
+  for package in numpy requests ipykernel pandas seaborn scikit-learn python-dotenv dask "pyarrow>=11.0.0" sacred sqlalchemy psycopg2 shap fancyimpute missingno tensorflow matplotlib plotly nbformat scikit-image opencv transformers yfinance pygam pybind11; do echo -e "➡️  Starting installation of \"$package\"..." && conda install -c conda-forge "$package" -y && echo "✅ Successfully installed \"$package\"" || echo "❌ Installation failed for \"$package\""; done 
   ```
 
 - Install another set of necessary packages using a different tool:
