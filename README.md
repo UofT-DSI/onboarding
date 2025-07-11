@@ -9,7 +9,6 @@ Welcome to the DSI Certificates! This repository is designed to provide all the 
 - **Submission Guidelines**: Clear instructions on how to submit assignments and projects using GitHub.  
 
 ## Content
-* [Tech Requirements](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/tech_requirements.md)
 * [Environment Setup](https://github.com/UofT-DSI/onboarding/tree/main/environment_setup)
 * [Participant Guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/participant_guidelines.md)
 * [Submission Guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md)
