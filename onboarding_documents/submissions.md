@@ -15,6 +15,7 @@
     - [Public Repository](#public-repository)
     - [Pull Request Link](#pull-request-link)
     - [Do Not Tag Your Teaching Team](#do-not-tag-your-teaching-team)
+    - [Do Not Merge Without Approval](#do-not-merge-without-approval)
 - [Guidelines for Pull Request Descriptions](#guidelines-for-pull-request-descriptions)
 - [Example Pull Request Submission Link](#example-pull-request-submission-link)
 - [Troubleshooting Common Issues](#troubleshooting-common-issues)
@@ -131,8 +132,8 @@ Please visit your pull request on another browser or in your browser’s private
 #### Do Not Tag Your Teaching Team
 Do not tag your teaching team in the pull request. We will be able to find your submissions if you have followed the instructions above!
 
-#### 🚨 Do Not Merge Without Approval
-Do not merge your pull request unless it has been explicitly approved by the Learning Support team. If there are comments or feedback, please fix them, recommit your changes, and wait for Learning Support to review again. 🚨 Only after Learning Support has approved should you merge the pull request.
+#### Do Not Merge Without Approval
+Do not merge your pull request unless it has been explicitly approved by the Learning Support team. If there are comments or feedback, please fix them, recommit your changes, and wait for Learning Support to review again. 🚨 Only after Learning Support has approved should you merge the pull request.🚨
 
 ## Guidelines for Pull Request Descriptions
 
