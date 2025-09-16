@@ -9,7 +9,7 @@
 4. [Conclusion](#conclusion)
 
 ## Introduction
-Welcome to your macOS onboarding guide! This document walks you through installing the core tools needed for the DSI Certificate. For the best results, we recommend using Windows 10 or 11.
+Welcome to your macOS onboarding guide! This document walks you through installing the core tools needed for the DSI Certificate. For the best results, we recommend using Windows 11.
 
 🚨 Complete this setup first. Then, for each module, follow its `SETUP.md` for module specific steps.  
 
