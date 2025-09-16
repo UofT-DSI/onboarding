@@ -39,7 +39,7 @@ Visual Studio Code (VS Code) is a free and beginner-friendly code editor. Think 
   - You should see something like `git x.x.x`. If not, try reinstalling Git and make sure Git Bash is selected during setup.
 
 ## UV
-UV is a lightweight, fast tool for managing Python environments and dependencies. It lets you create separate virtual environments (with the help of venv) for each project and install the exact packages it needs, so your setups don’t conflict with each other.
+UV is a lightweight, fast tool for managing Python environments and dependencies. It lets you create separate virtual environments for each project and install the exact packages it needs, so your setups don’t conflict with each other.
 - How to install UV
   - Type the following command in your **PowerShell**:
     ```bash
