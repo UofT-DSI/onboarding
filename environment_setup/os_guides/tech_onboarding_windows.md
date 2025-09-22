@@ -29,8 +29,9 @@ Visual Studio Code (VS Code) is a free and beginner-friendly code editor. Think 
 
 - Get Git Bash [here](https://git-scm.com/download/win) and install it like any app.
   - During setup, make sure to:
-    - **Git Credential Manager** is an option in the installation steps, <u>***make sure to install it***</u>.
+    - For "Choosing the default editor used by Git" please select "Use Visual Studio Code as Git's default editor"
     - Click on "Use Window's Default Console Window" in the installation steps.
+    - **Git Credential Manager** is an option in the installation steps, <u>***make sure to install it***</u>.
 - Check that it works:
   - Open **Git Bash** and run:
     ```bash
