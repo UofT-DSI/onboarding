@@ -8,7 +8,7 @@
   - [Cloning the Repo and Setting Up in VS Code](#cloning-the-repo-and-setting-up-in-vs-code)
     - [Cloning the Repository Using GitHub](#cloning-the-repository-using-github)
     - [Reopening the Repository in VS Code](#reopening-the-repository-in-vs-code)
-    - [Setting Up the Conda Environment](#setting-up-the-conda-environment)
+    - [Setting Up the UV/Venv Environment](#setting-up-the-uv-environment)
   - [Completing and Submitting Your Assignment](#completing-and-submitting-your-assignment)
   - [Creating a Pull Request (PR)](#creating-a-pull-request-pr)
     - [PR Description](#pr-description)
@@ -91,18 +91,11 @@ Alternatively, you can also reopen the repository by clicking on **File > Open F
 
 ![Open Folder](./images/open_cloned_repo.png)
 
-#### Setting Up the Conda Environment
-You will need to use a Conda environment called `dsi_participant`. Ensure that this environment is activated in VS Code. If you have not set it up yet, follow the instructions provided in the [environment setup guide](https://github.com/UofT-DSI/onboarding/tree/main/environment_setup) (Specific to [Windows](https://github.com/UofT-DSI/onboarding/blob/main/environment_setup/tech_onboarding_windows.md#necessary-packages), [MacOS](https://github.com/UofT-DSI/onboarding/blob/main/environment_setup/tech_onboarding_mac.md#necessary-packages), and [Linux](https://github.com/UofT-DSI/onboarding/blob/main/environment_setup/tech_onboarding_linux.md#necessary-packages)) to install and activate the `dsi_participant` environment.
+#### Setting Up the UV Environment
 
-To ensure that you are working within the correct environment in VS Code:
-- Open the terminal by clicking **Terminal > New Terminal**.
-- Run the following command to activate the environment:
+Each repo now uses a virtual environment created with `uv/venv`. You only need to install `uv` once by following the [environment setup guide](https://github.com/UofT-DSI/onboarding/tree/main/environment_setup) (Specific to [Windows](https://github.com/UofT-DSI/onboarding/blob/main/environment_setup/tech_onboarding_windows.md), [macOS](https://github.com/UofT-DSI/onboarding/blob/main/environment_setup/tech_onboarding_mac.md), and [Linux](https://github.com/UofT-DSI/onboarding/blob/main/environment_setup/tech_onboarding_linux.md)).  
 
-```
-conda activate dsi_participant
-```
-
-After activating the environment, you are ready to begin working on your assignment.
+To install the necessary packages for a module, and to learn how to activate or deactivate its environment, always refer to that module’s `SETUP.md` file.
 
 ### Completing and Submitting Your Assignment
 Work on your assignment within the newly created branch. Ensure that all changes are **committed and pushed to the branch** and **🚨NOT THE MAIN BRANCH🚨**. Make sure your submission includes all required files, following the formats specified.

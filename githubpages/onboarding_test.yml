@@ -265,13 +265,13 @@ problems:
   options:
     - "`Java`"
     - "`Git`"
-    - "`Conda`"
+    - "`UV`"
     - "`Brew`"
   correct_options: [0]
   solution: |
     - ✅ `Java`: Java is a programming language.
     - ❌ `Git`: Git is a version control tool, not a language.
-    - ❌ `Conda`: Conda is a package/environment manager.
+    - ❌ `UV`: UV is a package/environment manager.
     - ❌ `Brew`: Brew is a package manager for macOS.
 
 
@@ -329,7 +329,7 @@ problems:
 
 - title: Question 20
   description: |
-    What is Conda described as in the analogy?
+    What is UV described as in the analogy?
   questiontype: multiplechoice
   options:
     - "`A command`"
@@ -338,28 +338,26 @@ problems:
     - "`A notebook`"
   correct_options: [2]
   solution: |
-    - ✅ `A full-service kitchen manager`: Conda manages environments, packages, and dependencies, like a kitchen manager overseeing resources.
-    - ❌ `A command`: Conda is more than a single command.
-    - ❌ `A shell`: Conda is not a shell.
-    - ❌ `A notebook`: Not a notebook; it manages software.
-
+    - ✅ `A full-service kitchen manager`: UV manages environments, packages, and dependencies, like a kitchen manager overseeing resources.
+    - ❌ `A command`: UV is not just a single command; it manages environments and packages.
+    - ❌ `A shell`: UV does not interpret commands; it prepares environments.
+    - ❌ `A notebook`: UV is not a notebook; it ensures each project has the right setup.
 
 - title: Question 21
   description: |
-    What role does pip play when paired with venv?
+    How do Terminal, Shell, Code, and Git work together?
   questiontype: multiplechoice
   options:
-    - "`Interpreter`"
-    - "`Installer`"
-    - "`Terminal window`"
-    - "`Shell`"
+    - "`They compete for system resources`"
+    - "`They form a workflow to write, run, and track code`"
+    - "`They launch websites`"
+    - "`They save memory`"
   correct_options: [1]
   solution: |
-    - ✅ `Installer`: Pip installs Python packages inside the virtual environment created by venv.
-    - ❌ `Interpreter`: The interpreter runs code, pip installs packages.
-    - ❌ `Terminal window`: Pip runs inside the terminal but is not a window.
-    - ❌ `Shell`: Pip is a package manager, not a shell.
-
+    - ✅ `They form a workflow to write, run, and track code`: The terminal is where commands are typed, the shell runs them, code is the instructions, and Git tracks changes, all working together.
+    - ❌ `They compete for system resources`: They cooperate rather than compete.
+    - ❌ `They launch websites`: Launching websites is not their combined role.
+    - ❌ `They save memory`: Their main function is not saving memory.
 
 - title: Question 22
   description: |
@@ -380,7 +378,7 @@ problems:
 
 - title: Question 23
   description: |
-    What does Conda help manage across projects?
+    What does UV help manage across projects?
   questiontype: multiplechoice
   options:
     - "`Wi-Fi`"
@@ -389,10 +387,10 @@ problems:
     - "`File storage`"
   correct_options: [2]
   solution: |
-    - ✅ `Environments and dependencies`: Conda helps organize and manage software environments and packages for different projects.
-    - ❌ `Wi-Fi`: Conda does not manage networking.
-    - ❌ `Background apps`: Conda is not for managing running applications.
-    - ❌ `File storage`: Conda manages software, not file storage.
+    - ✅ `Environments and dependencies`: UV helps organize and manage software environments and packages for different projects.
+    - ❌ `Wi-Fi`: UV does not manage networking.
+    - ❌ `Background apps`: UV is not for managing running applications.
+    - ❌ `File storage`: UV manages software, not file storage.
 
 
 - title: Question 24
@@ -407,7 +405,7 @@ problems:
   correct_options: [2]
   solution: |
     - ✅ `The Flip Pad`: Git is like the flip pad where orders (code changes) are recorded and tracked.
-    - ❌ `The kitchen manager`: This is more like Conda managing resources.
+    - ❌ `The kitchen manager`: This is more like UV managing resources.
     - ❌ `The kiosk`: The kiosk is the interface, not the record keeper.
     - ❌ `The chef`: The chef prepares, Git tracks changes.
 
@@ -461,20 +459,3 @@ problems:
     - ❌ `Track changes`: Tracking changes is Git's main purpose.
     - ❌ `Restore versions`: Git allows restoring previous versions.
     - ❌ `Document experiments`: Git helps document changes and experiments in code.
-
-
-- title: Question 28
-  description: |
-    How do Terminal, Shell, Code, and Git work together?
-  questiontype: multiplechoice
-  options:
-    - "`They compete for system resources`"
-    - "`They form a workflow to write, run, and track code`"
-    - "`They launch websites`"
-    - "`They save memory`"
-  correct_options: [1]
-  solution: |
-    - ✅ `They form a workflow to write, run, and track code`: The terminal is where commands are typed, the shell runs them, code is the instructions, and Git tracks changes, all working together.
-    - ❌ `They compete for system resources`: They cooperate rather than compete.
-    - ❌ `They launch websites`: Launching websites is not their combined role.
-    - ❌ `They save memory`: Their main function is not saving memory.
