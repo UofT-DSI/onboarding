@@ -98,11 +98,14 @@ Each repo now uses a virtual environment created with `uv/venv`. You only need t
 To install the necessary packages for a module, and to learn how to activate or deactivate its environment, always refer to that module’s `SETUP.md` file.
 
 ### Completing and Submitting Your Assignment
-Work on your assignment within the newly created branch. Ensure that all changes are **committed and pushed to the branch** and **🚨NOT THE MAIN BRANCH🚨**. Make sure your submission includes all required files, following the formats specified.
 
-Once you've completed your work, it's time to submit your changes by committing and pushing to your assignment branch. Make sure you're following proper Git workflow as outlined in the Git basics slides: [Git Basics](https://github.com/UofT-DSI/git/blob/main/01_materials/slides/03_git_basics.pdf).
+Work on your assignment in your own branch, **NOT THE MAIN BRANCH** 🚨. Commit and push all required files in the correct format.
 
-When you're ready to submit, open a pull request (PR) from your assignment branch to **your fork's main branch**. For more guidance, see the section [Creating a Pull Request (PR)](#creating-a-pull-request-pr).
+You can make several commits while working, but make sure your final version is clean and ready before submitting.
+
+When done, open a pull request (PR) from your assignment branch to your fork’s main branch.
+
+See the [Git Basics](https://github.com/UofT-DSI/git/blob/main/01_materials/slides/03_git_basics.pdf) slides and [Creating a Pull Request (PR)](#creating-a-pull-request-pr) for details.
 
 ### Creating a Pull Request (PR)
 *Upon completing your assignment*, create a pull request from your assignment branch to **your fork's main branch**. (Please make sure the pull request is **NOT** to the source/upstream repository's main branch)
