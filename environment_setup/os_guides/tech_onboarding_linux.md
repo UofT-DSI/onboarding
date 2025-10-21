@@ -41,7 +41,7 @@ Visual Studio Code (VS Code) is a free and beginner-friendly code editor. Think 
     git --version
     ```
 - How to install Git Credential Manager (GCM):
-  - [Download the GCM .deb package](https://github.com/git-ecosystem/git-credential-manager/releases/tag/v2.4.1).
+  - [Download the GCM .deb package](https://github.com/git-ecosystem/git-credential-manager/releases/tag/v2.6.1).
   - Navigate to the folder where the `.deb` file is saved.
   - In your terminal, run:
     ```bash
