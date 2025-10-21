@@ -47,7 +47,7 @@ UV is a lightweight, fast tool for managing Python environments and dependencies
     powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
     ```
 
-  - Verify the installation:
+  - Verify the installation in Git Bash:
     ```bash
     uv --version
     ```
