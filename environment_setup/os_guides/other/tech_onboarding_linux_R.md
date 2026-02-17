@@ -69,26 +69,39 @@ R is a free programming language and software environment for data analysis and 
 ## PLINK2
 PLINK is a free, open-source command-line tool for analyzing large-scale genetic and genomic data. It is commonly used for genome-wide association studies (GWAS) and provides fast utilities for quality control, data management, and basic statistical analysis of genotype data.
 
-Steps
-**Steps**
-- Download the Linux 64-bit binary from the [official site](https://www.cog-genomics.org/plink/2.0/)
-- Unzip the downloaded file:
-  ```
-  unzip plink_linux_x86_64_*.zip
-  ```
-- Move the `plink` (or `plink2`) binary to a directory on your PATH, for example:
-  ```
-  sudo mv plink /usr/local/bin/
-  ```
-- Ensure it is executable:
-  ```
-  chmod +x /usr/local/bin/plink
-  ```
-- Open a new terminal.
-- Verify the installation:
-  ```
-  plink --version
-  ```
+- Recommended (system-wide):
+  - Download the Linux 64-bit binary from the [official site](https://www.cog-genomics.org/plink/2.0/).
+  - Unzip the downloaded file:
+    ```
+    unzip plink2_linux_x86_64_*.zip
+    ```
+  - Move `plink2` to a directory on your PATH:
+    ```
+    sudo mv plink2 /usr/local/bin/
+    sudo chmod +x /usr/local/bin/plink2
+    ```
+  - Open a new terminal and verify:
+    ```
+    plink2 --version
+    ```
+
+- Alternative (no `/usr/local/bin` changes):
+  - Keep `plink2` under your home directory:
+    ```
+    mkdir -p ~/tools/plink2
+    mv plink2 ~/tools/plink2/
+    chmod +x ~/tools/plink2/plink2
+    ```
+  - Add it to PATH:
+    ```
+    echo 'export PATH="$HOME/tools/plink2:$PATH"' >> ~/.bashrc
+    source ~/.bashrc
+    ```
+  - Verify:
+    ```
+    plink2 --version
+    ```
+
 
 ## Conclusion
 You now have the tools needed to set up your environment for each repo. For instructions on setting up a specific repo, please refer to that repo’s `SETUP.md`. 

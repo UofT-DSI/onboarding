@@ -83,12 +83,10 @@ PLINK is a free, open-source command-line tool for analyzing large-scale genetic
 
 - How to install PLINK:
   ```
-  brew tap brewsci/bio
-  ```
-  ```
   brew install brewsci/bio/plink2
   ```
-- Verify the installation by running: `plink --version`.
+
+- Verify the installation by running: `plink2 --version`.
 
 ## Conclusion
 You now have the tools needed to set up your environment for each repo. For instructions on setting up a specific repo, please refer to that repo’s `SETUP.md`. 

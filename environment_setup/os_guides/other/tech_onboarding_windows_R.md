@@ -56,20 +56,19 @@ PLINK is a free, open-source command-line tool for analyzing large-scale genetic
 
 Steps
 - Download `plink2.exe` (PLINK 2.0) from the [official site](https://www.cog-genomics.org/plink/2.0/).
-- Rename `plink2.exe` to `plink.exe`.
 - Move the file to a stable folder, for example `C:\Program Files\PLINK\`.
 - Add that folder to your **PATH** environment variable.
 - Open a new Command Prompt, PowerShell, or Git Bash window.
-- Verify the installation by running: `plink --version`.
+- Verify the installation by running: `plink2 --version`.
 
 ## Restart after installation
 
-If the terminal does not recognize a command (e.g., `plink`, `R`, or `quarto`) after completing the installation steps, restart your computer. This allows the system to refresh environment variables (including `PATH`) so newly installed programs are properly detected.
+If the terminal does not recognize a command (e.g., `plink2`, `R`, or `quarto`) after completing the installation steps, restart your computer. This allows the system to refresh environment variables (including `PATH`) so newly installed programs are properly detected.
 
 After restarting, open a new terminal and verify the installation, for example:
 
 ```
-plink --version
+plink2 --version
 R --version
 quarto --version
 ```
