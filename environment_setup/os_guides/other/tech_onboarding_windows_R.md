@@ -68,11 +68,11 @@ If the terminal does not recognize a command (e.g., `plink`, `R`, or `quarto`) a
 
 After restarting, open a new terminal and verify the installation, for example:
 
-~ 
+```
 plink --version
 R --version
 quarto --version
-~
+```
 
 ## Conclusion
 You now have the tools needed to set up your environment for each repo. For instructions on setting up a specific repo, please refer to that repo’s `SETUP.md`. 
