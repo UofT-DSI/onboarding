@@ -16,8 +16,6 @@ Welcome to your R-focused onboarding guide! This document walks you through inst
 ## Visual Studio Code
 Visual Studio Code (VS Code) is a free and beginner-friendly code editor. Think of it like Microsoft Word, but for writing and editing code. It works with many programming languages and can be customized with extensions to fit your needs. It’s fast, lightweight, and runs well on most computers, great for both beginners and experienced developers.
 
-> Note: At the DSI, we use Visual Studio Code instead of RStudio because our instructional staff are experienced with VS Code, and our Unix/Git Bash curriculum is already taught and reused across many offerings, ensuring consistency in tools and instructions.
-
 - Get VS Code [here](https://code.visualstudio.com) and install it like any app.
 - Install these VS Code extensions by clicking the links and hitting “Install”:
   - [R Extension](https://marketplace.visualstudio.com/items?itemName=REditorSupport.r)
