@@ -71,7 +71,7 @@ PLINK is a free, open-source command-line tool for analyzing large-scale genetic
 
 Steps
 **Steps**
-- Download the Linux 64-bit binary from the [official site](https://www.cog-genomics.org/plink/)
+- Download the Linux 64-bit binary from the [official site](https://www.cog-genomics.org/plink/2.0/)
 - Unzip the downloaded file:
   ```
   unzip plink_linux_x86_64_*.zip
