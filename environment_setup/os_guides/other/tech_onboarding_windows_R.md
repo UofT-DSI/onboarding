@@ -55,13 +55,24 @@ R is a free programming language and software environment for data analysis and 
 PLINK is a free, open-source command-line tool for analyzing large-scale genetic and genomic data. It is commonly used for genome-wide association studies (GWAS) and provides fast utilities for quality control, data management, and basic statistical analysis of genotype data.
 
 Steps
-- Download `plink.exe` or `plink2.exe` from the [official site](https://www.cog-genomics.org/plink/2.0/).
+- Download `plink2.exe` (PLINK 2.0) from the [official site](https://www.cog-genomics.org/plink/2.0/).
+- Rename `plink2.exe` to `plink.exe`.
 - Move the file to a stable folder, for example `C:\Program Files\PLINK\`.
 - Add that folder to your **PATH** environment variable.
 - Open a new Command Prompt, PowerShell, or Git Bash window.
 - Verify the installation by running: `plink --version`.
 
-## Restart after installtion
+## Restart after installation
+
+If the terminal does not recognize a command (e.g., `plink`, `R`, or `quarto`) after completing the installation steps, restart your computer. This allows the system to refresh environment variables (including `PATH`) so newly installed programs are properly detected.
+
+After restarting, open a new terminal and verify the installation, for example:
+
+~ 
+plink --version
+R --version
+quarto --version
+~
 
 ## Conclusion
 You now have the tools needed to set up your environment for each repo. For instructions on setting up a specific repo, please refer to that repo’s `SETUP.md`. 
