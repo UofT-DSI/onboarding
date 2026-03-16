@@ -32,7 +32,7 @@
 
 ## Introduction
 
-This guide is designed to standardize the submission and evaluation process for the learning modules in the DSI certificates. Our aim is to streamline the process using GitHub, ensuring consistency across modules. Submissions will primarily be in Python, SQL, or Markdown formats, with rare exceptions based on specific module requirements. 
+This guide is designed to standardize the submission and evaluation process for the learning modules in the DSI microcredentials. Our aim is to streamline the process using GitHub, ensuring consistency across modules. Submissions will primarily be in Python, SQL, or Markdown formats, with rare exceptions based on specific module requirements. 
 
 ## Setting Up
 

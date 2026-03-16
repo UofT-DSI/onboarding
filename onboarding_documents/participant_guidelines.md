@@ -2,11 +2,11 @@
 
 ## Evaluation
 
-The purpose of evaluation in the Certificates is to assess whether you have been upskilled following the completion of each learning module. For you to proceed through the entire Certificate, you are required to demonstrate the learning outcomes of each learning module. Given the Certificates' objectives of upskilling participants, each learning module is designed to assess whether you have sufficiently developed the skills associated with each module. The assignments that measure the achievement of learning outcomes are therefore evaluated using a pass or fail system. When evaluating assignments and/or homework in the learning module, the instructional team assesses whether you have demonstrated enough evidence that you've achieved the learning outcomes and have developed the required technical skills. 
+The purpose of evaluation in the microcredentials is to assess whether you have been upskilled following the completion of each learning module. For you to proceed through the entire microcredential, you are required to demonstrate the learning outcomes of each learning module. Given the microcredentials' objectives of upskilling participants, each learning module is designed to assess whether you have sufficiently developed the skills associated with each module. The assignments that measure the achievement of learning outcomes are therefore evaluated using a pass or fail system. When evaluating assignments and/or homework in the learning module, the instructional team assesses whether you have demonstrated enough evidence that you've achieved the learning outcomes and have developed the required technical skills. 
 
 ## Deadlines and Extensions
 
-All assignment due dates fall within the dates of the module. Any requests for extensions must occur before the assignment due date. No extensions will be granted beyond one week following the end of the module. All submitted assignments will be evaluated within one week of the close of submissions. If exceptional circumstances arise during the Certificate that prevents you from meeting the requirements of the learning modules, it is essential that you communicate to the Technical Facilitator and the DSI team courses.dsi@utoronto.ca as soon as possible. 
+All assignment due dates fall within the dates of the module. Any requests for extensions must occur before the assignment due date. No extensions will be granted beyond one week following the end of the module. All submitted assignments will be evaluated within one week of the close of submissions. If exceptional circumstances arise during the microcredential that prevents you from meeting the requirements of the learning modules, it is essential that you communicate to the Technical Facilitator and the DSI team courses.dsi@utoronto.ca as soon as possible. 
 
 ## Feedback
 
@@ -24,9 +24,9 @@ Completion of a learning module is evaluated based on whether you have achieved 
 
 -   In cases where a participant does not successfully complete a module, an indication of why you did not pass the module (Example: As a result of failing X assignment, you have not achieved X learning outcome and therefore you have not successfully completed the learning module) 
 
-## Certificate Completion
+## Microcredential Completion
 
-To receive your certificate, you must successfully complete all required learning modules outlined at the beginning of your cohort. Failure to meet this requirement may result in removal from the certificates pathway and forfeiture of the certificate. Please ensure you stay on track with the requirements to make the most of this opportunity and achieve certification.
+To receive your microcredential, you must successfully complete all required learning modules outlined at the beginning of your cohort. Failure to meet this requirement may result in removal from the microcredential pathway and forfeiture of the microcredential. Please ensure you stay on track with the requirements to make the most of this opportunity and complete the microcredential successfully.
 
 ## Attendance
 
@@ -36,13 +36,13 @@ You are expected to attend class and actively participate. If you cannot make it
 
 ## Email
 
-Email is used for official communications at the University of Toronto. For the delivery of the Certificates, it is expected that Slack will be the primary communication channel. However, you should use email for official communications such as: 
+Email is used for official communications at the University of Toronto. For the delivery of the microcredentials, it is expected that Slack will be the primary communication channel. However, you should use email for official communications such as: 
 
--   Providing feedback to the DSI team on the content, delivery, or instructional team of the Certificates 
+-   Providing feedback to the DSI team on the content, delivery, or instructional team of the microcredentials 
 
--   Seeking DSI support for navigating challenging situations within the Certificates 
+-   Seeking DSI support for navigating challenging situations within the microcredentials 
 
-If communicating via email, please include 'DSI Certificates -- Module name' in the subject line. 
+If communicating via email, please include 'DSI Microcredentials -- Module name' in the subject line. 
 In addition, you can expect that the instructional team and DSI staff will use email to: 
 
 -   Inform you about your module results and completion 
@@ -61,7 +61,7 @@ All live learning sessions, office hours, and work periods will be delivered rem
 
 ## Session Recordings
 
-The instructional team will record the live learning sessions via Zoom and provide participants with access to the recordings for the duration of the certificate experience. Recordings are uploaded to YouTube as unlisted videos.
+The instructional team will record the live learning sessions via Zoom and provide participants with access to the recordings for the duration of the microcredential experience. Recordings are uploaded to YouTube as unlisted videos.
 
 If you prefer not to appear in the recordings, please keep your camera turned off during sessions. If you have any concerns about recording content during the live learning sessions, please contact the DSI team via email.
 
