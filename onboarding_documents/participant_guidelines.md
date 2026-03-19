@@ -22,7 +22,7 @@ Completion of a learning module is evaluated based on whether you have achieved 
 
 -   A result for the learning module indicating whether you have successfully completed the module 
 
--   In cases where a participant does not successfully complete a module, an indication of why you did not pass the module (Example: As a result of failing X assignment, you have not achieved X learning outcome and therefore you have not successfully completed the learning module) 
+-   In cases where a participant does not successfully complete a module, an indication of why you did not pass the module (Example: As a result of failing X assignment, you have not successfully completed the learning module) 
 
 ## Microcredential Completion
 
