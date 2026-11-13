@@ -4,9 +4,10 @@
 
 0. [Introduction](#introduction)
 1. [Visual Studio Code](#visual-studio-code)
-2. [Git](#git)
-3. [UV](#UV)
-4. [Conclusion](#conclusion)
+2. [Install the `code` Command](#install-the-code-command)
+3. [Git](#git)
+4. [UV](#UV)
+5. [Conclusion](#conclusion)
 
 ## Introduction
 Welcome to your macOS onboarding guide! This document walks you through installing the core tools needed for the DSI Microcredential. 
@@ -23,6 +24,21 @@ Visual Studio Code (VS Code) is a free and beginner-friendly code editor. Think 
   - [Python Extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
   - [Jupyter Extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)
 - You should now see VS Code installed. Open it and check that it runs and the extensions appear under the Extensions tab (four-square icon).
+
+## Install the `code` Command
+The `code` command lets you open files and folders in VS Code from Terminal.
+
+1. Open **Visual Studio Code**.
+2. Press **Command + Shift + P** to open the **Command Palette**.
+3. Type `install code` into the search box.
+4. Click **Shell Command: Install 'code' command in PATH**.
+5. Close and reopen **Terminal**, then check that the command works:
+   ```bash
+   code --version
+   ```
+   You should see a version number printed. You can now use `code .` to open the current folder in VS Code.
+
+<!-- Add a screenshot of the Command Palette showing "Shell Command: Install 'code' command in PATH" here. -->
 
 ## Git
 **Git** is a tool that tracks changes to your code, letting you save versions, undo mistakes, and collaborate with others. When using GitHub, **Git Credential Manager (GCM)** helps by securely remembering your login so you don’t have to enter it every time. 
